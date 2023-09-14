@@ -1,1 +1,0 @@
-{"uuid":"dac8fe40-8c01-4325-82c6-b6279c47421b","name":"Scenario Outline: Sum of two","children":["617bb4bc-bab7-41a9-840d-52e2018be470"],"befores":[{"name":"Hooks.setup()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694733234167,"stop":1694733234168}],"afters":[],"links":[],"start":1694733234167,"stop":1694733234169}
