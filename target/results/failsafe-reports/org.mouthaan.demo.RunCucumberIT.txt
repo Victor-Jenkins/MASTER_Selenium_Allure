@@ -1,0 +1,75 @@
+-------------------------------------------------------------------------------
+Test set: org.mouthaan.demo.RunCucumberIT
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 108.463 s <<< FAILURE! - in org.mouthaan.demo.RunCucumberIT
+user can search XBOX(Check the HomePage)  Time elapsed: 25.016 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //*[@id='rso']/div[1]/div/div/div/div/div/div/div/div[1]/a/h3|//div[@class ='LC20lb MBeuO DKV0Md']/h3}
+Expected: visible
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='rso']/div[1]/div/div/div/div/div/div/div/div[1]/a/h3|//div[@class ='LC20lb MBeuO DKV0Md']/h3"}
+  (Session info: chrome=117.0.5938.62)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'victor-X555LDB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.3-060203-generic', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d05ad985db692ddea4b9c27efa34f8aa
+*** Element info: {Using=xpath, value=//*[@id='rso']/div[1]/div/div/div/div/div/div/div/div[1]/a/h3|//div[@class ='LC20lb MBeuO DKV0Md']/h3}
+
+user can navigate and search results on Movistar.com(Check the Movistar.com)  Time elapsed: 6.246 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //*[@id='__next']/div/div[1]/div/div/div[1]/div/div[6]/div[1]/a}
+Expected: visible
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='__next']/div/div[1]/div/div/div[1]/div/div[6]/div[1]/a"}
+  (Session info: chrome=117.0.5938.62)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'victor-X555LDB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.3-060203-generic', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d05ad985db692ddea4b9c27efa34f8aa
+*** Element info: {Using=xpath, value=//*[@id='__next']/div/div[1]/div/div/div[1]/div/div[6]/div[1]/a}
+
+user can navigate and search results in responsive mobile mode on www.telefonica.com(Check the www.telefonica.com)  Time elapsed: 9.048 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //*[@id="primary"]/div[6]/div/div[11]/figure/blockquote}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="primary"]/div[6]/div/div[11]/figure/blockquote"}
+  (Session info: chrome=117.0.5938.62)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'victor-X555LDB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.3-060203-generic', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d05ad985db692ddea4b9c27efa34f8aa
+*** Element info: {Using=xpath, value=//*[@id="primary"]/div[6]/div/div[11]/figure/blockquote}
+
+User calls web service to get a book by it's ISBN(Google Api books)  Time elapsed: 5.995 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path items.volumeInfo.pageCount doesn't match.
+Expected: iterable with items [<630>] in any order
+  Actual: [656]
+
+
+Search on Google(Google Search)  Time elapsed: 5.385 s  <<< FAILURE!
+com.codeborne.selenide.ex.InvalidStateException: 
+ElementNotInteractableException: element not interactable
+  (Session info: chrome=117.0.5938.62)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'victor-X555LDB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.3-060203-generic', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d05ad985db692ddea4b9c27efa34f8aa
+Caused by: org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=117.0.5938.62)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'victor-X555LDB', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.3-060203-generic', java.version: '11.0.20.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.62, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33093}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d05ad985db692ddea4b9c27efa34f8aa
+

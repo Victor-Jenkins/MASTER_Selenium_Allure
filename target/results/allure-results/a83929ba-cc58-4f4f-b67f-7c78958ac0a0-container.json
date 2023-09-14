@@ -1,0 +1,1 @@
+{"uuid":"a83929ba-cc58-4f4f-b67f-7c78958ac0a0","name":"Scenario: Rest Call GET","children":["36564571-8f5f-4110-aea4-58ff5fe4d3d8"],"befores":[{"name":"Hooks.setup()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694733245592,"stop":1694733245592}],"afters":[],"links":[],"start":1694733245592,"stop":1694733246121}

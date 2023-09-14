@@ -1,0 +1,1 @@
+{"uuid":"3f9eacef-a19d-47e2-8fd4-1cada7933c41","name":"Scenario: Search on Google","children":["0c7ce9e4-4e6b-47ff-a3ec-a0584554b6d0"],"befores":[{"name":"Hooks.setup()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694733240204,"stop":1694733240204}],"afters":[],"links":[],"start":1694733240204,"stop":1694733245588}
