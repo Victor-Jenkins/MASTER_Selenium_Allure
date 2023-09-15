@@ -19,13 +19,14 @@ jobs:
     - name: Generate Allure report
       run: mvn allure:report
 
-    - name: Create gh-pages branch if it doesn't exist
+    - name: Configure Git identity
       run: |
-        git branch gh-pages
-        git checkout gh-pages
+        git config user.email "actions@github.com"
+        git config user.name "GitHub Actions"
 
-    - name: Copy Allure report files
+    - name: Commit and push Allure report to gh-pages
       run: |
+        git checkout gh-pages
         mv target/results/allure-report/* .
         git add .
         git commit -m "Deploy Allure report to gh-pages"
