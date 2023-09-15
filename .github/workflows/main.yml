@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build-main-and-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,22 +16,10 @@ jobs:
     - name: Build and test with Maven
       run: mvn clean install
 
-    - name: Configure Git identity
-      run: |
-        git config user.email "actions@github.com"
-        git config user.name "GitHub Actions"
-
     - name: Push changes from main to remote main
       run: |
         git push origin main
 
-  deploy-gh-pages:
-    needs: build-main-and-deploy
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
 
     - name: Create and switch to gh-pages branch (based on main)
       run: |
@@ -41,8 +29,6 @@ jobs:
     - name: Generate Allure report
       run: mvn allure:report
 
-    - name: Move Allure report files
-      run: mv target/results/allure-report/* .
 
     - name: Commit and push Allure report to gh-pages
       run: |
@@ -53,4 +39,3 @@ jobs:
     - name: Show Allure report URL
       run: |
         echo "Allure Report URL: https://Victor-Jenkins.github.io/MASTER_Selenium_Allure/allure-report/"
-
