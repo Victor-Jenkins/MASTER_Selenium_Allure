@@ -1,4 +1,4 @@
-package org.mouthaan.demo;
+package BaseAllure;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;

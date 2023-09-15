@@ -9,7 +9,7 @@
 /home/victor/Escritorio/MASTER_Selenium_Allure/src/test/java/org/mouthaan/demo/steps/SimpleDemoSteps.java
 /home/victor/Escritorio/MASTER_Selenium_Allure/src/test/java/org/mouthaan/demo/steps/HomeShopery.java
 /home/victor/Escritorio/MASTER_Selenium_Allure/src/test/java/org/mouthaan/demo/steps/Home.java
-/home/victor/Escritorio/MASTER_Selenium_Allure/src/test/java/org/mouthaan/demo/RunCucumberIT.java
+/home/victor/Escritorio/MASTER_Selenium_Allure/src/test/java/BaseAllure/RunCucumberIT.java
 /home/victor/Escritorio/MASTER_Selenium_Allure/src/test/java/org/mouthaan/demo/steps/BookByISBNSteps.java
 /home/victor/Escritorio/MASTER_Selenium_Allure/src/test/java/BaseAllure/CalculatorTest.java
 /home/victor/Escritorio/MASTER_Selenium_Allure/src/test/java/org/mouthaan/demo/steps/Telefónica.java

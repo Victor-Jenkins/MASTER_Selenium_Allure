@@ -1,5 +1,5 @@
 #surefire
-#Fri Sep 15 01:25:33 CEST 2023
+#Fri Sep 15 09:47:28 CEST 2023
 includes1=**/*IT.java
 includes2=**/*ITCase.java
 includes0=**/IT*.java
@@ -39,7 +39,7 @@ runOrder=filesystem
 reportsDirectory=/home/victor/Escritorio/MASTER_Selenium_Allure/target/results/failsafe-reports
 classPathUrl.70=/home/victor/.m2/repository/io/cucumber/cucumber-java/4.2.4/cucumber-java-4.2.4.jar
 classPathUrl.71=/home/victor/.m2/repository/io/qameta/allure/allure-selenide/2.12.1/allure-selenide-2.12.1.jar
-tc.0=org.mouthaan.demo.RunCucumberIT
+tc.0=BaseAllure.RunCucumberIT
 classPathUrl.72=/home/victor/.m2/repository/io/rest-assured/rest-assured/4.0.0/rest-assured-4.0.0.jar
 classPathUrl.73=/home/victor/.m2/repository/org/codehaus/groovy/groovy/2.5.6/groovy-2.5.6.jar
 classPathUrl.74=/home/victor/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.6/groovy-xml-2.5.6.jar
@@ -88,7 +88,7 @@ classPathUrl.16=/home/victor/.m2/repository/com/github/docker-java/docker-java-a
 classPathUrl.17=/home/victor/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar
 classPathUrl.18=/home/victor/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar
 classPathUrl.19=/home/victor/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.75/bcpkix-jdk18on-1.75.jar
-pluginPid=24870
+pluginPid=57572
 shutdown=DEFAULT
 classPathUrl.4=/home/victor/.m2/repository/io/cucumber/cucumber-html/0.2.7/cucumber-html-0.2.7.jar
 classPathUrl.5=/home/victor/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar
