@@ -19,21 +19,17 @@ jobs:
     - name: Generate Allure report
       run: mvn allure:report
 
-    - name: Configure Git identity
+    - name: Deploy Allure report to gh-pages
       run: |
-        git config user.email "actions@github.com"
-        git config user.name "GitHub Actions"
-
-    - name: Commit changes to gh-pages
-      run: |
-        git checkout -B gh-pages
+        git checkout gh-pages
         git rm -rf .
         cp -r target/allure-report/* .
         git add .
         git commit -m "Deploy Allure report to gh-pages"
         git push origin gh-pages
 
-    - name: Show Allure report URL
+    - name: Start Allure serve on gh-pages
       run: |
-        echo "Allure Report URL: https://<username>.github.io/<repository>/allure-report/"
+        git checkout gh-pages
+        allure serve
 
