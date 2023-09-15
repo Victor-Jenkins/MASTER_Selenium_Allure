@@ -36,8 +36,9 @@ jobs:
     - name: Create and switch to gh-pages branch (based on main)
       run: |
         git checkout main
-        git checkout -B gh-pages origin/gh-pages || git checkout --orphan gh-pages
-        git push origin gh-pages
+        git branch -D gh-pages  # Eliminar la rama gh-pages si existe
+        git checkout -b gh-pages
+        git push origin gh-pages --set-upstream gh-pages
 
     - name: Generate Allure report
       run: mvn allure:report
