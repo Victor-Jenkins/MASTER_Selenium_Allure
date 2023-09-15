@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: BaseAllure.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.401 s <<< FAILURE! - in BaseAllure.CalculatorTest
+subtract(BaseAllure.CalculatorTest)  Time elapsed: 0.126 s  <<< FAILURE!
+java.lang.AssertionError: expected:<-10> but was:<-9>
+	at BaseAllure.CalculatorTest.subtract(CalculatorTest.java:55)
+
+multiply(BaseAllure.CalculatorTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<199>
+	at BaseAllure.CalculatorTest.multiply(CalculatorTest.java:39)
+

@@ -1,0 +1,17 @@
+org/mouthaan/demo/steps/Telefónica.class
+BaseAllure/RunCucumberIT.class
+org/mouthaan/demo/steps/GoogleResultSteps.class
+org/mouthaan/demo/steps/Home.class
+org/mouthaan/demo/steps/SimpleDemoSteps.class
+org/mouthaan/demo/steps/GoogleSearchSteps.class
+org/mouthaan/demo/hooks/Hooks.class
+org/mouthaan/demo/steps/Shopery.class
+org/mouthaan/demo/steps/RestCallSteps.class
+BaseAllure/CalculatorTest.class
+org/mouthaan/demo/steps/Movistar.class
+org/mouthaan/demo/pages/GoogleSearchPage.class
+org/mouthaan/demo/steps/HomeShopery.class
+org/mouthaan/demo/restcall/restcallDemo.class
+org/mouthaan/demo/pages/GoogleResultPage.class
+org/mouthaan/demo/steps/HomeMenus.class
+org/mouthaan/demo/steps/BookByISBNSteps.class
