@@ -21,11 +21,10 @@ jobs:
         git config user.email "actions@github.com"
         git config user.name "GitHub Actions"
 
-    - name: Commit and push changes from main to gh-pages
+    - name: Create and switch to gh-pages branch (based on main)
       run: |
-        git checkout -B gh-pages origin/gh-pages || git checkout --orphan gh-pages
-        git merge main --no-commit --no-ff
-        git commit -m "Merge main into gh-pages"
+        git checkout main
+        git checkout -b gh-pages
         git push origin gh-pages
 
     - name: Generate Allure report
@@ -43,3 +42,4 @@ jobs:
     - name: Show Allure report URL
       run: |
         echo "Allure Report URL: https://Victor-Jenkins.github.io/MASTER_Selenium_Allure/allure-report/"
+
