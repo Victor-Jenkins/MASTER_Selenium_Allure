@@ -17,7 +17,9 @@ jobs:
       run: mvn clean install
 
     - name: Generate Allure report
-      run: mvn allure:report
+      run: |
+        # Genera el informe de Allure en la ruta especificada
+        mvn allure:report -Dallure.results.directory=target/allure-results
 
     - name: Configure Git identity
       run: |
@@ -26,12 +28,23 @@ jobs:
 
     - name: Commit changes to gh-pages
       run: |
+        # Crea una rama gh-pages o cambia a ella si ya existe
         git checkout -B gh-pages
+        
+        # Copia el informe de Allure a la raíz del repositorio
+        cp -r target/allure-report/* .
+        
+        # Agrega y confirma los cambios
         git add .
         git commit -m "Deploy Allure report to gh-pages" || true
+        
+        # Sincroniza con la rama gh-pages remota
         git pull origin gh-pages --rebase
+        
+        # Empuja los cambios a la rama gh-pages
         git push origin gh-pages
 
     - name: Show Allure report URL
       run: |
-        echo "Allure Report URL: https://Victor-Jenkins.github.io/MASTER_Selenium_Allure/allure-report/"
+        # Muestra la URL del informe de Allure
+        echo "Allure Report URL: https://Victor-Jenkins.github.io/MASTER_Selenium_Allure/"
