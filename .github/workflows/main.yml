@@ -45,15 +45,4 @@ jobs:
     - name: Show Allure report URL
       run: echo "Allure Report URL:https://Victor-Jenkins.github.io/MASTER_Selenium_Allure/allure-report/"
 
-    - name: Check if allure-report exists
-      run: test -d target/allure-report
-
-    - name: Create Allure report artifact
-      run: mv target/allure-report ${{ github.workspace }}/allure-report
-
-    - name: Upload Allure report artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: allure-report
-        path: ${{ github.workspace }}/allure-report
 
