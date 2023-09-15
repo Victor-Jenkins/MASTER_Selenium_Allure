@@ -1,0 +1,1 @@
+{"uuid":"7d7c70c2-f988-4c6b-b716-878d76e07d8d","name":"Scenario: Sum of two","children":["d9d2a46b-91bc-4bb9-997a-52b110ea34f7"],"befores":[{"name":"Hooks.setup()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694784874760,"stop":1694784874760}],"afters":[],"links":[],"start":1694784874760,"stop":1694784874838}

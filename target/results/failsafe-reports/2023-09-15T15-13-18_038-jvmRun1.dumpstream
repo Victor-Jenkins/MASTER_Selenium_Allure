@@ -1,0 +1,45 @@
+# Created at 2023-09-15T15:34:34.254
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+
+# Created at 2023-09-15T15:34:34.526
+Unexpected IOException: 5,1,Check the Movistar.com,user can navigate and search results on Movistar.com(Check the Movistar.com),null,null,null
+
+
+# Created at 2023-09-15T15:34:34.568
+Unexpected IOException: 7,1,Check the Movistar.com,user can navigate and search results on Movistar.com(Check the Movistar.com),null,java.net.ConnectException: Failed to connect to localhost/127.0.0.1:31478\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'victor-X555LDB'\002C ip: '127.0.1.1'\002C os.name: 'Linux'\002C os.arch: 'amd64'\002C os.version: '6.2.3-060203-generic'\002C java.version: '11.0.20.1'\000ADriver info: driver.version: SelenideDriver\000Aselenide.url: https://www.movistar.es/particulares/movistarplus/\000Aselenide.baseUrl: http://localhost:8080,null,java.net.ConnectException: Failed to connect to localhost/127.0.0.1:31478\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'victor-X555LDB'\002C ip: '127.0.1.1'\002C os.name: 'Linux'\002C os.arch: 'amd64'\002C os.version: '6.2.3-060203-generic'\002C java.version: '11.0.20.1'\000ADriver info: driver.version: SelenideDriver\000Aselenide.url: https://www.movistar.es/particulares/movistarplus/\000Aselenide.baseUrl: http://localhost:8080,java.net.ConnectException: Failed to connect to localhost/127.0.0.1:31478\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'victor-X555LDB'\002C ip: '127.0.1.1'\002C os.name: 'Linux'\002C os.arch: 'amd64'\002C os.version: '6.2.3-060203-generic'\002C java.version: '11.0.20.1'\000ADriver info: driver.version: SelenideDriver\000Aselenide.url: https://www.movistar.es/particulares/movistarplus/\000Aselenide.baseUrl: http://localhost:8080,org.openqa.selenium.WebDriverException: \000Ajava.net.ConnectException: Failed to connect to localhost/127.0.0.1:31478\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'victor-X555LDB'\002C ip: '127.0.1.1'\002C os.name: 'Linux'\002C os.arch: 'amd64'\002C os.version: '6.2.3-060203-generic'\002C java.version: '11.0.20.1'\000ADriver info: driver.version: SelenideDriver\000Aselenide.url: https://www.movistar.es/particulares/movistarplus/\000Aselenide.baseUrl: http://localhost:8080\000ACaused by: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:31478\000ACaused by: java.net.ConnectException: Conexi\00F3n rehusada (Connection refused)\000A
+
+
+# Created at 2023-09-15T15:34:34.576
+Unexpected IOException: 5,1,Check the HomePage,user can search Shopery(Check the HomePage),null,null,null
+
+
+# Created at 2023-09-15T15:34:34.658
+Unexpected IOException: 7,1,Check the HomePage,user can search Shopery(Check the HomePage),null,java.net.ConnectException: Failed to connect to localhost/127.0.0.1:31478\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'victor-X555LDB'\002C ip: '127.0.1.1'\002C os.name: 'Linux'\002C os.arch: 'amd64'\002C os.version: '6.2.3-060203-generic'\002C java.version: '11.0.20.1'\000ADriver info: driver.version: SelenideDriver\000Aselenide.url: https://google.es\000Aselenide.baseUrl: http://localhost:8080,null,java.net.ConnectException: Failed to connect to localhost/127.0.0.1:31478\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'victor-X555LDB'\002C ip: '127.0.1.1'\002C os.name: 'Linux'\002C os.arch: 'amd64'\002C os.version: '6.2.3-060203-generic'\002C java.version: '11.0.20.1'\000ADriver info: driver.version: SelenideDriver\000Aselenide.url: https://google.es\000Aselenide.baseUrl: http://localhost:8080,java.net.ConnectException: Failed to connect to localhost/127.0.0.1:31478\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'victor-X555LDB'\002C ip: '127.0.1.1'\002C os.name: 'Linux'\002C os.arch: 'amd64'\002C os.version: '6.2.3-060203-generic'\002C java.version: '11.0.20.1'\000ADriver info: driver.version: SelenideDriver\000Aselenide.url: https://google.es\000Aselenide.baseUrl: http://localhost:8080,org.openqa.selenium.WebDriverException: \000Ajava.net.ConnectException: Failed to connect to localhost/127.0.0.1:31478\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'victor-X555LDB'\002C ip: '127.0.1.1'\002C os.name: 'Linux'\002C os.arch: 'amd64'\002C os.version: '6.2.3-060203-generic'\002C java.version: '11.0.20.1'\000ADriver info: driver.version: SelenideDriver\000Aselenide.url: https://google.es\000Aselenide.baseUrl: http://localhost:8080\000ACaused by: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:31478\000ACaused by: java.net.ConnectException: Conexi\00F3n rehusada (Connection refused)\000A
+
+
+# Created at 2023-09-15T15:34:34.664
+Unexpected IOException: 5,1,Check the www.telefonica.com,user can navigate and search results in responsive mobile mode on www.telefonica.com(Check the www.telefonica.com),null,null,null
+
+
+# Created at 2023-09-15T15:34:34.688
+Unexpected IOException: 7,1,Check the www.telefonica.com,user can navigate and search results in responsive mobile mode on www.telefonica.com(Check the www.telefonica.com),null,java.net.ConnectException: Failed to connect to localhost/127.0.0.1:31478\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'victor-X555LDB'\002C ip: '127.0.1.1'\002C os.name: 'Linux'\002C os.arch: 'amd64'\002C os.version: '6.2.3-060203-generic'\002C java.version: '11.0.20.1'\000ADriver info: driver.version: SelenideDriver\000Aselenide.url: https://www.telefonica.com/es/\000Aselenide.baseUrl: http://localhost:8080,null,java.net.ConnectException: Failed to connect to localhost/127.0.0.1:31478\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'victor-X555LDB'\002C ip: '127.0.1.1'\002C os.name: 'Linux'\002C os.arch: 'amd64'\002C os.version: '6.2.3-060203-generic'\002C java.version: '11.0.20.1'\000ADriver info: driver.version: SelenideDriver\000Aselenide.url: https://www.telefonica.com/es/\000Aselenide.baseUrl: http://localhost:8080,java.net.ConnectException: Failed to connect to localhost/127.0.0.1:31478\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'victor-X555LDB'\002C ip: '127.0.1.1'\002C os.name: 'Linux'\002C os.arch: 'amd64'\002C os.version: '6.2.3-060203-generic'\002C java.version: '11.0.20.1'\000ADriver info: driver.version: SelenideDriver\000Aselenide.url: https://www.telefonica.com/es/\000Aselenide.baseUrl: http://localhost:8080,org.openqa.selenium.WebDriverException: \000Ajava.net.ConnectException: Failed to connect to localhost/127.0.0.1:31478\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'victor-X555LDB'\002C ip: '127.0.1.1'\002C os.name: 'Linux'\002C os.arch: 'amd64'\002C os.version: '6.2.3-060203-generic'\002C java.version: '11.0.20.1'\000ADriver info: driver.version: SelenideDriver\000Aselenide.url: https://www.telefonica.com/es/\000Aselenide.baseUrl: http://localhost:8080\000ACaused by: java.net.ConnectException: Failed to connect to localhost/127.0.0.1:31478\000ACaused by: java.net.ConnectException: Conexi\00F3n rehusada (Connection refused)\000A
+
+
+# Created at 2023-09-15T15:34:34.758
+Unexpected IOException: 5,1,Just a simple demo,Sum of two(Just a simple demo),null,null,null
+
+
+# Created at 2023-09-15T15:34:34.838
+Unexpected IOException: 6,1,Just a simple demo,Sum of two(Just a simple demo),null,null,null
+
+
+# Created at 2023-09-15T15:34:34.841
+Unexpected IOException: 5,1,Just a simple demo,Sum of two(Just a simple demo),null,null,null
+
+
