@@ -13,14 +13,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Check if gh-pages branch exists
-      run: |
-        if ! git show-ref --verify --quiet refs/heads/gh-pages; then
-          echo "Branch gh-pages does not exist. Creating..."
-          git checkout -b gh-pages
-          git push origin gh-pages
-        fi
-
     - name: Build and test with Maven
       run: mvn clean install
 
@@ -34,14 +26,14 @@ jobs:
 
     - name: Commit changes to gh-pages
       run: |
-        git checkout gh-pages
+        git checkout -B gh-pages
         git rm -rf .
-        cp -r target/results/allure-report/* .
+        cp -r target/allure-report/* .
         git add .
-        git commit -m "Update Allure report"
+        git commit -m "Deploy Allure report to gh-pages"
         git push origin gh-pages
 
     - name: Show Allure report URL
       run: |
-        echo "Allure Report URL: https://Victor-Jenkins.github.io/MASTER_Selenium_Allure/allure-report/"
+        echo "Allure Report URL: https://<username>.github.io/<repository>/allure-report/"
 
