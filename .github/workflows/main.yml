@@ -45,14 +45,14 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.SELENIUM }}
-        publish_dir: ./target/allure-report
+        publish_dir: ./target/results/allure-report
         publish_branch: gh-pages
 
     - name: Show Allure report URL
       run: echo "Allure Report URL:https://Victor-Jenkins.github.io/MASTER_Selenium_Allure/allure-report/"
 
     - name: Create Allure report artifact
-      run: mv target/allure-report ${{ github.workspace }}/allure-report
+      run: mv target/results/allure-report ${{ github.workspace }}/allure-report
 
     - name: Upload Allure report artifact
       uses: actions/upload-artifact@v2
