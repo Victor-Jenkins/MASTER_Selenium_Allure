@@ -13,6 +13,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Set up Java
+      uses: actions/setup-java@v2
+      with:
+        java-version: 1.8
+
     - name: Build and test with Maven
       run: mvn clean install
 
@@ -24,12 +29,6 @@ jobs:
       with:
         name: allure-results
         path: target/allure-results
-
-    - name: Upload Allure report
-      uses: actions/upload-artifact@v2
-      with:
-        name: allure-report
-        path: target/allure-report
 
   deploy-to-gh-pages:
     runs-on: ubuntu-latest
@@ -45,17 +44,21 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.SELENIUM }}
-        publish_dir: ./target/results/allure-report
+        publish_dir: ./target/allure-report
         publish_branch: gh-pages
 
     - name: Show Allure report URL
       run: echo "Allure Report URL:https://Victor-Jenkins.github.io/MASTER_Selenium_Allure/allure-report/"
 
+    - name: Check if allure-report exists
+      run: test -d target/allure-report
+
     - name: Create Allure report artifact
-      run: mv target/results/allure-report ${{ github.workspace }}/allure-report
+      run: mv target/allure-report ${{ github.workspace }}/allure-report
 
     - name: Upload Allure report artifact
       uses: actions/upload-artifact@v2
       with:
         name: allure-report
         path: ${{ github.workspace }}/allure-report
+
