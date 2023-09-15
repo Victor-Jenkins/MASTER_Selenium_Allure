@@ -13,17 +13,30 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Check if gh-pages branch exists
+      run: |
+        if ! git show-ref --verify --quiet refs/heads/gh-pages; then
+          echo "Branch gh-pages does not exist. Creating..."
+          git checkout -b gh-pages
+          git push origin gh-pages
+        fi
+
     - name: Build and test with Maven
       run: mvn clean install
 
     - name: Generate Allure report
       run: mvn allure:report
 
-    - name: Deploy Allure report to gh-pages
+    - name: Configure Git identity
+      run: |
+        git config user.email "actions@github.com"
+        git config user.name "GitHub Actions"
+
+    - name: Commit changes to gh-pages
       run: |
         git checkout gh-pages
         git rm -rf .
-        cp -r /home/runner/work/MASTER_Selenium_Allure/MASTER_Selenium_Allure/target/results/allure-report/* .
+        cp -r target/results/allure-report/* .
         git add .
         git commit -m "Update Allure report"
         git push origin gh-pages
