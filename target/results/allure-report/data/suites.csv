@@ -1,0 +1,6 @@
+"Status","Name","Duration in ms","Description"
+"passed","BaseAllure.CalculatorTest.sum","2",""
+"failed","BaseAllure.CalculatorTest.subtract","32",""
+"failed","Check the HomePage: user can search XBOX","19373",""
+"passed","Check the HomePage: user can search XBOX","25559",""
+"failed","BaseAllure.CalculatorTest.multiply","1",""

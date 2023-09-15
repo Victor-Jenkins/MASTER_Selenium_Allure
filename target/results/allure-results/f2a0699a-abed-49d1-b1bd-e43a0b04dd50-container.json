@@ -1,0 +1,1 @@
+{"uuid":"f2a0699a-abed-49d1-b1bd-e43a0b04dd50","name":"Scenario: user can search XBOX","children":["3fc8293e-1773-4279-928b-a5d0f8449fb9"],"befores":[{"name":"Hooks.setup()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694783620469,"stop":1694783620469}],"afters":[],"links":[],"start":1694783620468,"stop":1694783646027}

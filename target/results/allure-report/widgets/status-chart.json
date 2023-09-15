@@ -1,0 +1,51 @@
+[ {
+  "uid" : "f6efddd3c160a492",
+  "name" : "sum",
+  "time" : {
+    "start" : 1694783597157,
+    "stop" : 1694783597159,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ad472dff23dacd2",
+  "name" : "subtract",
+  "time" : {
+    "start" : 1694783597000,
+    "stop" : 1694783597032,
+    "duration" : 32
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "14b6996a8b226c94",
+  "name" : "user can search XBOX",
+  "time" : {
+    "start" : 1694783600976,
+    "stop" : 1694783620349,
+    "duration" : 19373
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c50cb9bf0fe5f5e3",
+  "name" : "user can search XBOX",
+  "time" : {
+    "start" : 1694783620468,
+    "stop" : 1694783646027,
+    "duration" : 25559
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8e06fd689664796",
+  "name" : "multiply",
+  "time" : {
+    "start" : 1694783597164,
+    "stop" : 1694783597165,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

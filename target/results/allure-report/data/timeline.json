@@ -1,0 +1,77 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "victor-X555LDB",
+    "children" : [ {
+      "name" : "88365@victor-X555LDB.main(1)",
+      "children" : [ {
+        "name" : "sum",
+        "uid" : "f6efddd3c160a492",
+        "parentUid" : "c0f0078cb7de2a30a7fd88dff0890852",
+        "status" : "passed",
+        "time" : {
+          "start" : 1694783597157,
+          "stop" : 1694783597159,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "subtract",
+        "uid" : "5ad472dff23dacd2",
+        "parentUid" : "c0f0078cb7de2a30a7fd88dff0890852",
+        "status" : "failed",
+        "time" : {
+          "start" : 1694783597000,
+          "stop" : 1694783597032,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "multiply",
+        "uid" : "a8e06fd689664796",
+        "parentUid" : "c0f0078cb7de2a30a7fd88dff0890852",
+        "status" : "failed",
+        "time" : {
+          "start" : 1694783597164,
+          "stop" : 1694783597165,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c0f0078cb7de2a30a7fd88dff0890852"
+    }, {
+      "name" : "88404@victor-X555LDB.main(1)",
+      "children" : [ {
+        "name" : "user can search XBOX",
+        "uid" : "14b6996a8b226c94",
+        "parentUid" : "817c65fef489b54a412999af89c1c130",
+        "status" : "failed",
+        "time" : {
+          "start" : 1694783600976,
+          "stop" : 1694783620349,
+          "duration" : 19373
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "user can search XBOX",
+        "uid" : "c50cb9bf0fe5f5e3",
+        "parentUid" : "817c65fef489b54a412999af89c1c130",
+        "status" : "passed",
+        "time" : {
+          "start" : 1694783620468,
+          "stop" : 1694783646027,
+          "duration" : 25559
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "817c65fef489b54a412999af89c1c130"
+    } ],
+    "uid" : "67375be79acaa4fcdad07a9377cb840a"
+  } ],
+  "name" : "timeline"
+}

@@ -190,6 +190,19 @@
                     <reportDirectory>target/results/allure-report</reportDirectory>
                 </configuration>
             </plugin>
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-site-plugin</artifactId>
+                        <version>4.0.0-M9</version> <!-- Puedes usar una versión más reciente si está disponible -->
+                        <configuration>
+                            <outputDirectory>docs</outputDirectory>
+                        </configuration>
+                    </plugin>
+
+
+
+
         </plugins>
     </build>
 

@@ -1,0 +1,55 @@
+{
+  "uid" : "f6efddd3c160a492",
+  "name" : "sum",
+  "fullName" : "BaseAllure.CalculatorTest.sum",
+  "historyId" : "102e6c3f78ccf1fd2a7245fbb4c25433",
+  "time" : {
+    "start" : 1694783597157,
+    "stop" : 1694783597159,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "BaseAllure"
+  }, {
+    "name" : "testClass",
+    "value" : "BaseAllure.CalculatorTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "sum"
+  }, {
+    "name" : "suite",
+    "value" : "BaseAllure.CalculatorTest"
+  }, {
+    "name" : "host",
+    "value" : "victor-X555LDB"
+  }, {
+    "name" : "thread",
+    "value" : "88365@victor-X555LDB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6efddd3c160a492.json",
+  "parameterValues" : [ ]
+}
