@@ -20,24 +20,32 @@ jobs:
     - name: Generate Allure report
       run: mvn allure:report
 
+    - name: Serve Allure report
+      run: mvn allure:serve
+
     - name: Upload Allure results
       uses: actions/upload-artifact@v2
       with:
         name: allure-results
         path: target/allure-results
 
-  deploy-to-gh-pages:
-    runs-on: ubuntu-latest
-    needs: build-and-deploy
-    steps:
-      - name: Checkout code for deploy
-        uses: actions/checkout@v2
-        with:
-          ref: gh-pages # Puedes especificar aquí la rama a la que deseas realizar el despliegue
+    - name: Upload Allure report
+      uses: actions/upload-artifact@v2
+      with:
+        name: allure-report
+        path: target/allure-report
 
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.SELENIUM }}
-          publish_dir: ./target/allure-report
-          publish_branch: gh-pages
+    - name: Checkout code for deploy
+      uses: actions/checkout@v2
+      with:
+        ref: gh-pages # Puedes especificar aquí la rama a la que deseas realizar el despliegue
+
+    - name: Deploy to gh-pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.SELENIUM }}
+        publish_dir: ./target/allure-report
+        publish_branch: gh-pages
+
+    - name: Show Allure report URL
+      run: echo "Allure Report URL:https://Victor-Jenkins.github.io/MASTER_Selenium_Allure/allure-report/"
