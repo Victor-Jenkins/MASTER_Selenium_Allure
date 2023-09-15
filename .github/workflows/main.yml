@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+  build-main-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,10 +21,22 @@ jobs:
         git config user.email "actions@github.com"
         git config user.name "GitHub Actions"
 
+    - name: Push changes from main to remote main
+      run: |
+        git push origin main
+
+  deploy-gh-pages:
+    needs: build-main-and-deploy
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
     - name: Create and switch to gh-pages branch (based on main)
       run: |
         git checkout main
-        git checkout -b gh-pages
+        git checkout -B gh-pages origin/gh-pages || git checkout --orphan gh-pages
         git push origin gh-pages
 
     - name: Generate Allure report
