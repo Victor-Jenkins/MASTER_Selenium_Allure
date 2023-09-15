@@ -1,1 +1,0 @@
-{"uuid":"ba151707-f2c9-4fc0-8e37-5fa0d0dde0ba","name":"Scenario: user can search Shopery","children":["249f6f6a-cea4-4005-8730-25fb03ae1933"],"befores":[{"name":"Hooks.setup()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1694783646040,"stop":1694783646040}],"afters":[],"links":[],"start":1694783646039,"stop":1694784874521}

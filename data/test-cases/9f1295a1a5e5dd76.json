@@ -1,0 +1,101 @@
+{
+  "uid" : "9f1295a1a5e5dd76",
+  "name" : "Rest Call GET",
+  "fullName" : "RestCall basics: Rest Call GET",
+  "historyId" : "617eb2642f4554cb773251ee52a4e00d",
+  "time" : {
+    "start" : 1694788335615,
+    "stop" : 1694788336391,
+    "duration" : 776
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.setup()",
+    "time" : {
+      "start" : 1694788335615,
+      "stop" : 1694788335615,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  Ik succesvol een REST call verstuur met de methode GET",
+      "time" : {
+        "start" : 1694788335615,
+        "stop" : 1694788336390,
+        "duration" : 775
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az221-946"
+  }, {
+    "name" : "thread",
+    "value" : "1860@fv-az221-946.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "RestCall basics"
+  }, {
+    "name" : "story",
+    "value" : "Rest Call GET"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.RestCall basics"
+  }, {
+    "name" : "suite",
+    "value" : "RestCall basics"
+  }, {
+    "name" : "testClass",
+    "value" : "Rest Call GET"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/restcall.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f1295a1a5e5dd76.json",
+  "parameterValues" : [ ]
+}

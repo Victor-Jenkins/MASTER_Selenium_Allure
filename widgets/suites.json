@@ -1,0 +1,92 @@
+{
+  "total" : 8,
+  "items" : [ {
+    "uid" : "e9f40ba9d17c4a8eed6658e19ac44eb1",
+    "name" : "BaseAllure.CalculatorTest",
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "d22311e5ddb3992f3404073beb888370",
+    "name" : "Check the HomePage",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "bd40c5f9f0f1fc0580a84a422198744e",
+    "name" : "Check the Movistar.com",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "7eab88cd651572218584bceedac18ca9",
+    "name" : "Check the www.telefonica.com",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "eafec149dd346f0f8eaa91539ab8658b",
+    "name" : "Google Api books",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "187db89b840e5d00e2c198598849c11a",
+    "name" : "Google Search",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "9c242fbf1dc33511f1dc3d7c7fc85883",
+    "name" : "Just a simple demo",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "362cf4cb62d162215abade2927fdf7bd",
+    "name" : "RestCall basics",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 1,
+      "total" : 2
+    }
+  } ]
+}

@@ -1,0 +1,173 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected:<-10> but was:<-9>",
+      "children" : [ {
+        "name" : "subtract",
+        "uid" : "28654150800f71ab",
+        "parentUid" : "632776af227c200a22f287b0bf382b90",
+        "status" : "failed",
+        "time" : {
+          "start" : 1694788289527,
+          "stop" : 1694788289557,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "632776af227c200a22f287b0bf382b90"
+    }, {
+      "name" : "expected:<200> but was:<199>",
+      "children" : [ {
+        "name" : "multiply",
+        "uid" : "519037b3d6a6c04f",
+        "parentUid" : "5bb1f4d635459a0cf51efe675d330c69",
+        "status" : "failed",
+        "time" : {
+          "start" : 1694788289713,
+          "stop" : 1694788289714,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5bb1f4d635459a0cf51efe675d330c69"
+    }, {
+      "name" : "Element not found {By.xpath: //*[@id='__next']/div/div[1]/div/div/div[1]/div/div[6]/div[1]/a}\nExpected: visible",
+      "children" : [ {
+        "name" : "user can navigate and search results on Movistar.com",
+        "uid" : "cbbaa02e9c1d202f",
+        "parentUid" : "c4739378295d63515f2f86b28bfa71ab",
+        "status" : "failed",
+        "time" : {
+          "start" : 1694788297547,
+          "stop" : 1694788305780,
+          "duration" : 8233
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c4739378295d63515f2f86b28bfa71ab"
+    }, {
+      "name" : "Element should have text 'shopery.com' {#res .g}\nElement: '<div class=\"g\" data-hveid=\"CBQQAA\">Web Result with Site Links\n\nShoperty Consultants | Real Estate Consultant in Gurgaon ...\nShoperty Consultants\nhttp://www.shoperty.in\nShoperty Consultant (Real Estate Agency in Gurgaon) - We deal in luxurious residential & commercial property in Gurgaon. Authorize Channel partners of Hero ...\nAbout Us\nShoperty Consultants Private Limited was established with a ...\nMore results from shoperty.in »</div>'",
+      "children" : [ {
+        "name" : "user can search Shopery",
+        "uid" : "93fb9babb9e8dd10",
+        "parentUid" : "c56500715df9886d2e1c9dcc8d1562a7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1694788305788,
+          "stop" : 1694788314333,
+          "duration" : 8545
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c56500715df9886d2e1c9dcc8d1562a7"
+    }, {
+      "name" : "Element not found {By.xpath: //*[@id=\"primary\"]/div[6]/div/div[11]/figure/blockquote}\nExpected: exist",
+      "children" : [ {
+        "name" : "user can navigate and search results in responsive mobile mode on www.telefonica.com",
+        "uid" : "729bd2c5670ac9c0",
+        "parentUid" : "ef4b87048f71011880eccc1b3ab44a8b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1694788314336,
+          "stop" : 1694788324168,
+          "duration" : 9832
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef4b87048f71011880eccc1b3ab44a8b"
+    }, {
+      "name" : "1 expectation failed.\nJSON path items.volumeInfo.pageCount doesn't match.\nExpected: iterable with items [<630>] in any order\n  Actual: [656]\n",
+      "children" : [ {
+        "name" : "User calls web service to get a book by it's ISBN",
+        "uid" : "1e05a919383b9888",
+        "parentUid" : "8af830a448fa963fb1888f44448c36c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1694788324195,
+          "stop" : 1694788327143,
+          "duration" : 2948
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8af830a448fa963fb1888f44448c36c3"
+    }, {
+      "name" : "Element should have text 'hell world' {h3[0]}\nElement: '<h3 class=\"LC20lb MBeuO DKV0Md\">\"Hello, World!\" program</h3>'",
+      "children" : [ {
+        "name" : "Search on Google",
+        "uid" : "268ee340e92085cb",
+        "parentUid" : "1339bd8c7a0e1ad4c5492c0b30cb60ad",
+        "status" : "failed",
+        "time" : {
+          "start" : 1694788327148,
+          "stop" : 1694788335609,
+          "duration" : 8461
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1339bd8c7a0e1ad4c5492c0b30cb60ad"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az221-946', ip: '10.1.0.115', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-1011-azure', java.version: '11.0.20.1'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://google.es\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x560196f4ae23 <unknown>\n#1 0x560196c737a7 <unknown>\n#2 0x560196c9e50a <unknown>\n#3 0x560196c9ba25 <unknown>\n#4 0x560196cdbd92 <unknown>\n#5 0x560196cdb3af <unknown>\n#6 0x560196cd2de3 <unknown>\n#7 0x560196ca6a7b <unknown>\n#8 0x560196ca781e <unknown>\n#9 0x560196f0c638 <unknown>\n#10 0x560196f10507 <unknown>\n#11 0x560196f1ac4c <unknown>\n#12 0x560196f11136 <unknown>\n#13 0x560196edf9cf <unknown>\n#14 0x560196f34b98 <unknown>\n#15 0x560196f34d68 <unknown>\n#16 0x560196f43cb3 <unknown>\n#17 0x7f5cbf294b43 <unknown>\n",
+      "children" : [ {
+        "name" : "user can search XBOX",
+        "uid" : "949be6078dd8f8b7",
+        "parentUid" : "962b1556dbafce30528f65e054526c49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694788293708,
+          "stop" : 1694788296904,
+          "duration" : 3196
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "962b1556dbafce30528f65e054526c49"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az221-946', ip: '10.1.0.115', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-1011-azure', java.version: '11.0.20.1'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.xbox.com/es-ES/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x55aec8f53e23 <unknown>\n#1 0x55aec8c7c7a7 <unknown>\n#2 0x55aec8ca750a <unknown>\n#3 0x55aec8ca4a25 <unknown>\n#4 0x55aec8ce4d92 <unknown>\n#5 0x55aec8ce43af <unknown>\n#6 0x55aec8cdbde3 <unknown>\n#7 0x55aec8cafa7b <unknown>\n#8 0x55aec8cb081e <unknown>\n#9 0x55aec8f15638 <unknown>\n#10 0x55aec8f19507 <unknown>\n#11 0x55aec8f23c4c <unknown>\n#12 0x55aec8f1a136 <unknown>\n#13 0x55aec8ee89cf <unknown>\n#14 0x55aec8f3db98 <unknown>\n#15 0x55aec8f3dd68 <unknown>\n#16 0x55aec8f4ccb3 <unknown>\n#17 0x7f673b094b43 <unknown>\n",
+      "children" : [ {
+        "name" : "user can search XBOX",
+        "uid" : "e3a7913cb7ada5d3",
+        "parentUid" : "702398080d5b4fd0a82487f9881078d3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694788297044,
+          "stop" : 1694788297377,
+          "duration" : 333
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "702398080d5b4fd0a82487f9881078d3"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az221-946', ip: '10.1.0.115', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-1011-azure', java.version: '11.0.20.1'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://shopery.com\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x564f0162fe23 <unknown>\n#1 0x564f013587a7 <unknown>\n#2 0x564f0138350a <unknown>\n#3 0x564f01380a25 <unknown>\n#4 0x564f013c0d92 <unknown>\n#5 0x564f013c03af <unknown>\n#6 0x564f013b7de3 <unknown>\n#7 0x564f0138ba7b <unknown>\n#8 0x564f0138c81e <unknown>\n#9 0x564f015f1638 <unknown>\n#10 0x564f015f5507 <unknown>\n#11 0x564f015ffc4c <unknown>\n#12 0x564f015f6136 <unknown>\n#13 0x564f015c49cf <unknown>\n#14 0x564f01619b98 <unknown>\n#15 0x564f01619d68 <unknown>\n#16 0x564f01628cb3 <unknown>\n#17 0x7f5d4dc94b43 <unknown>\n",
+      "children" : [ {
+        "name" : "user can search Shopery",
+        "uid" : "65f9ac919b3ffe64",
+        "parentUid" : "3210061d98f11d0d3e847d257654a4d4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1694788297388,
+          "stop" : 1694788297536,
+          "duration" : 148
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3210061d98f11d0d3e847d257654a4d4"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

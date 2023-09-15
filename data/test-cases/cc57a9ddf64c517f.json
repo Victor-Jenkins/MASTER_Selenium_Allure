@@ -1,0 +1,131 @@
+{
+  "uid" : "cc57a9ddf64c517f",
+  "name" : "Sum of two",
+  "fullName" : "Just a simple demo: Sum of two",
+  "historyId" : "bbd0e19c4c0e2704b4c4525cedb92a47",
+  "time" : {
+    "start" : 1694788324172,
+    "stop" : 1694788324174,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.setup()",
+    "time" : {
+      "start" : 1694788324173,
+      "stop" : 1694788324173,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  number 10 and number 20",
+      "time" : {
+        "start" : 1694788324173,
+        "stop" : 1694788324173,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When  the numbers are added together",
+      "time" : {
+        "start" : 1694788324173,
+        "stop" : 1694788324173,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  the sum must be equal to 30",
+      "time" : {
+        "start" : 1694788324173,
+        "stop" : 1694788324173,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az221-946"
+  }, {
+    "name" : "thread",
+    "value" : "1860@fv-az221-946.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Just a simple demo"
+  }, {
+    "name" : "story",
+    "value" : "Sum of two"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.Just a simple demo"
+  }, {
+    "name" : "suite",
+    "value" : "Just a simple demo"
+  }, {
+    "name" : "testClass",
+    "value" : "Sum of two"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/demo.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc57a9ddf64c517f.json",
+  "parameterValues" : [ ]
+}

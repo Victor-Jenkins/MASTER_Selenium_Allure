@@ -1,0 +1,61 @@
+{
+  "uid" : "e57ceeb7eff3328b",
+  "name" : "Rest Call POST",
+  "fullName" : "RestCall basics: Rest Call POST",
+  "historyId" : "6a9b125503af5ea445f7c75facd9435",
+  "time" : {
+    "start" : 1694788336392,
+    "stop" : 1694788336392,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az221-946"
+  }, {
+    "name" : "thread",
+    "value" : "1860@fv-az221-946.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "RestCall basics"
+  }, {
+    "name" : "story",
+    "value" : "Rest Call POST"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.RestCall basics"
+  }, {
+    "name" : "suite",
+    "value" : "RestCall basics"
+  }, {
+    "name" : "testClass",
+    "value" : "Rest Call POST"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/restcall.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e57ceeb7eff3328b.json",
+  "parameterValues" : [ ]
+}
