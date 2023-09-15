@@ -1,4 +1,4 @@
-name: Build, Test, Generate Allure Report, and Deploy to gh-pages
+name: Compilar, Probar, Generar Informe Allure y Desplegar en gh-pages
 
 on:
   push:
@@ -6,33 +6,42 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+  compilar-y-desplegar:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
+    - name: Clonar código
       uses: actions/checkout@v2
 
-    - name: Build and test with Maven
+    - name: Compilar y probar con Maven
       run: mvn clean install
 
-    - name: Generate Allure report
+    - name: Generar informe Allure
       run: mvn allure:report
 
-    - name: Configure Git identity
+    - name: Configurar la identidad de Git
       run: |
         git config user.email "actions@github.com"
         git config user.name "GitHub Actions"
-
-    - name: Commit and push Allure report to gh-pages
+    
+    - name: Seleccionar o crear la rama gh-pages
       run: |
-        git checkout gh-pages
+        git checkout -B gh-pages origin/gh-pages || git checkout --orphan gh-pages
+    
+    - name: Eliminar archivos existentes del informe Allure
+      run: |
+        git rm -rf .
+    
+    - name: Mover archivos del informe Allure
+      run: |
         mv target/results/allure-report/* .
-        git add .
-        git commit -m "Deploy Allure report to gh-pages"
-        git push origin gh-pages
 
-    - name: Show Allure report URL
+    - name: Confirmar y enviar el informe Allure a gh-pages
       run: |
-        echo "Allure Report URL: https://Victor-Jenkins.github.io/MASTER_Selenium_Allure/allure-report/"
-
+        git add .
+        git commit -m "Desplegar informe Allure en gh-pages"
+        git push origin gh-pages
+    
+    - name: Mostrar la URL del informe Allure
+      run: |
+        echo "URL del informe Allure: https://Victor-Jenkins.github.io/MASTER_Selenium_Allure/allure-report/"
