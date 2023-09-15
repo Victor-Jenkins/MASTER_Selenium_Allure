@@ -20,13 +20,6 @@ jobs:
       run: |
         git push origin main
 
-  deploy-gh-pages:
-    needs: build-main-and-deploy
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
 
     - name: Create and switch to gh-pages branch (based on main)
       run: |
@@ -36,8 +29,6 @@ jobs:
     - name: Generate Allure report
       run: mvn allure:report
 
-    - name: Move Allure report files
-      run: mv target/results/allure-report/* .
 
     - name: Commit and push Allure report to gh-pages
       run: |
