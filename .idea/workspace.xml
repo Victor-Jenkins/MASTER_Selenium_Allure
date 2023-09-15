@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e68dac9-9bac-4a72-b568-9ffb4c4282da" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mouthaan/demo/RunCucumberIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseAllure/RunCucumberIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-cucumber-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-cucumber-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/results/allure-results/0a43b892-ea0f-4d69-8e44-fed417291a74-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/results/allure-results/20a15886-de34-4505-a48e-22076af9ed9f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/results/allure-results/b4fea81b-426d-40f0-9b4c-124ffc2efc43-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/results/surefire-reports/BaseAllure.CalculatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/results/surefire-reports/BaseAllure.CalculatorTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/results/surefire-reports/TEST-BaseAllure.CalculatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/results/surefire-reports/TEST-BaseAllure.CalculatorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefire3540421139197801726tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefire_06899545704402306877tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4304319090453173376.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/mouthaan/demo/RunCucumberIT.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2VPM1VXo22qZDSZKXaVapyrfqHH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/victor/Escritorio/MASTER_Selenium_Allure"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="BaseAllure" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e68dac9-9bac-4a72-b568-9ffb4c4282da" name="Changes" comment="" />
+      <created>1694733050159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694733050159</updated>
+    </task>
+    <servers />
+  </component>
+</project>
