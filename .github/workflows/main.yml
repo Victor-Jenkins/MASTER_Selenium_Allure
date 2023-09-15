@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build-main-and-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,11 +15,6 @@ jobs:
 
     - name: Build and test with Maven
       run: mvn clean install
-
-    - name: Configure Git identity
-      run: |
-        git config user.email "actions@github.com"
-        git config user.name "GitHub Actions"
 
     - name: Push changes from main to remote main
       run: |
@@ -53,4 +48,3 @@ jobs:
     - name: Show Allure report URL
       run: |
         echo "Allure Report URL: https://Victor-Jenkins.github.io/MASTER_Selenium_Allure/allure-report/"
-
