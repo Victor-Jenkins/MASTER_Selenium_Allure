@@ -1,4 +1,4 @@
-name: Compilar, Probar, Generar Informe Allure y Desplegar en gh-pages
+name: Build, Test, Commit Main to gh-pages, Generate Allure Report, and Deploy to gh-pages
 
 on:
   push:
@@ -6,42 +6,40 @@ on:
       - main
 
 jobs:
-  compilar-y-desplegar:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Clonar código
+    - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Compilar y probar con Maven
+    - name: Build and test with Maven
       run: mvn clean install
 
-    - name: Generar informe Allure
-      run: mvn allure:report
-
-    - name: Configurar la identidad de Git
+    - name: Configure Git identity
       run: |
         git config user.email "actions@github.com"
         git config user.name "GitHub Actions"
-    
-    - name: Seleccionar o crear la rama gh-pages
+
+    - name: Commit and push changes from main to gh-pages
       run: |
         git checkout -B gh-pages origin/gh-pages || git checkout --orphan gh-pages
-    
-    - name: Eliminar archivos existentes del informe Allure
-      run: |
-        git rm -rf .
-    
-    - name: Mover archivos del informe Allure
-      run: |
-        mv target/results/allure-report/* .
+        git merge main --no-commit --no-ff
+        git commit -m "Merge main into gh-pages"
+        git push origin gh-pages
 
-    - name: Confirmar y enviar el informe Allure a gh-pages
+    - name: Generate Allure report
+      run: mvn allure:report
+
+    - name: Move Allure report files
+      run: mv target/results/allure-report/* .
+
+    - name: Commit and push Allure report to gh-pages
       run: |
         git add .
-        git commit -m "Desplegar informe Allure en gh-pages"
+        git commit -m "Deploy Allure report to gh-pages"
         git push origin gh-pages
-    
-    - name: Mostrar la URL del informe Allure
+
+    - name: Show Allure report URL
       run: |
-        echo "URL del informe Allure: https://Victor-Jenkins.github.io/MASTER_Selenium_Allure/allure-report/"
+        echo "Allure Report URL: https://Victor-Jenkins.github.io/MASTER_Selenium_Allure/allure-report/"
