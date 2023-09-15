@@ -20,20 +20,11 @@ jobs:
     - name: Generate Allure report
       run: mvn allure:report
 
-    - name: Serve Allure report
-      run: mvn allure:serve
-
     - name: Upload Allure results
       uses: actions/upload-artifact@v2
       with:
         name: allure-results
         path: target/allure-results
-
-    - name: Upload Allure report
-      uses: actions/upload-artifact@v2
-      with:
-        name: allure-report
-        path: target/allure-report
 
   deploy-to-gh-pages:
     runs-on: ubuntu-latest
