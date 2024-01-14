@@ -1,21 +1,21 @@
 {
-  "uid" : "a803c604245045bd",
+  "uid" : "a75ad5734e9bb825",
   "name" : "Sum of two",
   "fullName" : "Just a simple demo: Sum of two",
   "historyId" : "bbd0e19c4c0e2704b4c4525cedb92a47",
   "time" : {
-    "start" : 1704589582332,
-    "stop" : 1704589582333,
-    "duration" : 1
+    "start" : 1705194359130,
+    "stop" : 1705194359132,
+    "duration" : 2
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1704589582332,
-      "stop" : 1704589582332,
-      "duration" : 0
+      "start" : 1705194359130,
+      "stop" : 1705194359131,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,8 +31,8 @@
     "steps" : [ {
       "name" : "Given  number 10 and number 20",
       "time" : {
-        "start" : 1704589582332,
-        "stop" : 1704589582332,
+        "start" : 1705194359131,
+        "stop" : 1705194359131,
         "duration" : 0
       },
       "status" : "passed",
@@ -46,8 +46,8 @@
     }, {
       "name" : "When  the numbers are added together",
       "time" : {
-        "start" : 1704589582332,
-        "stop" : 1704589582332,
+        "start" : 1705194359131,
+        "stop" : 1705194359131,
         "duration" : 0
       },
       "status" : "passed",
@@ -61,8 +61,8 @@
     }, {
       "name" : "Then  the sum must be equal to 30",
       "time" : {
-        "start" : 1704589582332,
-        "stop" : 1704589582333,
+        "start" : 1705194359131,
+        "stop" : 1705194359132,
         "duration" : 1
       },
       "status" : "passed",
@@ -84,10 +84,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az585-38"
+    "value" : "fv-az698-536"
   }, {
     "name" : "thread",
-    "value" : "1947@fv-az585-38.main(1)"
+    "value" : "1873@fv-az698-536.main(1)"
   }, {
     "name" : "feature",
     "value" : "Just a simple demo"
@@ -126,6 +126,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a803c604245045bd.json",
+  "source" : "a75ad5734e9bb825.json",
   "parameterValues" : [ ]
 }
