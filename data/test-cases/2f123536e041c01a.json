@@ -1,20 +1,20 @@
 {
-  "uid" : "7f6056cc0dced4a7",
+  "uid" : "2f123536e041c01a",
   "name" : "Rest Call GET",
   "fullName" : "RestCall basics: Rest Call GET",
   "historyId" : "617eb2642f4554cb773251ee52a4e00d",
   "time" : {
-    "start" : 1705799205382,
-    "stop" : 1705799206263,
-    "duration" : 881
+    "start" : 1706403650326,
+    "stop" : 1706403651097,
+    "duration" : 771
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1705799205382,
-      "stop" : 1705799205382,
+      "start" : 1706403650327,
+      "stop" : 1706403650327,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,9 +31,9 @@
     "steps" : [ {
       "name" : "Given  Ik succesvol een REST call verstuur met de methode GET",
       "time" : {
-        "start" : 1705799205382,
-        "stop" : 1705799206263,
-        "duration" : 881
+        "start" : 1706403650327,
+        "stop" : 1706403651097,
+        "duration" : 770
       },
       "status" : "passed",
       "steps" : [ ],
@@ -54,10 +54,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az1016-585"
+    "value" : "fv-az1106-593"
   }, {
     "name" : "thread",
-    "value" : "1887@fv-az1016-585.main(1)"
+    "value" : "1875@fv-az1106-593.main(1)"
   }, {
     "name" : "feature",
     "value" : "RestCall basics"
@@ -96,6 +96,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7f6056cc0dced4a7.json",
+  "source" : "2f123536e041c01a.json",
   "parameterValues" : [ ]
 }
