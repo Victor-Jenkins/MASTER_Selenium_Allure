@@ -1,11 +1,11 @@
 {
-  "uid" : "f96dcd69fea94a5e",
+  "uid" : "740d12e58462a8f9",
   "name" : "Sum of two",
   "fullName" : "Just a simple demo: Sum of two",
-  "historyId" : "bbd0e19c4c0e2704b4c4525cedb92a47",
+  "historyId" : "7b561028d4c8062544e6a0b46c0a3ee4",
   "time" : {
-    "start" : 1706403640297,
-    "stop" : 1706403640298,
+    "start" : 1707008503880,
+    "stop" : 1707008503881,
     "duration" : 1
   },
   "status" : "passed",
@@ -13,8 +13,8 @@
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1706403640297,
-      "stop" : 1706403640297,
+      "start" : 1707008503880,
+      "stop" : 1707008503880,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,11 +29,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given  number 10 and number 20",
+      "name" : "Given  number 1 and number 2",
       "time" : {
-        "start" : 1706403640297,
-        "stop" : 1706403640297,
-        "duration" : 0
+        "start" : 1707008503880,
+        "stop" : 1707008503881,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,8 +46,8 @@
     }, {
       "name" : "When  the numbers are added together",
       "time" : {
-        "start" : 1706403640298,
-        "stop" : 1706403640298,
+        "start" : 1707008503881,
+        "stop" : 1707008503881,
         "duration" : 0
       },
       "status" : "passed",
@@ -59,10 +59,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then  the sum must be equal to 30",
+      "name" : "Then  the sum must be equal to 3",
       "time" : {
-        "start" : 1706403640298,
-        "stop" : 1706403640298,
+        "start" : 1707008503881,
+        "stop" : 1707008503881,
         "duration" : 0
       },
       "status" : "passed",
@@ -84,10 +84,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az1106-593"
+    "value" : "fv-az693-132"
   }, {
     "name" : "thread",
-    "value" : "1875@fv-az1106-593.main(1)"
+    "value" : "1843@fv-az693-132.main(1)"
   }, {
     "name" : "feature",
     "value" : "Just a simple demo"
@@ -116,7 +116,16 @@
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1"
+  }, {
+    "name" : "b",
+    "value" : "2"
+  }, {
+    "name" : "c",
+    "value" : "3"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -126,6 +135,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f96dcd69fea94a5e.json",
-  "parameterValues" : [ ]
+  "source" : "740d12e58462a8f9.json",
+  "parameterValues" : [ "1", "2", "3" ]
 }
