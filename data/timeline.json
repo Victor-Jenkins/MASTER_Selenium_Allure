@@ -1,209 +1,209 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "fv-az915-4",
+    "name" : "fv-az523-38",
     "children" : [ {
-      "name" : "1826@fv-az915-4.main(1)",
+      "name" : "1940@fv-az523-38.main(1)",
       "children" : [ {
-        "name" : "multiply",
-        "uid" : "fb7dd8a1e20bcf03",
-        "parentUid" : "05a2b5813c1a37ad80ceb8613488dcd9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1708218007034,
-          "stop" : 1708218007035,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "subtract",
-        "uid" : "9aeacfb65508528f",
-        "parentUid" : "05a2b5813c1a37ad80ceb8613488dcd9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1708218006932,
-          "stop" : 1708218006945,
-          "duration" : 13
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "sum",
-        "uid" : "bc454bb2aba162ab",
-        "parentUid" : "05a2b5813c1a37ad80ceb8613488dcd9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1708218007031,
-          "stop" : 1708218007031,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "05a2b5813c1a37ad80ceb8613488dcd9"
-    }, {
-      "name" : "1880@fv-az915-4.main(1)",
-      "children" : [ {
-        "name" : "Sum of two",
-        "uid" : "3e5b75537acd2ec3",
-        "parentUid" : "f6c71d9d60fa723f436ce5e0b45f4d57",
-        "status" : "passed",
-        "time" : {
-          "start" : 1708218031528,
-          "stop" : 1708218031529,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "parameters" : [ "1", "2", "3" ]
-      }, {
         "name" : "user can search Shopery",
-        "uid" : "2c64fc3701a43929",
-        "parentUid" : "f6c71d9d60fa723f436ce5e0b45f4d57",
+        "uid" : "668314918ee91c89",
+        "parentUid" : "2a3d66edd76b5d1fd6ff414484dad928",
         "status" : "broken",
         "time" : {
-          "start" : 1708218012720,
-          "stop" : 1708218012867,
-          "duration" : 147
+          "start" : 1708822815335,
+          "stop" : 1708822815520,
+          "duration" : 185
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Rest Call POST",
-        "uid" : "188b46f3dcc741fa",
-        "parentUid" : "f6c71d9d60fa723f436ce5e0b45f4d57",
+        "uid" : "b6d0d4da5b20d2b2",
+        "parentUid" : "2a3d66edd76b5d1fd6ff414484dad928",
         "status" : "unknown",
         "time" : {
-          "start" : 1708218040400,
-          "stop" : 1708218040400,
+          "start" : 1708822820483,
+          "stop" : 1708822820483,
           "duration" : 0
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Sum of two",
-        "uid" : "cbebcf49396d033d",
-        "parentUid" : "f6c71d9d60fa723f436ce5e0b45f4d57",
-        "status" : "passed",
+        "name" : "user can search Shopery",
+        "uid" : "c6ecd57b98bfd2ba",
+        "parentUid" : "2a3d66edd76b5d1fd6ff414484dad928",
+        "status" : "broken",
         "time" : {
-          "start" : 1708218031522,
-          "stop" : 1708218031524,
-          "duration" : 2
+          "start" : 1708822817169,
+          "stop" : 1708822817314,
+          "duration" : 145
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "user can search XBOX",
+        "uid" : "b4acb51ff6be5b62",
+        "parentUid" : "2a3d66edd76b5d1fd6ff414484dad928",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708822815078,
+          "stop" : 1708822815324,
+          "duration" : 246
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "user can navigate and search results on Movistar.com",
-        "uid" : "9a8ff24b55971af1",
-        "parentUid" : "f6c71d9d60fa723f436ce5e0b45f4d57",
-        "status" : "failed",
+        "uid" : "da299753d6aa80c1",
+        "parentUid" : "2a3d66edd76b5d1fd6ff414484dad928",
+        "status" : "broken",
         "time" : {
-          "start" : 1708218012875,
-          "stop" : 1708218016302,
-          "duration" : 3427
+          "start" : 1708822815525,
+          "stop" : 1708822817166,
+          "duration" : 1641
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Sum of two",
-        "uid" : "fad64c40138e728e",
-        "parentUid" : "f6c71d9d60fa723f436ce5e0b45f4d57",
+        "uid" : "986a3ce29b0d7218",
+        "parentUid" : "2a3d66edd76b5d1fd6ff414484dad928",
         "status" : "passed",
         "time" : {
-          "start" : 1708218031531,
-          "stop" : 1708218031532,
+          "start" : 1708822817468,
+          "stop" : 1708822817469,
           "duration" : 1
         },
         "flaky" : false,
-        "parameters" : [ "2", "4", "6" ]
+        "parameters" : [ "1", "2", "3" ]
       }, {
         "name" : "user can navigate and search results in responsive mobile mode on www.telefonica.com",
-        "uid" : "2fa080f15c490cbd",
-        "parentUid" : "f6c71d9d60fa723f436ce5e0b45f4d57",
-        "status" : "failed",
-        "time" : {
-          "start" : 1708218023841,
-          "stop" : 1708218031518,
-          "duration" : 7677
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "user can search XBOX",
-        "uid" : "80f65788fcfc44f6",
-        "parentUid" : "f6c71d9d60fa723f436ce5e0b45f4d57",
+        "uid" : "fe2ab9c916dfa522",
+        "parentUid" : "2a3d66edd76b5d1fd6ff414484dad928",
         "status" : "broken",
         "time" : {
-          "start" : 1708218012396,
-          "stop" : 1708218012712,
-          "duration" : 316
+          "start" : 1708822817318,
+          "stop" : 1708822817457,
+          "duration" : 139
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "User calls web service to get a book by it's ISBN",
-        "uid" : "12ab91047600ad5a",
-        "parentUid" : "f6c71d9d60fa723f436ce5e0b45f4d57",
-        "status" : "failed",
+        "name" : "Sum of two",
+        "uid" : "c6ef1827f9e12043",
+        "parentUid" : "2a3d66edd76b5d1fd6ff414484dad928",
+        "status" : "passed",
         "time" : {
-          "start" : 1708218031536,
-          "stop" : 1708218033714,
-          "duration" : 2178
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Search on Google",
-        "uid" : "46365598474da3b0",
-        "parentUid" : "f6c71d9d60fa723f436ce5e0b45f4d57",
-        "status" : "failed",
-        "time" : {
-          "start" : 1708218033717,
-          "stop" : 1708218039743,
-          "duration" : 6026
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "user can search XBOX",
-        "uid" : "54f6cc120dc8dec2",
-        "parentUid" : "f6c71d9d60fa723f436ce5e0b45f4d57",
-        "status" : "broken",
-        "time" : {
-          "start" : 1708218010018,
-          "stop" : 1708218012317,
-          "duration" : 2299
+          "start" : 1708822817460,
+          "stop" : 1708822817464,
+          "duration" : 4
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Rest Call GET",
-        "uid" : "8e797a9bf6fa6b54",
-        "parentUid" : "f6c71d9d60fa723f436ce5e0b45f4d57",
+        "uid" : "6ca8e3ed25f5b85d",
+        "parentUid" : "2a3d66edd76b5d1fd6ff414484dad928",
         "status" : "passed",
         "time" : {
-          "start" : 1708218039745,
-          "stop" : 1708218040398,
-          "duration" : 653
+          "start" : 1708822819893,
+          "stop" : 1708822820482,
+          "duration" : 589
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
-        "name" : "user can search Shopery",
-        "uid" : "3ba4e37339cd0480",
-        "parentUid" : "f6c71d9d60fa723f436ce5e0b45f4d57",
+        "name" : "Search on Google",
+        "uid" : "1e32333e1876dca8",
+        "parentUid" : "2a3d66edd76b5d1fd6ff414484dad928",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708822819665,
+          "stop" : 1708822819891,
+          "duration" : 226
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Sum of two",
+        "uid" : "ae69061984977cff",
+        "parentUid" : "2a3d66edd76b5d1fd6ff414484dad928",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708822817471,
+          "stop" : 1708822817473,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ "2", "4", "6" ]
+      }, {
+        "name" : "user can search XBOX",
+        "uid" : "b0782203e319d4a6",
+        "parentUid" : "2a3d66edd76b5d1fd6ff414484dad928",
+        "status" : "broken",
+        "time" : {
+          "start" : 1708822806825,
+          "stop" : 1708822815007,
+          "duration" : 8182
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "User calls web service to get a book by it's ISBN",
+        "uid" : "6479468aecf6301",
+        "parentUid" : "2a3d66edd76b5d1fd6ff414484dad928",
         "status" : "failed",
         "time" : {
-          "start" : 1708218016305,
-          "stop" : 1708218023837,
-          "duration" : 7532
+          "start" : 1708822817476,
+          "stop" : 1708822819662,
+          "duration" : 2186
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f6c71d9d60fa723f436ce5e0b45f4d57"
+      "uid" : "2a3d66edd76b5d1fd6ff414484dad928"
+    }, {
+      "name" : "1890@fv-az523-38.main(1)",
+      "children" : [ {
+        "name" : "sum",
+        "uid" : "27b616539e06126d",
+        "parentUid" : "28eb80f9d76530d8d725023cbfd3d66d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1708822804057,
+          "stop" : 1708822804057,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "subtract",
+        "uid" : "38b0391237fc147a",
+        "parentUid" : "28eb80f9d76530d8d725023cbfd3d66d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708822803959,
+          "stop" : 1708822803972,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "multiply",
+        "uid" : "b2e1d97189c61fcd",
+        "parentUid" : "28eb80f9d76530d8d725023cbfd3d66d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1708822804061,
+          "stop" : 1708822804061,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28eb80f9d76530d8d725023cbfd3d66d"
     } ],
-    "uid" : "bda9a97784b9cbbd5e359cadfadd2c4b"
+    "uid" : "66a6b8b6cc45cd7550dcd9947fdedbac"
   } ],
   "name" : "timeline"
 }
