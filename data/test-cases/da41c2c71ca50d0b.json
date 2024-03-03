@@ -1,0 +1,244 @@
+{
+  "uid" : "da41c2c71ca50d0b",
+  "name" : "user can search XBOX",
+  "fullName" : "Check the HomePage: user can search XBOX",
+  "historyId" : "f37c7aeb0ba6734031469bdf22c27d88",
+  "time" : {
+    "start" : 1709427560121,
+    "stop" : 1709427560363,
+    "duration" : 242
+  },
+  "status" : "broken",
+  "statusMessage" : "session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az1433-405', ip: '10.1.0.150', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1015-azure', java.version: '11.0.22'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.xbox.com/es-ES/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x55e28c1f7e93 <unknown>\n#1 0x55e28beefce6 <unknown>\n#2 0x55e28bf246fa <unknown>\n#3 0x55e28bf206ed <unknown>\n#4 0x55e28bf6971c <unknown>\n#5 0x55e28bf5cc53 <unknown>\n#6 0x55e28bf2ddb3 <unknown>\n#7 0x55e28bf2e77e <unknown>\n#8 0x55e28c1bd7cb <unknown>\n#9 0x55e28c1c17e5 <unknown>\n#10 0x55e28c1ab0e1 <unknown>\n#11 0x55e28c1c2372 <unknown>\n#12 0x55e28c18f1bf <unknown>\n#13 0x55e28c1e6488 <unknown>\n#14 0x55e28c1e6683 <unknown>\n#15 0x55e28c1f7044 <unknown>\n#16 0x7f288ea94ac3 <unknown>\n",
+  "statusTrace" : "org.openqa.selenium.SessionNotCreatedException: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az1433-405', ip: '10.1.0.150', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1015-azure', java.version: '11.0.22'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.xbox.com/es-ES/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x55e28c1f7e93 <unknown>\n#1 0x55e28beefce6 <unknown>\n#2 0x55e28bf246fa <unknown>\n#3 0x55e28bf206ed <unknown>\n#4 0x55e28bf6971c <unknown>\n#5 0x55e28bf5cc53 <unknown>\n#6 0x55e28bf2ddb3 <unknown>\n#7 0x55e28bf2e77e <unknown>\n#8 0x55e28c1bd7cb <unknown>\n#9 0x55e28c1c17e5 <unknown>\n#10 0x55e28c1ab0e1 <unknown>\n#11 0x55e28c1c2372 <unknown>\n#12 0x55e28c18f1bf <unknown>\n#13 0x55e28c1e6488 <unknown>\n#14 0x55e28c1e6683 <unknown>\n#15 0x55e28c1f7044 <unknown>\n#16 0x7f288ea94ac3 <unknown>\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)\n\tat com.codeborne.selenide.webdriver.ChromeDriverFactory.create(ChromeDriverFactory.java:25)\n\tat com.codeborne.selenide.webdriver.WebDriverFactory.lambda$createWebDriver$1(WebDriverFactory.java:55)\n\tat java.base/java.util.Optional.map(Optional.java:265)\n\tat com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:55)\n\tat com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:38)\n\tat com.codeborne.selenide.drivercommands.LazyDriver.createDriver(LazyDriver.java:93)\n\tat com.codeborne.selenide.drivercommands.LazyDriver.getAndCheckWebDriver(LazyDriver.java:87)\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:147)\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:61)\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:24)\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:63)\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:40)\n\tat org.mouthaan.demo.steps.HomeMenus.openGoogleSearch(HomeMenus.java:33)\n\tat ✽.open browser with xbox.com(file:src/test/resources/features/HomeMenus.feature:6)\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.setup()",
+    "time" : {
+      "start" : 1709427560122,
+      "stop" : 1709427560122,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az1433-405', ip: '10.1.0.150', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1015-azure', java.version: '11.0.22'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.xbox.com/es-ES/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x55e28c1f7e93 <unknown>\n#1 0x55e28beefce6 <unknown>\n#2 0x55e28bf246fa <unknown>\n#3 0x55e28bf206ed <unknown>\n#4 0x55e28bf6971c <unknown>\n#5 0x55e28bf5cc53 <unknown>\n#6 0x55e28bf2ddb3 <unknown>\n#7 0x55e28bf2e77e <unknown>\n#8 0x55e28c1bd7cb <unknown>\n#9 0x55e28c1c17e5 <unknown>\n#10 0x55e28c1ab0e1 <unknown>\n#11 0x55e28c1c2372 <unknown>\n#12 0x55e28c18f1bf <unknown>\n#13 0x55e28c1e6488 <unknown>\n#14 0x55e28c1e6683 <unknown>\n#15 0x55e28c1f7044 <unknown>\n#16 0x7f288ea94ac3 <unknown>\n",
+    "statusTrace" : "org.openqa.selenium.SessionNotCreatedException: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az1433-405', ip: '10.1.0.150', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1015-azure', java.version: '11.0.22'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.xbox.com/es-ES/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x55e28c1f7e93 <unknown>\n#1 0x55e28beefce6 <unknown>\n#2 0x55e28bf246fa <unknown>\n#3 0x55e28bf206ed <unknown>\n#4 0x55e28bf6971c <unknown>\n#5 0x55e28bf5cc53 <unknown>\n#6 0x55e28bf2ddb3 <unknown>\n#7 0x55e28bf2e77e <unknown>\n#8 0x55e28c1bd7cb <unknown>\n#9 0x55e28c1c17e5 <unknown>\n#10 0x55e28c1ab0e1 <unknown>\n#11 0x55e28c1c2372 <unknown>\n#12 0x55e28c18f1bf <unknown>\n#13 0x55e28c1e6488 <unknown>\n#14 0x55e28c1e6683 <unknown>\n#15 0x55e28c1f7044 <unknown>\n#16 0x7f288ea94ac3 <unknown>\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)\n\tat com.codeborne.selenide.webdriver.ChromeDriverFactory.create(ChromeDriverFactory.java:25)\n\tat com.codeborne.selenide.webdriver.WebDriverFactory.lambda$createWebDriver$1(WebDriverFactory.java:55)\n\tat java.base/java.util.Optional.map(Optional.java:265)\n\tat com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:55)\n\tat com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:38)\n\tat com.codeborne.selenide.drivercommands.LazyDriver.createDriver(LazyDriver.java:93)\n\tat com.codeborne.selenide.drivercommands.LazyDriver.getAndCheckWebDriver(LazyDriver.java:87)\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:147)\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:61)\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:24)\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:63)\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:40)\n\tat org.mouthaan.demo.steps.HomeMenus.openGoogleSearch(HomeMenus.java:33)\n\tat ✽.open browser with xbox.com(file:src/test/resources/features/HomeMenus.feature:6)\n",
+    "steps" : [ {
+      "name" : "Given  open browser with xbox.com",
+      "time" : {
+        "start" : 1709427560122,
+        "stop" : 1709427560356,
+        "duration" : 234
+      },
+      "status" : "broken",
+      "statusMessage" : "session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az1433-405', ip: '10.1.0.150', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1015-azure', java.version: '11.0.22'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.xbox.com/es-ES/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x55e28c1f7e93 <unknown>\n#1 0x55e28beefce6 <unknown>\n#2 0x55e28bf246fa <unknown>\n#3 0x55e28bf206ed <unknown>\n#4 0x55e28bf6971c <unknown>\n#5 0x55e28bf5cc53 <unknown>\n#6 0x55e28bf2ddb3 <unknown>\n#7 0x55e28bf2e77e <unknown>\n#8 0x55e28c1bd7cb <unknown>\n#9 0x55e28c1c17e5 <unknown>\n#10 0x55e28c1ab0e1 <unknown>\n#11 0x55e28c1c2372 <unknown>\n#12 0x55e28c18f1bf <unknown>\n#13 0x55e28c1e6488 <unknown>\n#14 0x55e28c1e6683 <unknown>\n#15 0x55e28c1f7044 <unknown>\n#16 0x7f288ea94ac3 <unknown>\n",
+      "statusTrace" : "org.openqa.selenium.SessionNotCreatedException: session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az1433-405', ip: '10.1.0.150', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1015-azure', java.version: '11.0.22'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.xbox.com/es-ES/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x55e28c1f7e93 <unknown>\n#1 0x55e28beefce6 <unknown>\n#2 0x55e28bf246fa <unknown>\n#3 0x55e28bf206ed <unknown>\n#4 0x55e28bf6971c <unknown>\n#5 0x55e28bf5cc53 <unknown>\n#6 0x55e28bf2ddb3 <unknown>\n#7 0x55e28bf2e77e <unknown>\n#8 0x55e28c1bd7cb <unknown>\n#9 0x55e28c1c17e5 <unknown>\n#10 0x55e28c1ab0e1 <unknown>\n#11 0x55e28c1c2372 <unknown>\n#12 0x55e28c18f1bf <unknown>\n#13 0x55e28c1e6488 <unknown>\n#14 0x55e28c1e6683 <unknown>\n#15 0x55e28c1f7044 <unknown>\n#16 0x7f288ea94ac3 <unknown>\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)\n\tat com.codeborne.selenide.webdriver.ChromeDriverFactory.create(ChromeDriverFactory.java:25)\n\tat com.codeborne.selenide.webdriver.WebDriverFactory.lambda$createWebDriver$1(WebDriverFactory.java:55)\n\tat java.base/java.util.Optional.map(Optional.java:265)\n\tat com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:55)\n\tat com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:38)\n\tat com.codeborne.selenide.drivercommands.LazyDriver.createDriver(LazyDriver.java:93)\n\tat com.codeborne.selenide.drivercommands.LazyDriver.getAndCheckWebDriver(LazyDriver.java:87)\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:147)\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:61)\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:24)\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:63)\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:40)\n\tat org.mouthaan.demo.steps.HomeMenus.openGoogleSearch(HomeMenus.java:33)\n\tat ✽.open browser with xbox.com(file:src/test/resources/features/HomeMenus.feature:6)\n",
+      "steps" : [ {
+        "name" : "$(open) https://www.xbox.com/es-ES/",
+        "time" : {
+          "start" : 1709427560220
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When  Navigate to Menu1",
+      "time" : {
+        "start" : 1709427560356,
+        "stop" : 1709427560356,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  Click on accessories1",
+      "time" : {
+        "start" : 1709427560356,
+        "stop" : 1709427560357,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  Close popup and check Title1",
+      "time" : {
+        "start" : 1709427560357,
+        "stop" : 1709427560357,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  Check the first image1",
+      "time" : {
+        "start" : 1709427560357,
+        "stop" : 1709427560358,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  looking \"fallout 76\"",
+      "time" : {
+        "start" : 1709427560358,
+        "stop" : 1709427560358,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  navigate to games and swipe element",
+      "time" : {
+        "start" : 1709427560358,
+        "stop" : 1709427560358,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  search the name \"fallout\"",
+      "time" : {
+        "start" : 1709427560359,
+        "stop" : 1709427560359,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  search the game \"Good Job\"",
+      "time" : {
+        "start" : 1709427560359,
+        "stop" : 1709427560359,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az1433-405"
+  }, {
+    "name" : "thread",
+    "value" : "1908@fv-az1433-405.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Check the HomePage"
+  }, {
+    "name" : "story",
+    "value" : "user can search XBOX"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.Check the HomePage"
+  }, {
+    "name" : "suite",
+    "value" : "Check the HomePage"
+  }, {
+    "name" : "testClass",
+    "value" : "user can search XBOX"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/HomeMenus.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "da41c2c71ca50d0b.json",
+  "parameterValues" : [ ]
+}
