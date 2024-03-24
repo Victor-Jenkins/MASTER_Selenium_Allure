@@ -1,0 +1,217 @@
+{
+  "uid" : "bcc7ef9da1554f71",
+  "name" : "user can navigate and search results in responsive mobile mode on www.telefonica.com",
+  "fullName" : "Check the www.telefonica.com: user can navigate and search results in responsive mobile mode on www.telefonica.com",
+  "historyId" : "f54fdf86f4396efe47a80446bd9fb7ce",
+  "time" : {
+    "start" : 1711242176224,
+    "stop" : 1711242176364,
+    "duration" : 140
+  },
+  "status" : "broken",
+  "statusMessage" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az714-342', ip: '10.1.0.229', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1016-azure', java.version: '11.0.22'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.telefonica.com/es/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x555f82c2a4e3 <unknown>\n#1 0x555f82959c76 <unknown>\n#2 0x555f82982d78 <unknown>\n#3 0x555f8297f029 <unknown>\n#4 0x555f829bdccc <unknown>\n#5 0x555f829bd47f <unknown>\n#6 0x555f829b4de3 <unknown>\n#7 0x555f8298a2dd <unknown>\n#8 0x555f8298b34e <unknown>\n#9 0x555f82bea3e4 <unknown>\n#10 0x555f82bee3d7 <unknown>\n#11 0x555f82bf8b20 <unknown>\n#12 0x555f82bef023 <unknown>\n#13 0x555f82bbd1aa <unknown>\n#14 0x555f82c136b8 <unknown>\n#15 0x555f82c13847 <unknown>\n#16 0x555f82c23243 <unknown>\n#17 0x7f53c4694ac3 <unknown>\n",
+  "statusTrace" : "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az714-342', ip: '10.1.0.229', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1016-azure', java.version: '11.0.22'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.telefonica.com/es/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x555f82c2a4e3 <unknown>\n#1 0x555f82959c76 <unknown>\n#2 0x555f82982d78 <unknown>\n#3 0x555f8297f029 <unknown>\n#4 0x555f829bdccc <unknown>\n#5 0x555f829bd47f <unknown>\n#6 0x555f829b4de3 <unknown>\n#7 0x555f8298a2dd <unknown>\n#8 0x555f8298b34e <unknown>\n#9 0x555f82bea3e4 <unknown>\n#10 0x555f82bee3d7 <unknown>\n#11 0x555f82bf8b20 <unknown>\n#12 0x555f82bef023 <unknown>\n#13 0x555f82bbd1aa <unknown>\n#14 0x555f82c136b8 <unknown>\n#15 0x555f82c13847 <unknown>\n#16 0x555f82c23243 <unknown>\n#17 0x7f53c4694ac3 <unknown>\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)\n\tat com.codeborne.selenide.webdriver.ChromeDriverFactory.create(ChromeDriverFactory.java:25)\n\tat com.codeborne.selenide.webdriver.WebDriverFactory.lambda$createWebDriver$1(WebDriverFactory.java:55)\n\tat java.base/java.util.Optional.map(Optional.java:265)\n\tat com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:55)\n\tat com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:38)\n\tat com.codeborne.selenide.drivercommands.LazyDriver.createDriver(LazyDriver.java:93)\n\tat com.codeborne.selenide.drivercommands.LazyDriver.getAndCheckWebDriver(LazyDriver.java:87)\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:147)\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:61)\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:24)\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:63)\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:40)\n\tat org.mouthaan.demo.steps.Telefónica.openGoogleSearch(Telefónica.java:26)\n\tat ✽.an open browser with www.telefonica.com(file:src/test/resources/features/Telefónica.feature:6)\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.setup()",
+    "time" : {
+      "start" : 1711242176224,
+      "stop" : 1711242176224,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az714-342', ip: '10.1.0.229', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1016-azure', java.version: '11.0.22'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.telefonica.com/es/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x555f82c2a4e3 <unknown>\n#1 0x555f82959c76 <unknown>\n#2 0x555f82982d78 <unknown>\n#3 0x555f8297f029 <unknown>\n#4 0x555f829bdccc <unknown>\n#5 0x555f829bd47f <unknown>\n#6 0x555f829b4de3 <unknown>\n#7 0x555f8298a2dd <unknown>\n#8 0x555f8298b34e <unknown>\n#9 0x555f82bea3e4 <unknown>\n#10 0x555f82bee3d7 <unknown>\n#11 0x555f82bf8b20 <unknown>\n#12 0x555f82bef023 <unknown>\n#13 0x555f82bbd1aa <unknown>\n#14 0x555f82c136b8 <unknown>\n#15 0x555f82c13847 <unknown>\n#16 0x555f82c23243 <unknown>\n#17 0x7f53c4694ac3 <unknown>\n",
+    "statusTrace" : "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az714-342', ip: '10.1.0.229', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1016-azure', java.version: '11.0.22'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.telefonica.com/es/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x555f82c2a4e3 <unknown>\n#1 0x555f82959c76 <unknown>\n#2 0x555f82982d78 <unknown>\n#3 0x555f8297f029 <unknown>\n#4 0x555f829bdccc <unknown>\n#5 0x555f829bd47f <unknown>\n#6 0x555f829b4de3 <unknown>\n#7 0x555f8298a2dd <unknown>\n#8 0x555f8298b34e <unknown>\n#9 0x555f82bea3e4 <unknown>\n#10 0x555f82bee3d7 <unknown>\n#11 0x555f82bf8b20 <unknown>\n#12 0x555f82bef023 <unknown>\n#13 0x555f82bbd1aa <unknown>\n#14 0x555f82c136b8 <unknown>\n#15 0x555f82c13847 <unknown>\n#16 0x555f82c23243 <unknown>\n#17 0x7f53c4694ac3 <unknown>\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)\n\tat com.codeborne.selenide.webdriver.ChromeDriverFactory.create(ChromeDriverFactory.java:25)\n\tat com.codeborne.selenide.webdriver.WebDriverFactory.lambda$createWebDriver$1(WebDriverFactory.java:55)\n\tat java.base/java.util.Optional.map(Optional.java:265)\n\tat com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:55)\n\tat com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:38)\n\tat com.codeborne.selenide.drivercommands.LazyDriver.createDriver(LazyDriver.java:93)\n\tat com.codeborne.selenide.drivercommands.LazyDriver.getAndCheckWebDriver(LazyDriver.java:87)\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:147)\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:61)\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:24)\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:63)\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:40)\n\tat org.mouthaan.demo.steps.Telefónica.openGoogleSearch(Telefónica.java:26)\n\tat ✽.an open browser with www.telefonica.com(file:src/test/resources/features/Telefónica.feature:6)\n",
+    "steps" : [ {
+      "name" : "Given  an open browser with www.telefonica.com",
+      "time" : {
+        "start" : 1711242176224,
+        "stop" : 1711242176361,
+        "duration" : 137
+      },
+      "status" : "broken",
+      "statusMessage" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az714-342', ip: '10.1.0.229', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1016-azure', java.version: '11.0.22'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.telefonica.com/es/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x555f82c2a4e3 <unknown>\n#1 0x555f82959c76 <unknown>\n#2 0x555f82982d78 <unknown>\n#3 0x555f8297f029 <unknown>\n#4 0x555f829bdccc <unknown>\n#5 0x555f829bd47f <unknown>\n#6 0x555f829b4de3 <unknown>\n#7 0x555f8298a2dd <unknown>\n#8 0x555f8298b34e <unknown>\n#9 0x555f82bea3e4 <unknown>\n#10 0x555f82bee3d7 <unknown>\n#11 0x555f82bf8b20 <unknown>\n#12 0x555f82bef023 <unknown>\n#13 0x555f82bbd1aa <unknown>\n#14 0x555f82c136b8 <unknown>\n#15 0x555f82c13847 <unknown>\n#16 0x555f82c23243 <unknown>\n#17 0x7f53c4694ac3 <unknown>\n",
+      "statusTrace" : "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az714-342', ip: '10.1.0.229', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1016-azure', java.version: '11.0.22'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.telefonica.com/es/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x555f82c2a4e3 <unknown>\n#1 0x555f82959c76 <unknown>\n#2 0x555f82982d78 <unknown>\n#3 0x555f8297f029 <unknown>\n#4 0x555f829bdccc <unknown>\n#5 0x555f829bd47f <unknown>\n#6 0x555f829b4de3 <unknown>\n#7 0x555f8298a2dd <unknown>\n#8 0x555f8298b34e <unknown>\n#9 0x555f82bea3e4 <unknown>\n#10 0x555f82bee3d7 <unknown>\n#11 0x555f82bf8b20 <unknown>\n#12 0x555f82bef023 <unknown>\n#13 0x555f82bbd1aa <unknown>\n#14 0x555f82c136b8 <unknown>\n#15 0x555f82c13847 <unknown>\n#16 0x555f82c23243 <unknown>\n#17 0x7f53c4694ac3 <unknown>\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)\n\tat com.codeborne.selenide.webdriver.ChromeDriverFactory.create(ChromeDriverFactory.java:25)\n\tat com.codeborne.selenide.webdriver.WebDriverFactory.lambda$createWebDriver$1(WebDriverFactory.java:55)\n\tat java.base/java.util.Optional.map(Optional.java:265)\n\tat com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:55)\n\tat com.codeborne.selenide.drivercommands.CreateDriverCommand.createDriver(CreateDriverCommand.java:38)\n\tat com.codeborne.selenide.drivercommands.LazyDriver.createDriver(LazyDriver.java:93)\n\tat com.codeborne.selenide.drivercommands.LazyDriver.getAndCheckWebDriver(LazyDriver.java:87)\n\tat com.codeborne.selenide.SelenideDriver.getAndCheckWebDriver(SelenideDriver.java:147)\n\tat com.codeborne.selenide.drivercommands.Navigator.navigateTo(Navigator.java:61)\n\tat com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:24)\n\tat com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:63)\n\tat com.codeborne.selenide.Selenide.open(Selenide.java:40)\n\tat org.mouthaan.demo.steps.Telefónica.openGoogleSearch(Telefónica.java:26)\n\tat ✽.an open browser with www.telefonica.com(file:src/test/resources/features/Telefónica.feature:6)\n",
+      "steps" : [ {
+        "name" : "$(open) https://www.telefonica.com/es/",
+        "time" : {
+          "start" : 1711242176233
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When  Check titles and accept cookies",
+      "time" : {
+        "start" : 1711242176361,
+        "stop" : 1711242176361,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  Check main navigation and select Services",
+      "time" : {
+        "start" : 1711242176361,
+        "stop" : 1711242176361,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  Check main navigation and select Particulars",
+      "time" : {
+        "start" : 1711242176361,
+        "stop" : 1711242176362,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  Check the Navigation and scrolling page",
+      "time" : {
+        "start" : 1711242176362,
+        "stop" : 1711242176362,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  Check the contact button",
+      "time" : {
+        "start" : 1711242176362,
+        "stop" : 1711242176362,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  Click on logo and navigate to stock",
+      "time" : {
+        "start" : 1711242176362,
+        "stop" : 1711242176363,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Telefonica"
+  }, {
+    "name" : "host",
+    "value" : "fv-az714-342"
+  }, {
+    "name" : "thread",
+    "value" : "1981@fv-az714-342.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Check the www.telefonica.com"
+  }, {
+    "name" : "story",
+    "value" : "user can navigate and search results in responsive mobile mode on www.telefonica.com"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.Check the www.telefonica.com"
+  }, {
+    "name" : "suite",
+    "value" : "Check the www.telefonica.com"
+  }, {
+    "name" : "testClass",
+    "value" : "user can navigate and search results in responsive mobile mode on www.telefonica.com"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/Telefónica.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Telefonica" ]
+  },
+  "source" : "bcc7ef9da1554f71.json",
+  "parameterValues" : [ ]
+}

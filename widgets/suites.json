@@ -12,39 +12,6 @@
       "total" : 3
     }
   }, {
-    "uid" : "d22311e5ddb3992f3404073beb888370",
-    "name" : "Check the HomePage",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 3,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 4
-    }
-  }, {
-    "uid" : "bd40c5f9f0f1fc0580a84a422198744e",
-    "name" : "Check the Movistar.com",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "7eab88cd651572218584bceedac18ca9",
-    "name" : "Check the www.telefonica.com",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "eafec149dd346f0f8eaa91539ab8658b",
     "name" : "Google Api books",
     "statistic" : {
@@ -56,11 +23,44 @@
       "total" : 1
     }
   }, {
+    "uid" : "d22311e5ddb3992f3404073beb888370",
+    "name" : "Check the HomePage",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "bd40c5f9f0f1fc0580a84a422198744e",
+    "name" : "Check the Movistar.com",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "7eab88cd651572218584bceedac18ca9",
+    "name" : "Check the www.telefonica.com",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "187db89b840e5d00e2c198598849c11a",
     "name" : "Google Search",
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
