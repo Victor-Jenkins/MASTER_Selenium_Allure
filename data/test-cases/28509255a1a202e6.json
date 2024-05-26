@@ -1,11 +1,11 @@
 {
-  "uid" : "25c336da9a593fc6",
+  "uid" : "28509255a1a202e6",
   "name" : "sum",
   "fullName" : "BaseAllure.CalculatorTest.sum",
   "historyId" : "102e6c3f78ccf1fd2a7245fbb4c25433",
   "time" : {
-    "start" : 1716080724946,
-    "stop" : 1716080724946,
+    "start" : 1716685572317,
+    "stop" : 1716685572317,
     "duration" : 0
   },
   "status" : "passed",
@@ -26,10 +26,10 @@
     "value" : "BaseAllure.CalculatorTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1247-794"
+    "value" : "fv-az735-377"
   }, {
     "name" : "thread",
-    "value" : "1822@fv-az1247-794.main(1)"
+    "value" : "1829@fv-az735-377.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -50,6 +50,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "25c336da9a593fc6.json",
+  "source" : "28509255a1a202e6.json",
   "parameterValues" : [ ]
 }
