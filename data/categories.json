@@ -6,13 +6,13 @@
       "name" : "expected:<-10> but was:<-9>",
       "children" : [ {
         "name" : "subtract",
-        "uid" : "4e78b391260c4979",
+        "uid" : "cb55c13c900befb4",
         "parentUid" : "632776af227c200a22f287b0bf382b90",
         "status" : "failed",
         "time" : {
-          "start" : 1716685572213,
-          "stop" : 1716685572230,
-          "duration" : 17
+          "start" : 1717290389664,
+          "stop" : 1717290389677,
+          "duration" : 13
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -22,12 +22,12 @@
       "name" : "expected:<200> but was:<199>",
       "children" : [ {
         "name" : "multiply",
-        "uid" : "955ef62d9d5bc932",
+        "uid" : "b821af86802bd912",
         "parentUid" : "5bb1f4d635459a0cf51efe675d330c69",
         "status" : "failed",
         "time" : {
-          "start" : 1716685572320,
-          "stop" : 1716685572321,
+          "start" : 1717290389763,
+          "stop" : 1717290389764,
           "duration" : 1
         },
         "flaky" : false,
@@ -38,45 +38,45 @@
       "name" : "Más servicios",
       "children" : [ {
         "name" : "user can navigate and search results on Movistar.com",
-        "uid" : "dabe55c5db31c130",
+        "uid" : "66a587bb284fd4db",
         "parentUid" : "97bf60928a1e281b1a17627c2eba1b63",
         "status" : "failed",
         "time" : {
-          "start" : 1716685582410,
-          "stop" : 1716685589589,
-          "duration" : 7179
+          "start" : 1717290399207,
+          "stop" : 1717290405409,
+          "duration" : 6202
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
       "uid" : "97bf60928a1e281b1a17627c2eba1b63"
     }, {
-      "name" : "Element should have text 'shopery.com' {#res .g}\nElement: '<div class=\"g Ww4FFb vt6azd tF2Cxc asEBEc\" data-hveid=\"CDAQAA\" data-ved=\"2ahUKEwiAqviWkKqGAxW4HjQIHWHqDc8QFSgAegQIMBAA\" jsaction=\"QyLbLe:OMITjf;ewaord:qsYrDe;xd28Mb:A6j43c\" jscontroller=\"SC7lYd\" lang=\"en\">Shopertyy Real Estate – We deal in luxurious residential ...\nshopertyy.com\nhttps://www.shopertyy.com\nMay 10, 2024 — High Rental Yields, Resale Values, and Exit Prices. ... Securing the Best Real Estate Offers for You. RERA REGISTERED.</div>'",
+      "name" : "Element should have text 'shopery.com' {#res .g}\nElement: '<div class=\"g Ww4FFb vt6azd tF2Cxc asEBEc\" data-hveid=\"CCYQAA\" data-ved=\"2ahUKEwiAntGl3buGAxXLHEQIHfwnDigQFSgAegQIJhAA\" jsaction=\"QyLbLe:OMITjf;ewaord:qsYrDe;xd28Mb:A6j43c\" jscontroller=\"SC7lYd\" lang=\"en\">Shopertyy Real Estate – We deal in luxurious residential ...\nshopertyy.com\nhttps://www.shopertyy.com\nMay 10, 2024 — High Rental Yields, Resale Values, and Exit Prices. ... Securing the Best Real Estate Offers for You. RERA REGISTERED.</div>'",
       "children" : [ {
         "name" : "user can search Shopery",
-        "uid" : "d28b04f6dfc81656",
-        "parentUid" : "2445fa8ff97e4b621b6fa42b50894d70",
+        "uid" : "dd1f53ca324474e9",
+        "parentUid" : "df20d3e700bff94bd668f52e06b1a5b4",
         "status" : "failed",
         "time" : {
-          "start" : 1716685589592,
-          "stop" : 1716685597325,
-          "duration" : 7733
+          "start" : 1717290405411,
+          "stop" : 1717290413575,
+          "duration" : 8164
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2445fa8ff97e4b621b6fa42b50894d70"
+      "uid" : "df20d3e700bff94bd668f52e06b1a5b4"
     }, {
       "name" : "Element not found {By.xpath: //*[@id=\"primary\"]/div[4]/div/div/a}\nExpected: exist",
       "children" : [ {
         "name" : "user can navigate and search results in responsive mobile mode on www.telefonica.com",
-        "uid" : "d24627bd7cdb1dab",
+        "uid" : "b7e155dde679d343",
         "parentUid" : "9716634d9c3bc7007e0f7d215f05d49e",
         "status" : "failed",
         "time" : {
-          "start" : 1716685597329,
-          "stop" : 1716685605024,
-          "duration" : 7695
+          "start" : 1717290413579,
+          "stop" : 1717290421438,
+          "duration" : 7859
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -86,86 +86,86 @@
       "name" : "1 expectation failed.\nJSON path items.volumeInfo.pageCount doesn't match.\nExpected: iterable with items [<630>] in any order\n  Actual: [656]\n",
       "children" : [ {
         "name" : "User calls web service to get a book by it's ISBN",
-        "uid" : "d38b713815d9ac2a",
+        "uid" : "7ecb9d8533f67041",
         "parentUid" : "8af830a448fa963fb1888f44448c36c3",
         "status" : "failed",
         "time" : {
-          "start" : 1716685605041,
-          "stop" : 1716685607281,
-          "duration" : 2240
+          "start" : 1717290421457,
+          "stop" : 1717290423625,
+          "duration" : 2168
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
       "uid" : "8af830a448fa963fb1888f44448c36c3"
     }, {
-      "name" : "Element should have text 'hell world' {h3[0]}\nElement: '<h3 class=\"LC20lb MBeuO DKV0Md\">Hello World</h3>'",
+      "name" : "Element should have text 'hell world' {h3[0]}\nElement: '<h3 class=\"LC20lb MBeuO DKV0Md\">\"Hello, World!\" program</h3>'",
       "children" : [ {
         "name" : "Search on Google",
-        "uid" : "25ce079bcb0924ff",
-        "parentUid" : "a4190bfbae73c30607e79923f6fb228e",
+        "uid" : "dd662e7b1a06a94d",
+        "parentUid" : "1339bd8c7a0e1ad4c5492c0b30cb60ad",
         "status" : "failed",
         "time" : {
-          "start" : 1716685607284,
-          "stop" : 1716685613260,
-          "duration" : 5976
+          "start" : 1717290423627,
+          "stop" : 1717290429609,
+          "duration" : 5982
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a4190bfbae73c30607e79923f6fb228e"
+      "uid" : "1339bd8c7a0e1ad4c5492c0b30cb60ad"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az735-377', ip: '10.1.0.113', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1021-azure', java.version: '11.0.23'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://google.es\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x56030cabee8a <unknown>\n#1 0x56030c7a845c <unknown>\n#2 0x56030c7dd6f8 <unknown>\n#3 0x56030c7d963b <unknown>\n#4 0x56030c823b19 <unknown>\n#5 0x56030c817253 <unknown>\n#6 0x56030c7e71c7 <unknown>\n#7 0x56030c7e7b3e <unknown>\n#8 0x56030ca852cb <unknown>\n#9 0x56030ca89377 <unknown>\n#10 0x56030ca71dfe <unknown>\n#11 0x56030ca89e42 <unknown>\n#12 0x56030ca5679f <unknown>\n#13 0x56030caae178 <unknown>\n#14 0x56030caae34b <unknown>\n#15 0x56030cabdfbc <unknown>\n#16 0x7f3a21694ac3 <unknown>\n",
+      "name" : "session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az1272-466', ip: '10.1.0.193', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1021-azure', java.version: '11.0.23'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://google.es\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x55aff8d7de3a <unknown>\n#1 0x55aff8a6745c <unknown>\n#2 0x55aff8a9c6f8 <unknown>\n#3 0x55aff8a9863b <unknown>\n#4 0x55aff8ae2b19 <unknown>\n#5 0x55aff8ad6253 <unknown>\n#6 0x55aff8aa61c7 <unknown>\n#7 0x55aff8aa6b3e <unknown>\n#8 0x55aff8d4427b <unknown>\n#9 0x55aff8d48327 <unknown>\n#10 0x55aff8d30dae <unknown>\n#11 0x55aff8d48df2 <unknown>\n#12 0x55aff8d1574f <unknown>\n#13 0x55aff8d6d128 <unknown>\n#14 0x55aff8d6d2fb <unknown>\n#15 0x55aff8d7cf6c <unknown>\n#16 0x7f4a41e94ac3 <unknown>\n",
       "children" : [ {
         "name" : "user can search XBOX",
-        "uid" : "e07748551cc47846",
-        "parentUid" : "9439118b2adb47f72268b7a2243ab401",
+        "uid" : "14f53b51de5677ae",
+        "parentUid" : "04ea16b808ffb0533d5550f511f40801",
         "status" : "broken",
         "time" : {
-          "start" : 1716685574968,
-          "stop" : 1716685581892,
-          "duration" : 6924
+          "start" : 1717290392817,
+          "stop" : 1717290398720,
+          "duration" : 5903
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9439118b2adb47f72268b7a2243ab401"
+      "uid" : "04ea16b808ffb0533d5550f511f40801"
     }, {
-      "name" : "session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az735-377', ip: '10.1.0.113', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1021-azure', java.version: '11.0.23'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.xbox.com/es-ES/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x55607704be8a <unknown>\n#1 0x556076d3545c <unknown>\n#2 0x556076d6a6f8 <unknown>\n#3 0x556076d6663b <unknown>\n#4 0x556076db0b19 <unknown>\n#5 0x556076da4253 <unknown>\n#6 0x556076d741c7 <unknown>\n#7 0x556076d74b3e <unknown>\n#8 0x5560770122cb <unknown>\n#9 0x556077016377 <unknown>\n#10 0x556076ffedfe <unknown>\n#11 0x556077016e42 <unknown>\n#12 0x556076fe379f <unknown>\n#13 0x55607703b178 <unknown>\n#14 0x55607703b34b <unknown>\n#15 0x55607704afbc <unknown>\n#16 0x7f8394694ac3 <unknown>\n",
+      "name" : "session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az1272-466', ip: '10.1.0.193', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1021-azure', java.version: '11.0.23'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.xbox.com/es-ES/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x55ae901f4e3a <unknown>\n#1 0x55ae8fede45c <unknown>\n#2 0x55ae8ff136f8 <unknown>\n#3 0x55ae8ff0f63b <unknown>\n#4 0x55ae8ff59b19 <unknown>\n#5 0x55ae8ff4d253 <unknown>\n#6 0x55ae8ff1d1c7 <unknown>\n#7 0x55ae8ff1db3e <unknown>\n#8 0x55ae901bb27b <unknown>\n#9 0x55ae901bf327 <unknown>\n#10 0x55ae901a7dae <unknown>\n#11 0x55ae901bfdf2 <unknown>\n#12 0x55ae9018c74f <unknown>\n#13 0x55ae901e4128 <unknown>\n#14 0x55ae901e42fb <unknown>\n#15 0x55ae901f3f6c <unknown>\n#16 0x7f2295094ac3 <unknown>\n",
       "children" : [ {
         "name" : "user can search XBOX",
-        "uid" : "16304b5fb927b306",
-        "parentUid" : "3c315d65daed3ed603fde32d0018b8ce",
+        "uid" : "6ca53e2693d221f3",
+        "parentUid" : "b3115ccacd5b67515b29b343104df991",
         "status" : "broken",
         "time" : {
-          "start" : 1716685581973,
-          "stop" : 1716685582232,
-          "duration" : 259
+          "start" : 1717290398802,
+          "stop" : 1717290399040,
+          "duration" : 238
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3c315d65daed3ed603fde32d0018b8ce"
+      "uid" : "b3115ccacd5b67515b29b343104df991"
     }, {
-      "name" : "session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az735-377', ip: '10.1.0.113', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1021-azure', java.version: '11.0.23'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://shopery.com\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x563b991a2e8a <unknown>\n#1 0x563b98e8c45c <unknown>\n#2 0x563b98ec16f8 <unknown>\n#3 0x563b98ebd63b <unknown>\n#4 0x563b98f07b19 <unknown>\n#5 0x563b98efb253 <unknown>\n#6 0x563b98ecb1c7 <unknown>\n#7 0x563b98ecbb3e <unknown>\n#8 0x563b991692cb <unknown>\n#9 0x563b9916d377 <unknown>\n#10 0x563b99155dfe <unknown>\n#11 0x563b9916de42 <unknown>\n#12 0x563b9913a79f <unknown>\n#13 0x563b99192178 <unknown>\n#14 0x563b9919234b <unknown>\n#15 0x563b991a1fbc <unknown>\n#16 0x7f10e5094ac3 <unknown>\n",
+      "name" : "session not created: Chrome failed to start: exited normally.\n  (session not created: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /opt/google/chrome/chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az1272-466', ip: '10.1.0.193', os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1021-azure', java.version: '11.0.23'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://shopery.com\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x56272f190e3a <unknown>\n#1 0x56272ee7a45c <unknown>\n#2 0x56272eeaf6f8 <unknown>\n#3 0x56272eeab63b <unknown>\n#4 0x56272eef5b19 <unknown>\n#5 0x56272eee9253 <unknown>\n#6 0x56272eeb91c7 <unknown>\n#7 0x56272eeb9b3e <unknown>\n#8 0x56272f15727b <unknown>\n#9 0x56272f15b327 <unknown>\n#10 0x56272f143dae <unknown>\n#11 0x56272f15bdf2 <unknown>\n#12 0x56272f12874f <unknown>\n#13 0x56272f180128 <unknown>\n#14 0x56272f1802fb <unknown>\n#15 0x56272f18ff6c <unknown>\n#16 0x7f41e7c94ac3 <unknown>\n",
       "children" : [ {
         "name" : "user can search Shopery",
-        "uid" : "9613880517569f54",
-        "parentUid" : "2b447e6ae13afc5ce4cf4664730b1664",
+        "uid" : "ded879c5731f956f",
+        "parentUid" : "bc9548a2a39355cf519cad512f2d87a0",
         "status" : "broken",
         "time" : {
-          "start" : 1716685582244,
-          "stop" : 1716685582403,
-          "duration" : 159
+          "start" : 1717290399048,
+          "stop" : 1717290399202,
+          "duration" : 154
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2b447e6ae13afc5ce4cf4664730b1664"
+      "uid" : "bc9548a2a39355cf519cad512f2d87a0"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
