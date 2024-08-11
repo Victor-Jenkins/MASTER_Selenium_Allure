@@ -1,12 +1,12 @@
 {
-  "uid" : "936f5f7d63c16ff2",
+  "uid" : "f525a0db6dd597ba",
   "name" : "Rest Call POST",
   "fullName" : "RestCall basics: Rest Call POST",
   "historyId" : "6a9b125503af5ea445f7c75facd9435",
   "time" : {
-    "start" : 1722733923737,
-    "stop" : 1722733923737,
-    "duration" : 0
+    "start" : 1723338803669,
+    "stop" : 1723338803672,
+    "duration" : 3
   },
   "status" : "unknown",
   "flaky" : false,
@@ -14,10 +14,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "fv-az1382-925"
+    "value" : "fv-az654-517"
   }, {
     "name" : "thread",
-    "value" : "1969@fv-az1382-925.main(1)"
+    "value" : "1923@fv-az654-517.main(1)"
   }, {
     "name" : "feature",
     "value" : "RestCall basics"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "936f5f7d63c16ff2.json",
+  "source" : "f525a0db6dd597ba.json",
   "parameterValues" : [ ]
 }
