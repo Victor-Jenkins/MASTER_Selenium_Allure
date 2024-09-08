@@ -4,36 +4,36 @@
     "name" : "BaseAllure.CalculatorTest",
     "children" : [ {
       "name" : "subtract",
-      "uid" : "358c58a19003d12c",
+      "uid" : "bbe934daaba5faa9",
       "parentUid" : "e9f40ba9d17c4a8eed6658e19ac44eb1",
       "status" : "failed",
       "time" : {
-        "start" : 1725153665243,
-        "stop" : 1725153665259,
-        "duration" : 16
+        "start" : 1725758170294,
+        "stop" : 1725758170308,
+        "duration" : 14
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "sum",
-      "uid" : "b229ffc5fb60a199",
+      "uid" : "792a7f30a3264e4e",
       "parentUid" : "e9f40ba9d17c4a8eed6658e19ac44eb1",
       "status" : "passed",
       "time" : {
-        "start" : 1725153665342,
-        "stop" : 1725153665342,
+        "start" : 1725758170387,
+        "stop" : 1725758170387,
         "duration" : 0
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "multiply",
-      "uid" : "f61ef36319ec2101",
+      "uid" : "602baa5f374904e9",
       "parentUid" : "e9f40ba9d17c4a8eed6658e19ac44eb1",
       "status" : "failed",
       "time" : {
-        "start" : 1725153665345,
-        "stop" : 1725153665346,
+        "start" : 1725758170390,
+        "stop" : 1725758170391,
         "duration" : 1
       },
       "flaky" : false,
@@ -44,49 +44,49 @@
     "name" : "Check the HomePage",
     "children" : [ {
       "name" : "user can search XBOX",
-      "uid" : "bb7a5b8037894e08",
+      "uid" : "1bd1c4772692e4db",
       "parentUid" : "d22311e5ddb3992f3404073beb888370",
       "status" : "broken",
       "time" : {
-        "start" : 1725153668062,
-        "stop" : 1725153674593,
-        "duration" : 6531
+        "start" : 1725758173032,
+        "stop" : 1725758175274,
+        "duration" : 2242
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "user can search XBOX",
-      "uid" : "fd87a3a7b2239cbb",
+      "uid" : "c0eba51bee70d09e",
       "parentUid" : "d22311e5ddb3992f3404073beb888370",
       "status" : "broken",
       "time" : {
-        "start" : 1725153674672,
-        "stop" : 1725153674933,
-        "duration" : 261
+        "start" : 1725758175369,
+        "stop" : 1725758175634,
+        "duration" : 265
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "user can search Shopery",
-      "uid" : "6047540ab2cc8a25",
+      "uid" : "53f04e9d2b619d7d",
       "parentUid" : "d22311e5ddb3992f3404073beb888370",
       "status" : "broken",
       "time" : {
-        "start" : 1725153674942,
-        "stop" : 1725153675102,
-        "duration" : 160
+        "start" : 1725758175641,
+        "stop" : 1725758175806,
+        "duration" : 165
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "user can search Shopery",
-      "uid" : "dbe06745e7b2acba",
+      "uid" : "261de46f603c3119",
       "parentUid" : "d22311e5ddb3992f3404073beb888370",
       "status" : "failed",
       "time" : {
-        "start" : 1725153682659,
-        "stop" : 1725153690854,
-        "duration" : 8195
+        "start" : 1725758178637,
+        "stop" : 1725758186579,
+        "duration" : 7942
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -96,13 +96,13 @@
     "name" : "Check the Movistar.com",
     "children" : [ {
       "name" : "user can navigate and search results on Movistar.com",
-      "uid" : "31bd7e088ac42f11",
+      "uid" : "6a48e73d080b4da6",
       "parentUid" : "bd40c5f9f0f1fc0580a84a422198744e",
       "status" : "failed",
       "time" : {
-        "start" : 1725153675107,
-        "stop" : 1725153682656,
-        "duration" : 7549
+        "start" : 1725758175812,
+        "stop" : 1725758178633,
+        "duration" : 2821
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -112,13 +112,13 @@
     "name" : "Check the www.telefonica.com",
     "children" : [ {
       "name" : "user can navigate and search results in responsive mobile mode on www.telefonica.com",
-      "uid" : "29627f3a54761c82",
+      "uid" : "3df0d3de91711a13",
       "parentUid" : "7eab88cd651572218584bceedac18ca9",
       "status" : "failed",
       "time" : {
-        "start" : 1725153690858,
-        "stop" : 1725153698491,
-        "duration" : 7633
+        "start" : 1725758186583,
+        "stop" : 1725758193493,
+        "duration" : 6910
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -128,36 +128,36 @@
     "name" : "Just a simple demo",
     "children" : [ {
       "name" : "Sum of two",
-      "uid" : "c8ca427b25e8cffd",
+      "uid" : "b185ac7f1115dd6",
       "parentUid" : "9c242fbf1dc33511f1dc3d7c7fc85883",
       "status" : "passed",
       "time" : {
-        "start" : 1725153698495,
-        "stop" : 1725153698497,
-        "duration" : 2
+        "start" : 1725758193497,
+        "stop" : 1725758193498,
+        "duration" : 1
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Sum of two",
-      "uid" : "c1a45e175035ae82",
+      "uid" : "90cb87ad92a58398",
       "parentUid" : "9c242fbf1dc33511f1dc3d7c7fc85883",
       "status" : "passed",
       "time" : {
-        "start" : 1725153698501,
-        "stop" : 1725153698502,
-        "duration" : 1
+        "start" : 1725758193502,
+        "stop" : 1725758193504,
+        "duration" : 2
       },
       "flaky" : false,
       "parameters" : [ "1", "2", "3" ]
     }, {
       "name" : "Sum of two",
-      "uid" : "a2fc23ce81733c6f",
+      "uid" : "9cd518bf79dbbd29",
       "parentUid" : "9c242fbf1dc33511f1dc3d7c7fc85883",
       "status" : "passed",
       "time" : {
-        "start" : 1725153698504,
-        "stop" : 1725153698505,
+        "start" : 1725758193506,
+        "stop" : 1725758193507,
         "duration" : 1
       },
       "flaky" : false,
@@ -168,13 +168,13 @@
     "name" : "Google Api books",
     "children" : [ {
       "name" : "User calls web service to get a book by it's ISBN",
-      "uid" : "fb5fc073e42396c2",
+      "uid" : "8cdaa7460dab6b16",
       "parentUid" : "eafec149dd346f0f8eaa91539ab8658b",
       "status" : "failed",
       "time" : {
-        "start" : 1725153698508,
-        "stop" : 1725153700620,
-        "duration" : 2112
+        "start" : 1725758193510,
+        "stop" : 1725758195558,
+        "duration" : 2048
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -184,13 +184,13 @@
     "name" : "Google Search",
     "children" : [ {
       "name" : "Search on Google",
-      "uid" : "a8570e62e15c4878",
+      "uid" : "9e5a1fef004c9a90",
       "parentUid" : "187db89b840e5d00e2c198598849c11a",
       "status" : "failed",
       "time" : {
-        "start" : 1725153700623,
-        "stop" : 1725153705955,
-        "duration" : 5332
+        "start" : 1725758195561,
+        "stop" : 1725758200932,
+        "duration" : 5371
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -200,24 +200,24 @@
     "name" : "RestCall basics",
     "children" : [ {
       "name" : "Rest Call GET",
-      "uid" : "7c04dd06c65aa260",
+      "uid" : "a76e537b9b3d2488",
       "parentUid" : "362cf4cb62d162215abade2927fdf7bd",
       "status" : "passed",
       "time" : {
-        "start" : 1725153705957,
-        "stop" : 1725153706580,
-        "duration" : 623
+        "start" : 1725758200935,
+        "stop" : 1725758201468,
+        "duration" : 533
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Rest Call POST",
-      "uid" : "12f02b9aa9984f32",
+      "uid" : "2d1e105ad093ae30",
       "parentUid" : "362cf4cb62d162215abade2927fdf7bd",
       "status" : "unknown",
       "time" : {
-        "start" : 1725153706581,
-        "stop" : 1725153706581,
+        "start" : 1725758201470,
+        "stop" : 1725758201470,
         "duration" : 0
       },
       "flaky" : false,
