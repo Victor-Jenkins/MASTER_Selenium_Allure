@@ -1,161 +1,161 @@
 [ {
-  "uid" : "9bd6cf311a4c447e",
-  "name" : "User calls web service to get a book by it's ISBN",
+  "uid" : "15f0f5f6f31ec607",
+  "name" : "sum",
   "time" : {
-    "start" : 1728177640802,
-    "stop" : 1728177642218,
-    "duration" : 1416
+    "start" : 1728782370103,
+    "stop" : 1728782370104,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b1c7e1ca2110ecf",
+  "name" : "multiply",
+  "time" : {
+    "start" : 1728782370107,
+    "stop" : 1728782370109,
+    "duration" : 2
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "146719a3cfe2d2c7",
-  "name" : "user can search XBOX",
+  "uid" : "8cddd7736dd99754",
+  "name" : "user can navigate and search results in responsive mobile mode on www.telefonica.com",
   "time" : {
-    "start" : 1728177606403,
-    "stop" : 1728177614201,
-    "duration" : 7798
+    "start" : 1728782404159,
+    "stop" : 1728782410980,
+    "duration" : 6821
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6985be36934df542",
+  "name" : "Rest Call GET",
+  "time" : {
+    "start" : 1728782418344,
+    "stop" : 1728782418777,
+    "duration" : 433
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b75a6976275c180",
+  "name" : "Sum of two",
+  "time" : {
+    "start" : 1728782410991,
+    "stop" : 1728782410992,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c27062086dafc0eb",
+  "name" : "user can search Shopery",
+  "time" : {
+    "start" : 1728782384513,
+    "stop" : 1728782384698,
+    "duration" : 185
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "920a080fd525cc65",
-  "name" : "Rest Call GET",
-  "time" : {
-    "start" : 1728177647578,
-    "stop" : 1728177648053,
-    "duration" : 475
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba9528a76985771d",
-  "name" : "Sum of two",
-  "time" : {
-    "start" : 1728177640791,
-    "stop" : 1728177640792,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "85bd50b549ac0b8e",
-  "name" : "user can navigate and search results in responsive mobile mode on www.telefonica.com",
-  "time" : {
-    "start" : 1728177633240,
-    "stop" : 1728177640788,
-    "duration" : 7548
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "e582e959f47e1ce5",
-  "name" : "sum",
-  "time" : {
-    "start" : 1728177603620,
-    "stop" : 1728177603620,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de540f3e7d1acea8",
-  "name" : "Sum of two",
-  "time" : {
-    "start" : 1728177640795,
-    "stop" : 1728177640796,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "37319bd3fe336de1",
-  "name" : "Sum of two",
-  "time" : {
-    "start" : 1728177640798,
-    "stop" : 1728177640800,
-    "duration" : 2
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3dd75fd38b0f88a1",
+  "uid" : "378394795f4d522b",
   "name" : "user can search Shopery",
   "time" : {
-    "start" : 1728177625249,
-    "stop" : 1728177633236,
-    "duration" : 7987
+    "start" : 1728782396319,
+    "stop" : 1728782404154,
+    "duration" : 7835
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "bcf15b807405cf64",
-  "name" : "subtract",
+  "uid" : "47331c21c0f2f127",
+  "name" : "user can search XBOX",
   "time" : {
-    "start" : 1728177603515,
-    "stop" : 1728177603528,
-    "duration" : 13
+    "start" : 1728782384255,
+    "stop" : 1728782384500,
+    "duration" : 245
   },
-  "status" : "failed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "87dd4a7bd5c7d59e",
-  "name" : "user can navigate and search results on Movistar.com",
+  "uid" : "a71465fa1d679a31",
+  "name" : "Search on Google",
   "time" : {
-    "start" : 1728177614731,
-    "stop" : 1728177625247,
-    "duration" : 10516
+    "start" : 1728782413144,
+    "stop" : 1728782418341,
+    "duration" : 5197
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "4cfd9e8f495a61c",
+  "uid" : "65571fe346c72be6",
+  "name" : "user can search XBOX",
+  "time" : {
+    "start" : 1728782372808,
+    "stop" : 1728782384172,
+    "duration" : 11364
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6aeada45c3d3a8e9",
   "name" : "Rest Call POST",
   "time" : {
-    "start" : 1728177648056,
-    "stop" : 1728177648056,
+    "start" : 1728782418779,
+    "stop" : 1728782418779,
     "duration" : 0
   },
   "status" : "unknown",
   "severity" : "normal"
 }, {
-  "uid" : "422534e11cfbfa31",
-  "name" : "user can search Shopery",
+  "uid" : "dbb3d446d2c160d6",
+  "name" : "User calls web service to get a book by it's ISBN",
   "time" : {
-    "start" : 1728177614563,
-    "stop" : 1728177614725,
-    "duration" : 162
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "816c248a9591221",
-  "name" : "Search on Google",
-  "time" : {
-    "start" : 1728177642221,
-    "stop" : 1728177647576,
-    "duration" : 5355
+    "start" : 1728782410999,
+    "stop" : 1728782413141,
+    "duration" : 2142
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "8d2cad240f1b1e87",
-  "name" : "multiply",
+  "uid" : "1f4347fec0a0f0db",
+  "name" : "user can navigate and search results on Movistar.com",
   "time" : {
-    "start" : 1728177603623,
-    "stop" : 1728177603626,
+    "start" : 1728782384704,
+    "stop" : 1728782396317,
+    "duration" : 11613
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6962fed17f3147f",
+  "name" : "Sum of two",
+  "time" : {
+    "start" : 1728782410984,
+    "stop" : 1728782410987,
     "duration" : 3
   },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "882fb7d91fbe46f1",
-  "name" : "user can search XBOX",
+  "uid" : "fda637f0b56d8675",
+  "name" : "Sum of two",
   "time" : {
-    "start" : 1728177614285,
-    "stop" : 1728177614556,
-    "duration" : 271
+    "start" : 1728782410994,
+    "stop" : 1728782410996,
+    "duration" : 2
   },
-  "status" : "broken",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bb5f70ab611be73",
+  "name" : "subtract",
+  "time" : {
+    "start" : 1728782370010,
+    "stop" : 1728782370026,
+    "duration" : 16
+  },
+  "status" : "failed",
   "severity" : "normal"
 } ]
