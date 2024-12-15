@@ -1,11 +1,11 @@
 {
-  "uid" : "8a39dfc505a8e1cd",
+  "uid" : "d8fc9d006fe62825",
   "name" : "multiply",
   "fullName" : "BaseAllure.CalculatorTest.multiply",
   "historyId" : "42168cc5414068621652ba5bb6ce09a2",
   "time" : {
-    "start" : 1733621245955,
-    "stop" : 1733621245956,
+    "start" : 1734226040598,
+    "stop" : 1734226040599,
     "duration" : 1
   },
   "status" : "failed",
@@ -28,10 +28,10 @@
     "value" : "BaseAllure.CalculatorTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1205-325"
+    "value" : "fv-az1771-572"
   }, {
     "name" : "thread",
-    "value" : "1801@fv-az1205-325.main(1)"
+    "value" : "1784@fv-az1771-572.main(1)"
   }, {
     "name" : "framework",
     "value" : "junit4"
@@ -56,6 +56,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "8a39dfc505a8e1cd.json",
+  "source" : "d8fc9d006fe62825.json",
   "parameterValues" : [ ]
 }
