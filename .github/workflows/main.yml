@@ -6,7 +6,6 @@ on:
       - main
   schedule:
     - cron: '0 0 * * 0' # Ejecutar cada domingo a la medianoche (UTC)
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
