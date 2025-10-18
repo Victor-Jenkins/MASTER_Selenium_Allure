@@ -7,11 +7,8 @@ public class GoogleResultSteps {
 
     private GoogleResultPage googleResultPage = new GoogleResultPage();
 
-        @Then("the first result must be {string}")
-        public void theFirstResultMustBe(String result) {
-         googleResultPage.verifyResultAtPosition(1, result);
-}
-
-
-
+    @Then("the first result must be {string}")
+    public void theFirstResultMustBe(String result) {
+        googleResultPage.verifyResultAtPosition(1, result);
+    }
 }
