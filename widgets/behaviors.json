@@ -48,8 +48,8 @@
     "uid" : "41b0f779ce3accdf0d48135d846d05de",
     "name" : "Google Search",
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,

@@ -1,0 +1,186 @@
+{
+  "uid" : "fd7a44476112d9a0",
+  "name" : "Search on Google",
+  "fullName" : "Google Search: Search on Google",
+  "historyId" : "96aa3031f538c488489e3492917bee72",
+  "time" : {
+    "start" : 1760809974641,
+    "stop" : 1760809976125,
+    "duration" : 1484
+  },
+  "status" : "broken",
+  "statusMessage" : "Posición fuera de rango",
+  "statusTrace" : "java.lang.IllegalArgumentException: Posición fuera de rango\n\tat org.mouthaan.demo.pages.GoogleResultPage.verifyResultAtPosition(GoogleResultPage.java:16)\n\tat org.mouthaan.demo.steps.GoogleResultSteps.theFirstResultMustBe(GoogleResultSteps.java:12)\n\tat ✽.the first result must be \"hell world\"(file:src/test/resources/features/google.feature:5)\n",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Hooks.setup()",
+    "time" : {
+      "start" : 1760809974641,
+      "stop" : 1760809974641,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Posición fuera de rango",
+    "statusTrace" : "java.lang.IllegalArgumentException: Posición fuera de rango\n\tat org.mouthaan.demo.pages.GoogleResultPage.verifyResultAtPosition(GoogleResultPage.java:16)\n\tat org.mouthaan.demo.steps.GoogleResultSteps.theFirstResultMustBe(GoogleResultSteps.java:12)\n\tat ✽.the first result must be \"hell world\"(file:src/test/resources/features/google.feature:5)\n",
+    "steps" : [ {
+      "name" : "Given  the Google search page",
+      "time" : {
+        "start" : 1760809974642,
+        "stop" : 1760809975110,
+        "duration" : 468
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(open) https://google.com",
+        "time" : {
+          "start" : 1760809974642,
+          "stop" : 1760809975110,
+          "duration" : 468
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When  we search for \"hello world\"",
+      "time" : {
+        "start" : 1760809975110,
+        "stop" : 1760809975375,
+        "duration" : 265
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(By.name: q) val(hello world)",
+        "time" : {
+          "start" : 1760809975111,
+          "stop" : 1760809975250,
+          "duration" : 139
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "$(By.name: q) press enter()",
+        "time" : {
+          "start" : 1760809975250,
+          "stop" : 1760809975375,
+          "duration" : 125
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then  the first result must be \"hell world\"",
+      "time" : {
+        "start" : 1760809975376,
+        "stop" : 1760809976125,
+        "duration" : 749
+      },
+      "status" : "broken",
+      "statusMessage" : "Posición fuera de rango",
+      "statusTrace" : "java.lang.IllegalArgumentException: Posición fuera de rango\n\tat org.mouthaan.demo.pages.GoogleResultPage.verifyResultAtPosition(GoogleResultPage.java:16)\n\tat org.mouthaan.demo.steps.GoogleResultSteps.theFirstResultMustBe(GoogleResultSteps.java:12)\n\tat ✽.the first result must be \"hell world\"(file:src/test/resources/features/google.feature:5)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "runnervmzdgdc"
+  }, {
+    "name" : "thread",
+    "value" : "2222@runnervmzdgdc.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Google Search"
+  }, {
+    "name" : "story",
+    "value" : "Search on Google"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.Google Search"
+  }, {
+    "name" : "suite",
+    "value" : "Google Search"
+  }, {
+    "name" : "testClass",
+    "value" : "Search on Google"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/google.feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fd7a44476112d9a0.json",
+  "parameterValues" : [ ]
+}

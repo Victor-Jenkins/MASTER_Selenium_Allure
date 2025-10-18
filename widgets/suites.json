@@ -59,8 +59,8 @@
     "uid" : "187db89b840e5d00e2c198598849c11a",
     "name" : "Google Search",
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
