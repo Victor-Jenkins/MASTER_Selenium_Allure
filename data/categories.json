@@ -6,12 +6,12 @@
       "name" : "expected:<-10> but was:<-9>",
       "children" : [ {
         "name" : "subtract",
-        "uid" : "139b6c071037dc63",
+        "uid" : "7f162ddc27899904",
         "parentUid" : "632776af227c200a22f287b0bf382b90",
         "status" : "failed",
         "time" : {
-          "start" : 1760809979646,
-          "stop" : 1760809979659,
+          "start" : 1760836185768,
+          "stop" : 1760836185781,
           "duration" : 13
         },
         "flaky" : false,
@@ -22,12 +22,12 @@
       "name" : "expected:<200> but was:<199>",
       "children" : [ {
         "name" : "multiply",
-        "uid" : "aa4c07acbdecec92",
+        "uid" : "3a73e3f8be51620",
         "parentUid" : "5bb1f4d635459a0cf51efe675d330c69",
         "status" : "failed",
         "time" : {
-          "start" : 1760809979748,
-          "stop" : 1760809979749,
+          "start" : 1760836185871,
+          "stop" : 1760836185872,
           "duration" : 1
         },
         "flaky" : false,
@@ -38,13 +38,13 @@
       "name" : "Más servicios",
       "children" : [ {
         "name" : "user can navigate and search results on Movistar.com",
-        "uid" : "fe463c524f21b386",
+        "uid" : "1b023ac63b3f2085",
         "parentUid" : "97bf60928a1e281b1a17627c2eba1b63",
         "status" : "failed",
         "time" : {
-          "start" : 1760810005804,
-          "stop" : 1760810035752,
-          "duration" : 29948
+          "start" : 1760836196419,
+          "stop" : 1760836204460,
+          "duration" : 8041
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -54,13 +54,13 @@
       "name" : ": expected: >= 1, actual: 0, collection: #res .g\nElements: []",
       "children" : [ {
         "name" : "user can search Shopery",
-        "uid" : "ee1228ebddc0aa27",
+        "uid" : "ae94dea380ddf09d",
         "parentUid" : "64e24936b240c336ba0fd72fb561f22a",
         "status" : "failed",
         "time" : {
-          "start" : 1760810035755,
-          "stop" : 1760810042505,
-          "duration" : 6750
+          "start" : 1760836204463,
+          "stop" : 1760836210177,
+          "duration" : 5714
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -70,13 +70,13 @@
       "name" : "Element not found {By.xpath: //*[@id='onetrust-pc-sdk']/div[3]/div[1]/div/button[1]}\nExpected: visible or transparent",
       "children" : [ {
         "name" : "user can navigate and search results in responsive mobile mode on www.telefonica.com",
-        "uid" : "6cf9e63105c3b47d",
+        "uid" : "121208d137ea1f36",
         "parentUid" : "5196d7212d9838bb2f3d7398bc007069",
         "status" : "failed",
         "time" : {
-          "start" : 1760810042510,
-          "stop" : 1760810049284,
-          "duration" : 6774
+          "start" : 1760836210181,
+          "stop" : 1760836217023,
+          "duration" : 6842
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -86,13 +86,13 @@
       "name" : "1 expectation failed.\nJSON path items.volumeInfo.pageCount doesn't match.\nExpected: iterable with items [<630>] in any order\n  Actual: [656]\n",
       "children" : [ {
         "name" : "User calls web service to get a book by it's ISBN",
-        "uid" : "d33f7ce4fd3a8c5",
+        "uid" : "65b817b2ff6dc6ab",
         "parentUid" : "8af830a448fa963fb1888f44448c36c3",
         "status" : "failed",
         "time" : {
-          "start" : 1760810049316,
-          "stop" : 1760810052538,
-          "duration" : 3222
+          "start" : 1760836217046,
+          "stop" : 1760836219547,
+          "duration" : 2501
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -103,64 +103,64 @@
   }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'runnervmzdgdc', ip: '10.1.0.207', os.name: 'Linux', os.arch: 'amd64', os.version: '6.14.0-1012-azure', java.version: '11.0.28'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://google.es\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x55fa3aaf267a <unknown>\n#1 0x55fa3a571566 <unknown>\n#2 0x55fa3a5acb4c <unknown>\n#3 0x55fa3a5a87c4 <unknown>\n#4 0x55fa3a5f7bd3 <unknown>\n#5 0x55fa3a5f7286 <unknown>\n#6 0x55fa3a5e9403 <unknown>\n#7 0x55fa3a5b5b02 <unknown>\n#8 0x55fa3a5b67c1 <unknown>\n#9 0x55fa3aab6448 <unknown>\n#10 0x55fa3aaba2af <unknown>\n#11 0x55fa3aa9d8d9 <unknown>\n#12 0x55fa3aabae55 <unknown>\n#13 0x55fa3aa8313f <unknown>\n#14 0x55fa3aadf4b8 <unknown>\n#15 0x55fa3aadf693 <unknown>\n#16 0x55fa3aaf1613 <unknown>\n#17 0x7fb27349caa4 <unknown>\n#18 0x7fb273529c6c <unknown>\n",
+      "name" : "session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'runnervmzdgdc', ip: '10.1.0.132', os.name: 'Linux', os.arch: 'amd64', os.version: '6.14.0-1012-azure', java.version: '11.0.28'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://google.es\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x558cf0e2767a <unknown>\n#1 0x558cf08a6566 <unknown>\n#2 0x558cf08e1b4c <unknown>\n#3 0x558cf08dd7c4 <unknown>\n#4 0x558cf092cbd3 <unknown>\n#5 0x558cf092c286 <unknown>\n#6 0x558cf091e403 <unknown>\n#7 0x558cf08eab02 <unknown>\n#8 0x558cf08eb7c1 <unknown>\n#9 0x558cf0deb448 <unknown>\n#10 0x558cf0def2af <unknown>\n#11 0x558cf0dd28d9 <unknown>\n#12 0x558cf0defe55 <unknown>\n#13 0x558cf0db813f <unknown>\n#14 0x558cf0e144b8 <unknown>\n#15 0x558cf0e14693 <unknown>\n#16 0x558cf0e26613 <unknown>\n#17 0x7ff94869caa4 <unknown>\n#18 0x7ff948729c6c <unknown>\n",
       "children" : [ {
         "name" : "user can search XBOX",
-        "uid" : "927df7fae19b0403",
-        "parentUid" : "3722a8c0a6c7e8f1b3eade2ef770bb2c",
+        "uid" : "d68fb8c6f40c5430",
+        "parentUid" : "72b0c15a801662a386f44c27a02bc161",
         "status" : "broken",
         "time" : {
-          "start" : 1760809983814,
-          "stop" : 1760810005270,
-          "duration" : 21456
+          "start" : 1760836190002,
+          "stop" : 1760836195841,
+          "duration" : 5839
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3722a8c0a6c7e8f1b3eade2ef770bb2c"
+      "uid" : "72b0c15a801662a386f44c27a02bc161"
     }, {
-      "name" : "session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'runnervmzdgdc', ip: '10.1.0.207', os.name: 'Linux', os.arch: 'amd64', os.version: '6.14.0-1012-azure', java.version: '11.0.28'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.xbox.com/es-ES/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x562c05ac367a <unknown>\n#1 0x562c05542566 <unknown>\n#2 0x562c0557db4c <unknown>\n#3 0x562c055797c4 <unknown>\n#4 0x562c055c8bd3 <unknown>\n#5 0x562c055c8286 <unknown>\n#6 0x562c055ba403 <unknown>\n#7 0x562c05586b02 <unknown>\n#8 0x562c055877c1 <unknown>\n#9 0x562c05a87448 <unknown>\n#10 0x562c05a8b2af <unknown>\n#11 0x562c05a6e8d9 <unknown>\n#12 0x562c05a8be55 <unknown>\n#13 0x562c05a5413f <unknown>\n#14 0x562c05ab04b8 <unknown>\n#15 0x562c05ab0693 <unknown>\n#16 0x562c05ac2613 <unknown>\n#17 0x7f5d2829caa4 <unknown>\n#18 0x7f5d28329c6c <unknown>\n",
+      "name" : "session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'runnervmzdgdc', ip: '10.1.0.132', os.name: 'Linux', os.arch: 'amd64', os.version: '6.14.0-1012-azure', java.version: '11.0.28'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.xbox.com/es-ES/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x55a6ba8db67a <unknown>\n#1 0x55a6ba35a566 <unknown>\n#2 0x55a6ba395b4c <unknown>\n#3 0x55a6ba3917c4 <unknown>\n#4 0x55a6ba3e0bd3 <unknown>\n#5 0x55a6ba3e0286 <unknown>\n#6 0x55a6ba3d2403 <unknown>\n#7 0x55a6ba39eb02 <unknown>\n#8 0x55a6ba39f7c1 <unknown>\n#9 0x55a6ba89f448 <unknown>\n#10 0x55a6ba8a32af <unknown>\n#11 0x55a6ba8868d9 <unknown>\n#12 0x55a6ba8a3e55 <unknown>\n#13 0x55a6ba86c13f <unknown>\n#14 0x55a6ba8c84b8 <unknown>\n#15 0x55a6ba8c8693 <unknown>\n#16 0x55a6ba8da613 <unknown>\n#17 0x7fec3c49caa4 <unknown>\n#18 0x7fec3c529c6c <unknown>\n",
       "children" : [ {
         "name" : "user can search XBOX",
-        "uid" : "324408ef0d9e05b8",
-        "parentUid" : "2447596d985adf7e6d8deb6fcc1fff8a",
+        "uid" : "781ab142d31517fb",
+        "parentUid" : "0e6ffddb8d9cd5b6bc50269777d5e7f1",
         "status" : "broken",
         "time" : {
-          "start" : 1760810005352,
-          "stop" : 1760810005631,
-          "duration" : 279
+          "start" : 1760836195975,
+          "stop" : 1760836196238,
+          "duration" : 263
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2447596d985adf7e6d8deb6fcc1fff8a"
+      "uid" : "0e6ffddb8d9cd5b6bc50269777d5e7f1"
     }, {
-      "name" : "session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'runnervmzdgdc', ip: '10.1.0.207', os.name: 'Linux', os.arch: 'amd64', os.version: '6.14.0-1012-azure', java.version: '11.0.28'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://shopery.com\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x56160521467a <unknown>\n#1 0x561604c93566 <unknown>\n#2 0x561604cceb4c <unknown>\n#3 0x561604cca7c4 <unknown>\n#4 0x561604d19bd3 <unknown>\n#5 0x561604d19286 <unknown>\n#6 0x561604d0b403 <unknown>\n#7 0x561604cd7b02 <unknown>\n#8 0x561604cd87c1 <unknown>\n#9 0x5616051d8448 <unknown>\n#10 0x5616051dc2af <unknown>\n#11 0x5616051bf8d9 <unknown>\n#12 0x5616051dce55 <unknown>\n#13 0x5616051a513f <unknown>\n#14 0x5616052014b8 <unknown>\n#15 0x561605201693 <unknown>\n#16 0x561605213613 <unknown>\n#17 0x7f61be09caa4 <unknown>\n#18 0x7f61be129c6c <unknown>\n",
+      "name" : "session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'runnervmzdgdc', ip: '10.1.0.132', os.name: 'Linux', os.arch: 'amd64', os.version: '6.14.0-1012-azure', java.version: '11.0.28'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://shopery.com\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x55bd34e8067a <unknown>\n#1 0x55bd348ff566 <unknown>\n#2 0x55bd3493ab4c <unknown>\n#3 0x55bd349367c4 <unknown>\n#4 0x55bd34985bd3 <unknown>\n#5 0x55bd34985286 <unknown>\n#6 0x55bd34977403 <unknown>\n#7 0x55bd34943b02 <unknown>\n#8 0x55bd349447c1 <unknown>\n#9 0x55bd34e44448 <unknown>\n#10 0x55bd34e482af <unknown>\n#11 0x55bd34e2b8d9 <unknown>\n#12 0x55bd34e48e55 <unknown>\n#13 0x55bd34e1113f <unknown>\n#14 0x55bd34e6d4b8 <unknown>\n#15 0x55bd34e6d693 <unknown>\n#16 0x55bd34e7f613 <unknown>\n#17 0x7f821e89caa4 <unknown>\n#18 0x7f821e929c6c <unknown>\n",
       "children" : [ {
         "name" : "user can search Shopery",
-        "uid" : "68faabdca258c507",
-        "parentUid" : "7cee10c016f593a29472876d2062acfc",
+        "uid" : "ac1a0a804dc650aa",
+        "parentUid" : "27958f4131a810f66b26088e943bd123",
         "status" : "broken",
         "time" : {
-          "start" : 1760810005639,
-          "stop" : 1760810005798,
-          "duration" : 159
+          "start" : 1760836196247,
+          "stop" : 1760836196413,
+          "duration" : 166
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "7cee10c016f593a29472876d2062acfc"
+      "uid" : "27958f4131a810f66b26088e943bd123"
     }, {
       "name" : "Posición fuera de rango",
       "children" : [ {
         "name" : "Search on Google",
-        "uid" : "e93c252cdec74134",
+        "uid" : "7342eacd230a1df0",
         "parentUid" : "2b06b224a045b85c438154a7ccfb4af4",
         "status" : "broken",
         "time" : {
-          "start" : 1760810052541,
-          "stop" : 1760810054219,
-          "duration" : 1678
+          "start" : 1760836219550,
+          "stop" : 1760836220984,
+          "duration" : 1434
         },
         "flaky" : false,
         "parameters" : [ ]
