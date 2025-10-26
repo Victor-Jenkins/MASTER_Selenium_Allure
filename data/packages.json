@@ -4,37 +4,37 @@
     "name" : "BaseAllure",
     "children" : [ {
       "name" : "subtract",
-      "uid" : "7f162ddc27899904",
+      "uid" : "9be0c4b3fc1f8d90",
       "parentUid" : "7f9aed884c78bbbdb57c7416f106639e",
       "status" : "failed",
       "time" : {
-        "start" : 1760836185768,
-        "stop" : 1760836185781,
-        "duration" : 13
+        "start" : 1761440871720,
+        "stop" : 1761440871735,
+        "duration" : 15
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "sum",
-      "uid" : "40fd46bfa0def2d5",
+      "uid" : "b067d72e6102d2c7",
       "parentUid" : "7f9aed884c78bbbdb57c7416f106639e",
       "status" : "passed",
       "time" : {
-        "start" : 1760836185867,
-        "stop" : 1760836185867,
+        "start" : 1761440871833,
+        "stop" : 1761440871833,
         "duration" : 0
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "multiply",
-      "uid" : "3a73e3f8be51620",
+      "uid" : "be24894ac0d76b21",
       "parentUid" : "7f9aed884c78bbbdb57c7416f106639e",
       "status" : "failed",
       "time" : {
-        "start" : 1760836185871,
-        "stop" : 1760836185872,
-        "duration" : 1
+        "start" : 1761440871836,
+        "stop" : 1761440871838,
+        "duration" : 2
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -46,49 +46,49 @@
       "name" : "Check the HomePage",
       "children" : [ {
         "name" : "user can search XBOX",
-        "uid" : "d68fb8c6f40c5430",
+        "uid" : "b6f5a4675ba7a351",
         "parentUid" : "2e26fd8cc5a47c4a61c229e3539f8c0b",
         "status" : "broken",
         "time" : {
-          "start" : 1760836190002,
-          "stop" : 1760836195841,
-          "duration" : 5839
+          "start" : 1761440876093,
+          "stop" : 1761440884183,
+          "duration" : 8090
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "user can search XBOX",
-        "uid" : "781ab142d31517fb",
+        "uid" : "835a1cb58ce9a8c3",
         "parentUid" : "2e26fd8cc5a47c4a61c229e3539f8c0b",
         "status" : "broken",
         "time" : {
-          "start" : 1760836195975,
-          "stop" : 1760836196238,
-          "duration" : 263
+          "start" : 1761440884268,
+          "stop" : 1761440884522,
+          "duration" : 254
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "user can search Shopery",
-        "uid" : "ac1a0a804dc650aa",
+        "uid" : "3e8065dba330cc6b",
         "parentUid" : "2e26fd8cc5a47c4a61c229e3539f8c0b",
         "status" : "broken",
         "time" : {
-          "start" : 1760836196247,
-          "stop" : 1760836196413,
-          "duration" : 166
+          "start" : 1761440884529,
+          "stop" : 1761440884682,
+          "duration" : 153
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "user can search Shopery",
-        "uid" : "ae94dea380ddf09d",
+        "uid" : "5a7be4e81bb36676",
         "parentUid" : "2e26fd8cc5a47c4a61c229e3539f8c0b",
         "status" : "failed",
         "time" : {
-          "start" : 1760836204463,
-          "stop" : 1760836210177,
-          "duration" : 5714
+          "start" : 1761440893139,
+          "stop" : 1761440900036,
+          "duration" : 6897
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -98,13 +98,13 @@
       "name" : "Check the Movistar.com",
       "children" : [ {
         "name" : "user can navigate and search results on Movistar.com",
-        "uid" : "1b023ac63b3f2085",
+        "uid" : "4392ddc2de46b3a4",
         "parentUid" : "8a8a856c0a4cf3a0da1bf86acf7c4435",
         "status" : "failed",
         "time" : {
-          "start" : 1760836196419,
-          "stop" : 1760836204460,
-          "duration" : 8041
+          "start" : 1761440884687,
+          "stop" : 1761440893136,
+          "duration" : 8449
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -114,13 +114,13 @@
       "name" : "Check the www.telefonica.com",
       "children" : [ {
         "name" : "user can navigate and search results in responsive mobile mode on www.telefonica.com",
-        "uid" : "121208d137ea1f36",
+        "uid" : "d4eb19df2a4a5163",
         "parentUid" : "1d657218c10574d40f2493d26ba6b5c0",
         "status" : "failed",
         "time" : {
-          "start" : 1760836210181,
-          "stop" : 1760836217023,
-          "duration" : 6842
+          "start" : 1761440900040,
+          "stop" : 1761440906949,
+          "duration" : 6909
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -130,36 +130,36 @@
       "name" : "Just a simple demo",
       "children" : [ {
         "name" : "Sum of two",
-        "uid" : "6768330a39a1a106",
+        "uid" : "82dd653fd40e58b6",
         "parentUid" : "04713fe1639e6c0efe15347d1f6dcf47",
         "status" : "passed",
         "time" : {
-          "start" : 1760836217027,
-          "stop" : 1760836217029,
-          "duration" : 2
+          "start" : 1761440906953,
+          "stop" : 1761440906954,
+          "duration" : 1
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Sum of two",
-        "uid" : "518c1b35e808d8d1",
+        "uid" : "856fb9c2a546b4c6",
         "parentUid" : "04713fe1639e6c0efe15347d1f6dcf47",
         "status" : "passed",
         "time" : {
-          "start" : 1760836217038,
-          "stop" : 1760836217040,
-          "duration" : 2
+          "start" : 1761440906966,
+          "stop" : 1761440906967,
+          "duration" : 1
         },
         "flaky" : false,
         "parameters" : [ "1", "2", "3" ]
       }, {
         "name" : "Sum of two",
-        "uid" : "e78edc870f5ee30c",
+        "uid" : "9cdb9b3caa27ef00",
         "parentUid" : "04713fe1639e6c0efe15347d1f6dcf47",
         "status" : "passed",
         "time" : {
-          "start" : 1760836217042,
-          "stop" : 1760836217043,
+          "start" : 1761440906969,
+          "stop" : 1761440906970,
           "duration" : 1
         },
         "flaky" : false,
@@ -170,13 +170,13 @@
       "name" : "Google Api books",
       "children" : [ {
         "name" : "User calls web service to get a book by it's ISBN",
-        "uid" : "65b817b2ff6dc6ab",
+        "uid" : "b56d0ca650614928",
         "parentUid" : "ec498f050be1beb4b6e817bacc9406b6",
         "status" : "failed",
         "time" : {
-          "start" : 1760836217046,
-          "stop" : 1760836219547,
-          "duration" : 2501
+          "start" : 1761440906973,
+          "stop" : 1761440909646,
+          "duration" : 2673
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -186,13 +186,13 @@
       "name" : "Google Search",
       "children" : [ {
         "name" : "Search on Google",
-        "uid" : "7342eacd230a1df0",
+        "uid" : "1fbb403aed6bdfc7",
         "parentUid" : "5aacbbb2b3cdead668428c9af6fac1e8",
         "status" : "broken",
         "time" : {
-          "start" : 1760836219550,
-          "stop" : 1760836220984,
-          "duration" : 1434
+          "start" : 1761440909649,
+          "stop" : 1761440911390,
+          "duration" : 1741
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -202,24 +202,24 @@
       "name" : "RestCall basics",
       "children" : [ {
         "name" : "Rest Call GET",
-        "uid" : "cb91fc5d3ef195a",
+        "uid" : "ba7f2acf3b6ce820",
         "parentUid" : "989063bac398cf6b1df114ec0fb1e14f",
         "status" : "passed",
         "time" : {
-          "start" : 1760836220986,
-          "stop" : 1760836221062,
-          "duration" : 76
+          "start" : 1761440911392,
+          "stop" : 1761440911484,
+          "duration" : 92
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "Rest Call POST",
-        "uid" : "d54f66fcf6a782b7",
+        "uid" : "463a9991ffe2afd",
         "parentUid" : "989063bac398cf6b1df114ec0fb1e14f",
         "status" : "unknown",
         "time" : {
-          "start" : 1760836221064,
-          "stop" : 1760836221064,
+          "start" : 1761440911485,
+          "stop" : 1761440911485,
           "duration" : 0
         },
         "flaky" : false,
