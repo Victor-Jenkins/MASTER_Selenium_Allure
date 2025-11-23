@@ -1,21 +1,21 @@
 {
-  "uid" : "bfa36b7a2a5dbba4",
+  "uid" : "475709762808deda",
   "name" : "Sum of two",
   "fullName" : "Just a simple demo: Sum of two",
   "historyId" : "95129e058acb24a3e0368a578925d9cb",
   "time" : {
-    "start" : 1763255429980,
-    "stop" : 1763255429981,
-    "duration" : 1
+    "start" : 1763860486964,
+    "stop" : 1763860486966,
+    "duration" : 2
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1763255429980,
-      "stop" : 1763255429980,
-      "duration" : 0
+      "start" : 1763860486964,
+      "stop" : 1763860486965,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
     "steps" : [ {
       "name" : "Given  number 2 and number 4",
       "time" : {
-        "start" : 1763255429980,
-        "stop" : 1763255429981,
-        "duration" : 1
+        "start" : 1763860486965,
+        "stop" : 1763860486965,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,8 +46,8 @@
     }, {
       "name" : "When  the numbers are added together",
       "time" : {
-        "start" : 1763255429981,
-        "stop" : 1763255429981,
+        "start" : 1763860486965,
+        "stop" : 1763860486965,
         "duration" : 0
       },
       "status" : "passed",
@@ -61,8 +61,8 @@
     }, {
       "name" : "Then  the sum must be equal to 6",
       "time" : {
-        "start" : 1763255429981,
-        "stop" : 1763255429981,
+        "start" : 1763860486965,
+        "stop" : 1763860486965,
         "duration" : 0
       },
       "status" : "passed",
@@ -87,7 +87,7 @@
     "value" : "runnervmg1sw1"
   }, {
     "name" : "thread",
-    "value" : "2271@runnervmg1sw1.main(1)"
+    "value" : "2218@runnervmg1sw1.main(1)"
   }, {
     "name" : "feature",
     "value" : "Just a simple demo"
@@ -135,6 +135,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bfa36b7a2a5dbba4.json",
+  "source" : "475709762808deda.json",
   "parameterValues" : [ "2", "4", "6" ]
 }
