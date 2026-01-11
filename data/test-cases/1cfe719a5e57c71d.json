@@ -1,11 +1,11 @@
 {
-  "uid" : "3ad96c25582c4299",
+  "uid" : "1cfe719a5e57c71d",
   "name" : "Sum of two",
   "fullName" : "Just a simple demo: Sum of two",
-  "historyId" : "7b561028d4c8062544e6a0b46c0a3ee4",
+  "historyId" : "95129e058acb24a3e0368a578925d9cb",
   "time" : {
-    "start" : 1767489569494,
-    "stop" : 1767489569495,
+    "start" : 1768094331601,
+    "stop" : 1768094331602,
     "duration" : 1
   },
   "status" : "passed",
@@ -13,8 +13,8 @@
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1767489569494,
-      "stop" : 1767489569494,
+      "start" : 1768094331601,
+      "stop" : 1768094331601,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,11 +29,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given  number 1 and number 2",
+      "name" : "Given  number 2 and number 4",
       "time" : {
-        "start" : 1767489569494,
-        "stop" : 1767489569494,
-        "duration" : 0
+        "start" : 1768094331601,
+        "stop" : 1768094331602,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,9 +46,9 @@
     }, {
       "name" : "When  the numbers are added together",
       "time" : {
-        "start" : 1767489569494,
-        "stop" : 1767489569495,
-        "duration" : 1
+        "start" : 1768094331602,
+        "stop" : 1768094331602,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -59,10 +59,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then  the sum must be equal to 3",
+      "name" : "Then  the sum must be equal to 6",
       "time" : {
-        "start" : 1767489569495,
-        "stop" : 1767489569495,
+        "start" : 1768094331602,
+        "stop" : 1768094331602,
         "duration" : 0
       },
       "status" : "passed",
@@ -84,10 +84,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "runnervmh13bl"
+    "value" : "runnervmi13qx"
   }, {
     "name" : "thread",
-    "value" : "2254@runnervmh13bl.main(1)"
+    "value" : "2252@runnervmi13qx.main(1)"
   }, {
     "name" : "feature",
     "value" : "Just a simple demo"
@@ -118,13 +118,13 @@
   } ],
   "parameters" : [ {
     "name" : "a",
-    "value" : "1"
-  }, {
-    "name" : "b",
     "value" : "2"
   }, {
+    "name" : "b",
+    "value" : "4"
+  }, {
     "name" : "c",
-    "value" : "3"
+    "value" : "6"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -135,6 +135,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3ad96c25582c4299.json",
-  "parameterValues" : [ "1", "2", "3" ]
+  "source" : "1cfe719a5e57c71d.json",
+  "parameterValues" : [ "2", "4", "6" ]
 }
