@@ -1,11 +1,11 @@
 {
-  "uid" : "4d93848fe1ccbbcf",
+  "uid" : "dd7cf36e247cb924",
   "name" : "Sum of two",
   "fullName" : "Just a simple demo: Sum of two",
-  "historyId" : "bbd0e19c4c0e2704b4c4525cedb92a47",
+  "historyId" : "7b561028d4c8062544e6a0b46c0a3ee4",
   "time" : {
-    "start" : 1768094331587,
-    "stop" : 1768094331588,
+    "start" : 1768699063618,
+    "stop" : 1768699063619,
     "duration" : 1
   },
   "status" : "passed",
@@ -13,8 +13,8 @@
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1768094331587,
-      "stop" : 1768094331587,
+      "start" : 1768699063618,
+      "stop" : 1768699063618,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,10 +29,10 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given  number 10 and number 20",
+      "name" : "Given  number 1 and number 2",
       "time" : {
-        "start" : 1768094331587,
-        "stop" : 1768094331588,
+        "start" : 1768699063618,
+        "stop" : 1768699063619,
         "duration" : 1
       },
       "status" : "passed",
@@ -46,8 +46,8 @@
     }, {
       "name" : "When  the numbers are added together",
       "time" : {
-        "start" : 1768094331588,
-        "stop" : 1768094331588,
+        "start" : 1768699063619,
+        "stop" : 1768699063619,
         "duration" : 0
       },
       "status" : "passed",
@@ -59,10 +59,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then  the sum must be equal to 30",
+      "name" : "Then  the sum must be equal to 3",
       "time" : {
-        "start" : 1768094331588,
-        "stop" : 1768094331588,
+        "start" : 1768699063619,
+        "stop" : 1768699063619,
         "duration" : 0
       },
       "status" : "passed",
@@ -84,10 +84,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "runnervmi13qx"
+    "value" : "runnervmmtnos"
   }, {
     "name" : "thread",
-    "value" : "2252@runnervmi13qx.main(1)"
+    "value" : "2241@runnervmmtnos.main(1)"
   }, {
     "name" : "feature",
     "value" : "Just a simple demo"
@@ -116,7 +116,16 @@
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1"
+  }, {
+    "name" : "b",
+    "value" : "2"
+  }, {
+    "name" : "c",
+    "value" : "3"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -126,6 +135,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4d93848fe1ccbbcf.json",
-  "parameterValues" : [ ]
+  "source" : "dd7cf36e247cb924.json",
+  "parameterValues" : [ "1", "2", "3" ]
 }
