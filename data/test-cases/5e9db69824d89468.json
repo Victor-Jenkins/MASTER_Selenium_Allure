@@ -1,21 +1,21 @@
 {
-  "uid" : "2254e3e9b32d2b88",
+  "uid" : "5e9db69824d89468",
   "name" : "Sum of two",
   "fullName" : "Just a simple demo: Sum of two",
-  "historyId" : "7b561028d4c8062544e6a0b46c0a3ee4",
+  "historyId" : "bbd0e19c4c0e2704b4c4525cedb92a47",
   "time" : {
-    "start" : 1770515980859,
-    "stop" : 1770515980861,
-    "duration" : 2
+    "start" : 1771119848165,
+    "stop" : 1771119848166,
+    "duration" : 1
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1770515980859,
-      "stop" : 1770515980860,
-      "duration" : 1
+      "start" : 1771119848165,
+      "stop" : 1771119848165,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,10 +29,10 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given  number 1 and number 2",
+      "name" : "Given  number 10 and number 20",
       "time" : {
-        "start" : 1770515980860,
-        "stop" : 1770515980860,
+        "start" : 1771119848165,
+        "stop" : 1771119848165,
         "duration" : 0
       },
       "status" : "passed",
@@ -46,9 +46,9 @@
     }, {
       "name" : "When  the numbers are added together",
       "time" : {
-        "start" : 1770515980860,
-        "stop" : 1770515980860,
-        "duration" : 0
+        "start" : 1771119848165,
+        "stop" : 1771119848166,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -59,10 +59,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then  the sum must be equal to 3",
+      "name" : "Then  the sum must be equal to 30",
       "time" : {
-        "start" : 1770515980860,
-        "stop" : 1770515980860,
+        "start" : 1771119848166,
+        "stop" : 1771119848166,
         "duration" : 0
       },
       "status" : "passed",
@@ -84,10 +84,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "runnervmwffz4"
+    "value" : "runnervmjduv7"
   }, {
     "name" : "thread",
-    "value" : "2323@runnervmwffz4.main(1)"
+    "value" : "2358@runnervmjduv7.main(1)"
   }, {
     "name" : "feature",
     "value" : "Just a simple demo"
@@ -116,16 +116,7 @@
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ {
-    "name" : "a",
-    "value" : "1"
-  }, {
-    "name" : "b",
-    "value" : "2"
-  }, {
-    "name" : "c",
-    "value" : "3"
-  } ],
+  "parameters" : [ ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -135,6 +126,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2254e3e9b32d2b88.json",
-  "parameterValues" : [ "1", "2", "3" ]
+  "source" : "5e9db69824d89468.json",
+  "parameterValues" : [ ]
 }
