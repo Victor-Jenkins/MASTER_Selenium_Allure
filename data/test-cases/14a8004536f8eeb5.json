@@ -1,20 +1,20 @@
 {
-  "uid" : "6db04b15e135270b",
+  "uid" : "14a8004536f8eeb5",
   "name" : "Sum of two",
   "fullName" : "Just a simple demo: Sum of two",
   "historyId" : "bbd0e19c4c0e2704b4c4525cedb92a47",
   "time" : {
-    "start" : 1772933232830,
-    "stop" : 1772933232834,
-    "duration" : 4
+    "start" : 1773539334866,
+    "stop" : 1773539334867,
+    "duration" : 1
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1772933232831,
-      "stop" : 1772933232831,
+      "start" : 1773539334866,
+      "stop" : 1773539334866,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,9 +31,9 @@
     "steps" : [ {
       "name" : "Given  number 10 and number 20",
       "time" : {
-        "start" : 1772933232831,
-        "stop" : 1772933232831,
-        "duration" : 0
+        "start" : 1773539334866,
+        "stop" : 1773539334867,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,8 +46,8 @@
     }, {
       "name" : "When  the numbers are added together",
       "time" : {
-        "start" : 1772933232831,
-        "stop" : 1772933232831,
+        "start" : 1773539334867,
+        "stop" : 1773539334867,
         "duration" : 0
       },
       "status" : "passed",
@@ -61,9 +61,9 @@
     }, {
       "name" : "Then  the sum must be equal to 30",
       "time" : {
-        "start" : 1772933232831,
-        "stop" : 1772933232832,
-        "duration" : 1
+        "start" : 1773539334867,
+        "stop" : 1773539334867,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -87,7 +87,7 @@
     "value" : "runnervm0kj6c"
   }, {
     "name" : "thread",
-    "value" : "2432@runnervm0kj6c.main(1)"
+    "value" : "2436@runnervm0kj6c.main(1)"
   }, {
     "name" : "feature",
     "value" : "Just a simple demo"
@@ -126,6 +126,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6db04b15e135270b.json",
+  "source" : "14a8004536f8eeb5.json",
   "parameterValues" : [ ]
 }

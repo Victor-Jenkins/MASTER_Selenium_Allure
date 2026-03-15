@@ -1,160 +1,160 @@
 [ {
-  "uid" : "c69bc35912266eb8",
+  "uid" : "f6dc7cc7a06c958c",
+  "name" : "user can navigate and search results on Movistar.com",
+  "time" : {
+    "start" : 1773539314890,
+    "stop" : 1773539321045,
+    "duration" : 6155
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a3f37ca5bdc9a1d",
+  "name" : "user can search XBOX",
+  "time" : {
+    "start" : 1773539308911,
+    "stop" : 1773539314331,
+    "duration" : 5420
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2f31d215b40796d9",
+  "name" : "Sum of two",
+  "time" : {
+    "start" : 1773539334876,
+    "stop" : 1773539334878,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63d220926b79aeb5",
   "name" : "subtract",
   "time" : {
-    "start" : 1772933206798,
-    "stop" : 1772933206811,
-    "duration" : 13
+    "start" : 1773539304714,
+    "stop" : 1773539304729,
+    "duration" : 15
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "7c7b36a1fbb58686",
+  "uid" : "bf64245bc880fd99",
+  "name" : "user can search XBOX",
+  "time" : {
+    "start" : 1773539314428,
+    "stop" : 1773539314696,
+    "duration" : 268
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "952448738a4c12bf",
+  "name" : "Sum of two",
+  "time" : {
+    "start" : 1773539334872,
+    "stop" : 1773539334874,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2d751e8d82f0ab7",
   "name" : "user can search Shopery",
   "time" : {
-    "start" : 1772933220943,
-    "stop" : 1772933226566,
-    "duration" : 5623
+    "start" : 1773539314704,
+    "stop" : 1773539314882,
+    "duration" : 178
   },
-  "status" : "failed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "aed546895e354b0c",
+  "uid" : "5054a9e42b618c3e",
+  "name" : "Rest Call GET",
+  "time" : {
+    "start" : 1773539337423,
+    "stop" : 1773539337540,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a8253ab634f5276",
   "name" : "sum",
   "time" : {
-    "start" : 1772933206893,
-    "stop" : 1772933206893,
+    "start" : 1773539304821,
+    "stop" : 1773539304821,
     "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c26e5a99c6628f4e",
-  "name" : "user can search XBOX",
+  "uid" : "6c83ac097d883ee7",
+  "name" : "User calls web service to get a book by it's ISBN",
   "time" : {
-    "start" : 1772933214988,
-    "stop" : 1772933215257,
-    "duration" : 269
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "d45d5c7bc8115d87",
-  "name" : "multiply",
-  "time" : {
-    "start" : 1772933206896,
-    "stop" : 1772933206897,
-    "duration" : 1
+    "start" : 1773539334881,
+    "stop" : 1773539336496,
+    "duration" : 1615
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "4a8dafd6c70b5a95",
-  "name" : "Search on Google",
+  "uid" : "40f590c516b434c9",
+  "name" : "user can search Shopery",
   "time" : {
-    "start" : 1772933234333,
-    "stop" : 1772933236010,
-    "duration" : 1677
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "d690e395fb6af0c5",
-  "name" : "user can search XBOX",
-  "time" : {
-    "start" : 1772933210670,
-    "stop" : 1772933214854,
-    "duration" : 4184
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "76f588c9d4b21b34",
-  "name" : "user can navigate and search results on Movistar.com",
-  "time" : {
-    "start" : 1772933215432,
-    "stop" : 1772933220940,
-    "duration" : 5508
+    "start" : 1773539321048,
+    "stop" : 1773539327260,
+    "duration" : 6212
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "a5051b327cb3eda6",
+  "uid" : "57a140fc2c15022e",
   "name" : "Rest Call POST",
   "time" : {
-    "start" : 1772933236062,
-    "stop" : 1772933236062,
+    "start" : 1773539337541,
+    "stop" : 1773539337541,
     "duration" : 0
   },
   "status" : "unknown",
   "severity" : "normal"
 }, {
-  "uid" : "4eb8a38522194ea4",
-  "name" : "Sum of two",
+  "uid" : "3291f7f000b6eda7",
+  "name" : "multiply",
   "time" : {
-    "start" : 1772933232842,
-    "stop" : 1772933232843,
+    "start" : 1773539304824,
+    "stop" : 1773539304825,
     "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f8b52ae66cbf437",
-  "name" : "User calls web service to get a book by it's ISBN",
-  "time" : {
-    "start" : 1772933232846,
-    "stop" : 1772933234330,
-    "duration" : 1484
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "6db04b15e135270b",
+  "uid" : "14a8004536f8eeb5",
   "name" : "Sum of two",
   "time" : {
-    "start" : 1772933232830,
-    "stop" : 1772933232834,
-    "duration" : 4
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aab9021ba6633d39",
-  "name" : "Rest Call GET",
-  "time" : {
-    "start" : 1772933236013,
-    "stop" : 1772933236061,
-    "duration" : 48
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d99f73a5b43c5e99",
-  "name" : "Sum of two",
-  "time" : {
-    "start" : 1772933232839,
-    "stop" : 1772933232840,
+    "start" : 1773539334866,
+    "stop" : 1773539334867,
     "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5b860ec9b936ddaf",
+  "uid" : "f1ac654846e2d1d3",
   "name" : "user can navigate and search results in responsive mobile mode on www.telefonica.com",
   "time" : {
-    "start" : 1772933226570,
-    "stop" : 1772933232826,
-    "duration" : 6256
+    "start" : 1773539327264,
+    "stop" : 1773539334861,
+    "duration" : 7597
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "9f4c42bf8c5485e5",
-  "name" : "user can search Shopery",
+  "uid" : "298290471b4cb024",
+  "name" : "Search on Google",
   "time" : {
-    "start" : 1772933215265,
-    "stop" : 1772933215426,
-    "duration" : 161
+    "start" : 1773539336498,
+    "stop" : 1773539337421,
+    "duration" : 923
   },
   "status" : "broken",
   "severity" : "normal"
