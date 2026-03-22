@@ -1,21 +1,21 @@
 {
-  "uid" : "14a8004536f8eeb5",
+  "uid" : "6f259a41d3508710",
   "name" : "Sum of two",
   "fullName" : "Just a simple demo: Sum of two",
   "historyId" : "bbd0e19c4c0e2704b4c4525cedb92a47",
   "time" : {
-    "start" : 1773539334866,
-    "stop" : 1773539334867,
-    "duration" : 1
+    "start" : 1774143794704,
+    "stop" : 1774143794706,
+    "duration" : 2
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1773539334866,
-      "stop" : 1773539334866,
-      "duration" : 0
+      "start" : 1774143794704,
+      "stop" : 1774143794705,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
     "steps" : [ {
       "name" : "Given  number 10 and number 20",
       "time" : {
-        "start" : 1773539334866,
-        "stop" : 1773539334867,
-        "duration" : 1
+        "start" : 1774143794705,
+        "stop" : 1774143794705,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,8 +46,8 @@
     }, {
       "name" : "When  the numbers are added together",
       "time" : {
-        "start" : 1773539334867,
-        "stop" : 1773539334867,
+        "start" : 1774143794705,
+        "stop" : 1774143794705,
         "duration" : 0
       },
       "status" : "passed",
@@ -61,8 +61,8 @@
     }, {
       "name" : "Then  the sum must be equal to 30",
       "time" : {
-        "start" : 1773539334867,
-        "stop" : 1773539334867,
+        "start" : 1774143794705,
+        "stop" : 1774143794705,
         "duration" : 0
       },
       "status" : "passed",
@@ -84,10 +84,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "runnervm0kj6c"
+    "value" : "runnervm46oaq"
   }, {
     "name" : "thread",
-    "value" : "2436@runnervm0kj6c.main(1)"
+    "value" : "2437@runnervm46oaq.main(1)"
   }, {
     "name" : "feature",
     "value" : "Just a simple demo"
@@ -126,6 +126,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "14a8004536f8eeb5.json",
+  "source" : "6f259a41d3508710.json",
   "parameterValues" : [ ]
 }
