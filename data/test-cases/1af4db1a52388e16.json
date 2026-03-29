@@ -1,20 +1,20 @@
 {
-  "uid" : "4e490955796e703a",
+  "uid" : "1af4db1a52388e16",
   "name" : "Rest Call GET",
   "fullName" : "RestCall basics: Rest Call GET",
   "historyId" : "617eb2642f4554cb773251ee52a4e00d",
   "time" : {
-    "start" : 1774143797814,
-    "stop" : 1774143797863,
-    "duration" : 49
+    "start" : 1774749062295,
+    "stop" : 1774749062438,
+    "duration" : 143
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1774143797815,
-      "stop" : 1774143797815,
+      "start" : 1774749062295,
+      "stop" : 1774749062295,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,9 +31,9 @@
     "steps" : [ {
       "name" : "Given  Ik succesvol een REST call verstuur met de methode GET",
       "time" : {
-        "start" : 1774143797815,
-        "stop" : 1774143797863,
-        "duration" : 48
+        "start" : 1774749062295,
+        "stop" : 1774749062438,
+        "duration" : 143
       },
       "status" : "passed",
       "steps" : [ ],
@@ -54,10 +54,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "runnervm46oaq"
+    "value" : "runnervmrg6be"
   }, {
     "name" : "thread",
-    "value" : "2437@runnervm46oaq.main(1)"
+    "value" : "2418@runnervmrg6be.main(1)"
   }, {
     "name" : "feature",
     "value" : "RestCall basics"
@@ -96,6 +96,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4e490955796e703a.json",
+  "source" : "1af4db1a52388e16.json",
   "parameterValues" : [ ]
 }

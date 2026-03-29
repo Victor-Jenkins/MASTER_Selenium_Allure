@@ -1,20 +1,20 @@
 {
-  "uid" : "6b58426be13083a0",
+  "uid" : "9dbad1a48c31d337",
   "name" : "Sum of two",
   "fullName" : "Just a simple demo: Sum of two",
   "historyId" : "95129e058acb24a3e0368a578925d9cb",
   "time" : {
-    "start" : 1774143794714,
-    "stop" : 1774143794715,
-    "duration" : 1
+    "start" : 1774749059187,
+    "stop" : 1774749059189,
+    "duration" : 2
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1774143794714,
-      "stop" : 1774143794714,
+      "start" : 1774749059188,
+      "stop" : 1774749059188,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,8 +31,8 @@
     "steps" : [ {
       "name" : "Given  number 2 and number 4",
       "time" : {
-        "start" : 1774143794714,
-        "stop" : 1774143794714,
+        "start" : 1774749059188,
+        "stop" : 1774749059188,
         "duration" : 0
       },
       "status" : "passed",
@@ -46,8 +46,8 @@
     }, {
       "name" : "When  the numbers are added together",
       "time" : {
-        "start" : 1774143794714,
-        "stop" : 1774143794714,
+        "start" : 1774749059189,
+        "stop" : 1774749059189,
         "duration" : 0
       },
       "status" : "passed",
@@ -61,8 +61,8 @@
     }, {
       "name" : "Then  the sum must be equal to 6",
       "time" : {
-        "start" : 1774143794715,
-        "stop" : 1774143794715,
+        "start" : 1774749059189,
+        "stop" : 1774749059189,
         "duration" : 0
       },
       "status" : "passed",
@@ -84,10 +84,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "runnervm46oaq"
+    "value" : "runnervmrg6be"
   }, {
     "name" : "thread",
-    "value" : "2437@runnervm46oaq.main(1)"
+    "value" : "2418@runnervmrg6be.main(1)"
   }, {
     "name" : "feature",
     "value" : "Just a simple demo"
@@ -135,6 +135,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6b58426be13083a0.json",
+  "source" : "9dbad1a48c31d337.json",
   "parameterValues" : [ "2", "4", "6" ]
 }
