@@ -1,11 +1,11 @@
 {
-  "uid" : "e546a8c3c668c0e5",
+  "uid" : "f643c64a9bed80e9",
   "name" : "Sum of two",
   "fullName" : "Just a simple demo: Sum of two",
-  "historyId" : "7b561028d4c8062544e6a0b46c0a3ee4",
+  "historyId" : "95129e058acb24a3e0368a578925d9cb",
   "time" : {
-    "start" : 1775353946802,
-    "stop" : 1775353946803,
+    "start" : 1775959047059,
+    "stop" : 1775959047060,
     "duration" : 1
   },
   "status" : "passed",
@@ -13,8 +13,8 @@
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1775353946802,
-      "stop" : 1775353946802,
+      "start" : 1775959047059,
+      "stop" : 1775959047059,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,10 +29,10 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given  number 1 and number 2",
+      "name" : "Given  number 2 and number 4",
       "time" : {
-        "start" : 1775353946802,
-        "stop" : 1775353946802,
+        "start" : 1775959047059,
+        "stop" : 1775959047059,
         "duration" : 0
       },
       "status" : "passed",
@@ -46,8 +46,8 @@
     }, {
       "name" : "When  the numbers are added together",
       "time" : {
-        "start" : 1775353946802,
-        "stop" : 1775353946803,
+        "start" : 1775959047059,
+        "stop" : 1775959047060,
         "duration" : 1
       },
       "status" : "passed",
@@ -59,10 +59,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then  the sum must be equal to 3",
+      "name" : "Then  the sum must be equal to 6",
       "time" : {
-        "start" : 1775353946803,
-        "stop" : 1775353946803,
+        "start" : 1775959047060,
+        "stop" : 1775959047060,
         "duration" : 0
       },
       "status" : "passed",
@@ -84,10 +84,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "runnervm727z3"
+    "value" : "runnervm35a4x"
   }, {
     "name" : "thread",
-    "value" : "2421@runnervm727z3.main(1)"
+    "value" : "2334@runnervm35a4x.main(1)"
   }, {
     "name" : "feature",
     "value" : "Just a simple demo"
@@ -118,13 +118,13 @@
   } ],
   "parameters" : [ {
     "name" : "a",
-    "value" : "1"
-  }, {
-    "name" : "b",
     "value" : "2"
   }, {
+    "name" : "b",
+    "value" : "4"
+  }, {
     "name" : "c",
-    "value" : "3"
+    "value" : "6"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -135,6 +135,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e546a8c3c668c0e5.json",
-  "parameterValues" : [ "1", "2", "3" ]
+  "source" : "f643c64a9bed80e9.json",
+  "parameterValues" : [ "2", "4", "6" ]
 }
