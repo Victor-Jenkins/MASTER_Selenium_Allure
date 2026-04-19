@@ -1,12 +1,12 @@
 {
-  "uid" : "496b6240b9db4c77",
+  "uid" : "5de845bbc407363b",
   "name" : "user can navigate and search results on Movistar.com",
   "fullName" : "Check the Movistar.com: user can navigate and search results on Movistar.com",
   "historyId" : "dff912af21051c66ef4ae5f209a86ca1",
   "time" : {
-    "start" : 1775959029346,
-    "stop" : 1775959033758,
-    "duration" : 4412
+    "start" : 1776564075231,
+    "stop" : 1776564078683,
+    "duration" : 3452
   },
   "status" : "failed",
   "statusMessage" : "Más servicios",
@@ -15,8 +15,8 @@
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1775959029346,
-      "stop" : 1775959029346,
+      "start" : 1776564075231,
+      "stop" : 1776564075231,
       "duration" : 0
     },
     "status" : "passed",
@@ -35,17 +35,17 @@
     "steps" : [ {
       "name" : "Given  an open browser with Movistar.com",
       "time" : {
-        "start" : 1775959029347,
-        "stop" : 1775959033598,
-        "duration" : 4251
+        "start" : 1776564075231,
+        "stop" : 1776564078483,
+        "duration" : 3252
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "$(open) https://www.movistar.es/particulares/movistarplus/",
         "time" : {
-          "start" : 1775959029347,
-          "stop" : 1775959033097,
-          "duration" : 3750
+          "start" : 1776564075232,
+          "stop" : 1776564077983,
+          "duration" : 2751
         },
         "status" : "passed",
         "steps" : [ ],
@@ -65,9 +65,9 @@
     }, {
       "name" : "When  Complete input with \"Hola Carlos :).\" and check cookies",
       "time" : {
-        "start" : 1775959033598,
-        "stop" : 1775959033756,
-        "duration" : 158
+        "start" : 1776564078483,
+        "stop" : 1776564078679,
+        "duration" : 196
       },
       "status" : "failed",
       "statusMessage" : "Más servicios",
@@ -75,9 +75,9 @@
       "steps" : [ {
         "name" : "$(By.xpath: //*[@id='onetrust-pc-btn-handler']) is displayed()",
         "time" : {
-          "start" : 1775959033688,
-          "stop" : 1775959033734,
-          "duration" : 46
+          "start" : 1776564078580,
+          "stop" : 1776564078653,
+          "duration" : 73
         },
         "status" : "passed",
         "steps" : [ ],
@@ -90,9 +90,9 @@
       }, {
         "name" : "$(By.xpath: //*[@id=\"__next\"]/header/div[2]/div[1]/div[1]/a[7]/div/span) exists()",
         "time" : {
-          "start" : 1775959033734,
-          "stop" : 1775959033754,
-          "duration" : 20
+          "start" : 1776564078654,
+          "stop" : 1776564078675,
+          "duration" : 21
         },
         "status" : "passed",
         "steps" : [ ],
@@ -112,9 +112,9 @@
     }, {
       "name" : "Then  Complete input with \" Como estas?\"",
       "time" : {
-        "start" : 1775959033756,
-        "stop" : 1775959033757,
-        "duration" : 1
+        "start" : 1776564078679,
+        "stop" : 1776564078679,
+        "duration" : 0
       },
       "status" : "skipped",
       "steps" : [ ],
@@ -127,8 +127,8 @@
     }, {
       "name" : "Then  Check Title and click play video",
       "time" : {
-        "start" : 1775959033757,
-        "stop" : 1775959033757,
+        "start" : 1776564078679,
+        "stop" : 1776564078679,
         "duration" : 0
       },
       "status" : "skipped",
@@ -142,8 +142,8 @@
     }, {
       "name" : "Then  Check the navigation and add Zipcode \"08223\"",
       "time" : {
-        "start" : 1775959033757,
-        "stop" : 1775959033757,
+        "start" : 1776564078680,
+        "stop" : 1776564078680,
         "duration" : 0
       },
       "status" : "skipped",
@@ -157,9 +157,9 @@
     }, {
       "name" : "Then  Check previous Steps for contracting",
       "time" : {
-        "start" : 1775959033757,
-        "stop" : 1775959033757,
-        "duration" : 0
+        "start" : 1776564078680,
+        "stop" : 1776564078682,
+        "duration" : 2
       },
       "status" : "skipped",
       "steps" : [ ],
@@ -172,8 +172,8 @@
     }, {
       "name" : "Then  Check previous Steps for contracting1",
       "time" : {
-        "start" : 1775959033758,
-        "stop" : 1775959033758,
+        "start" : 1776564078682,
+        "stop" : 1776564078682,
         "duration" : 0
       },
       "status" : "skipped",
@@ -187,8 +187,8 @@
     }, {
       "name" : "Then  Finish Shopping \"Sudo\"",
       "time" : {
-        "start" : 1775959033758,
-        "stop" : 1775959033758,
+        "start" : 1776564078682,
+        "stop" : 1776564078682,
         "duration" : 0
       },
       "status" : "skipped",
@@ -213,10 +213,10 @@
     "value" : "Telefonica2"
   }, {
     "name" : "host",
-    "value" : "runnervm35a4x"
+    "value" : "runnervmeorf1"
   }, {
     "name" : "thread",
-    "value" : "2334@runnervm35a4x.main(1)"
+    "value" : "2412@runnervmeorf1.main(1)"
   }, {
     "name" : "feature",
     "value" : "Check the Movistar.com"
@@ -259,6 +259,6 @@
     } ],
     "tags" : [ "Telefonica2" ]
   },
-  "source" : "496b6240b9db4c77.json",
+  "source" : "5de845bbc407363b.json",
   "parameterValues" : [ ]
 }

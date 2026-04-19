@@ -6,13 +6,13 @@
       "name" : "expected:<-10> but was:<-9>",
       "children" : [ {
         "name" : "subtract",
-        "uid" : "ba09e831e892e0c4",
+        "uid" : "41df822d9ce37cba",
         "parentUid" : "632776af227c200a22f287b0bf382b90",
         "status" : "failed",
         "time" : {
-          "start" : 1775959019134,
-          "stop" : 1775959019149,
-          "duration" : 15
+          "start" : 1776564066396,
+          "stop" : 1776564066410,
+          "duration" : 14
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -22,12 +22,12 @@
       "name" : "expected:<200> but was:<199>",
       "children" : [ {
         "name" : "multiply",
-        "uid" : "57f2ca37f5218f77",
+        "uid" : "87a9417143506f18",
         "parentUid" : "5bb1f4d635459a0cf51efe675d330c69",
         "status" : "failed",
         "time" : {
-          "start" : 1775959019235,
-          "stop" : 1775959019235,
+          "start" : 1776564066495,
+          "stop" : 1776564066495,
           "duration" : 0
         },
         "flaky" : false,
@@ -38,13 +38,13 @@
       "name" : "Más servicios",
       "children" : [ {
         "name" : "user can navigate and search results on Movistar.com",
-        "uid" : "496b6240b9db4c77",
+        "uid" : "5de845bbc407363b",
         "parentUid" : "97bf60928a1e281b1a17627c2eba1b63",
         "status" : "failed",
         "time" : {
-          "start" : 1775959029346,
-          "stop" : 1775959033758,
-          "duration" : 4412
+          "start" : 1776564075231,
+          "stop" : 1776564078683,
+          "duration" : 3452
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -54,13 +54,13 @@
       "name" : ": expected: >= 1, actual: 0, collection: #res .g\nElements: []",
       "children" : [ {
         "name" : "user can search Shopery",
-        "uid" : "e55e19bdb95f16d6",
+        "uid" : "30afd871ce29d976",
         "parentUid" : "64e24936b240c336ba0fd72fb561f22a",
         "status" : "failed",
         "time" : {
-          "start" : 1775959033761,
-          "stop" : 1775959039290,
-          "duration" : 5529
+          "start" : 1776564078687,
+          "stop" : 1776564084229,
+          "duration" : 5542
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -70,13 +70,13 @@
       "name" : "Element not found {By.xpath: //*[@id='onetrust-pc-sdk']/div[3]/div[1]/div/button[1]}\nExpected: visible or transparent",
       "children" : [ {
         "name" : "user can navigate and search results in responsive mobile mode on www.telefonica.com",
-        "uid" : "ae848fe7827bed4e",
+        "uid" : "50d6831f003300f3",
         "parentUid" : "5196d7212d9838bb2f3d7398bc007069",
         "status" : "failed",
         "time" : {
-          "start" : 1775959039294,
-          "stop" : 1775959047045,
-          "duration" : 7751
+          "start" : 1776564084233,
+          "stop" : 1776564090225,
+          "duration" : 5992
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -86,13 +86,13 @@
       "name" : "1 expectation failed.\nExpected status code <200> but was <429>.\n",
       "children" : [ {
         "name" : "User calls web service to get a book by it's ISBN",
-        "uid" : "ceaa13b7f268619c",
+        "uid" : "1b2bc14e97ea94bd",
         "parentUid" : "e6d753ce839107360ae36df50f331666",
         "status" : "failed",
         "time" : {
-          "start" : 1775959047064,
-          "stop" : 1775959048543,
-          "duration" : 1479
+          "start" : 1776564090242,
+          "stop" : 1776564091676,
+          "duration" : 1434
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -103,64 +103,64 @@
   }, {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'runnervm35a4x', ip: '10.1.0.228', os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1010-azure', java.version: '11.0.30'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://google.es\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x56401699ba6a <unknown>\n#1 0x5640163aaab5 <unknown>\n#2 0x5640163e766b <unknown>\n#3 0x5640163e2339 <unknown>\n#4 0x56401643253e <unknown>\n#5 0x564016431c2c <unknown>\n#6 0x5640163f0cbf <unknown>\n#7 0x5640163f1a81 <unknown>\n#8 0x564016961a64 <unknown>\n#9 0x564016964951 <unknown>\n#10 0x56401694e21e <unknown>\n#11 0x56401696551e <unknown>\n#12 0x564016934be0 <unknown>\n#13 0x5640169889b8 <unknown>\n#14 0x564016988b88 <unknown>\n#15 0x56401699a4de <unknown>\n#16 0x7fb264e9caa4 <unknown>\n#17 0x7fb264f29c6c <unknown>\n",
+      "name" : "session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'runnervmeorf1', ip: '10.1.0.208', os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1010-azure', java.version: '11.0.30'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://google.es\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x563a23235afa <unknown>\n#1 0x563a22c37265 <unknown>\n#2 0x563a22c73f3b <unknown>\n#3 0x563a22c6ec09 <unknown>\n#4 0x563a22cbef9e <unknown>\n#5 0x563a22cbe68c <unknown>\n#6 0x563a22c7d5cf <unknown>\n#7 0x563a22c7e391 <unknown>\n#8 0x563a231fafdb <unknown>\n#9 0x563a231fdf9d <unknown>\n#10 0x563a231e7798 <unknown>\n#11 0x563a231feb30 <unknown>\n#12 0x563a231ce210 <unknown>\n#13 0x563a23222d48 <unknown>\n#14 0x563a23222f18 <unknown>\n#15 0x563a2323456e <unknown>\n#16 0x7f4be009caa4 <unknown>\n#17 0x7f4be0129c6c <unknown>\n",
       "children" : [ {
         "name" : "user can search XBOX",
-        "uid" : "296253831680ca2d",
-        "parentUid" : "a9c3ec2a94bd113cdc7f6914faab2968",
+        "uid" : "6a91c871dd106e42",
+        "parentUid" : "9ae857fd560e6408da4eda2b222d1832",
         "status" : "broken",
         "time" : {
-          "start" : 1775959022878,
-          "stop" : 1775959028799,
-          "duration" : 5921
+          "start" : 1776564070239,
+          "stop" : 1776564074689,
+          "duration" : 4450
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a9c3ec2a94bd113cdc7f6914faab2968"
+      "uid" : "9ae857fd560e6408da4eda2b222d1832"
     }, {
-      "name" : "session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'runnervm35a4x', ip: '10.1.0.228', os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1010-azure', java.version: '11.0.30'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.xbox.com/es-ES/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x5594c5832a6a <unknown>\n#1 0x5594c5241ab5 <unknown>\n#2 0x5594c527e66b <unknown>\n#3 0x5594c5279339 <unknown>\n#4 0x5594c52c953e <unknown>\n#5 0x5594c52c8c2c <unknown>\n#6 0x5594c5287cbf <unknown>\n#7 0x5594c5288a81 <unknown>\n#8 0x5594c57f8a64 <unknown>\n#9 0x5594c57fb951 <unknown>\n#10 0x5594c57e521e <unknown>\n#11 0x5594c57fc51e <unknown>\n#12 0x5594c57cbbe0 <unknown>\n#13 0x5594c581f9b8 <unknown>\n#14 0x5594c581fb88 <unknown>\n#15 0x5594c58314de <unknown>\n#16 0x7f12e429caa4 <unknown>\n#17 0x7f12e4329c6c <unknown>\n",
+      "name" : "session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'runnervmeorf1', ip: '10.1.0.208', os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1010-azure', java.version: '11.0.30'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://www.xbox.com/es-ES/\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x55f509819afa <unknown>\n#1 0x55f50921b265 <unknown>\n#2 0x55f509257f3b <unknown>\n#3 0x55f509252c09 <unknown>\n#4 0x55f5092a2f9e <unknown>\n#5 0x55f5092a268c <unknown>\n#6 0x55f5092615cf <unknown>\n#7 0x55f509262391 <unknown>\n#8 0x55f5097defdb <unknown>\n#9 0x55f5097e1f9d <unknown>\n#10 0x55f5097cb798 <unknown>\n#11 0x55f5097e2b30 <unknown>\n#12 0x55f5097b2210 <unknown>\n#13 0x55f509806d48 <unknown>\n#14 0x55f509806f18 <unknown>\n#15 0x55f50981856e <unknown>\n#16 0x7f866e69caa4 <unknown>\n#17 0x7f866e729c6c <unknown>\n",
       "children" : [ {
         "name" : "user can search XBOX",
-        "uid" : "2be0b8bf71782ddd",
-        "parentUid" : "74950921cbdcbb9cef627f60dada734b",
+        "uid" : "eca4ab078e821e31",
+        "parentUid" : "5745de04d8eca0e1bb77aa37c27643ba",
         "status" : "broken",
         "time" : {
-          "start" : 1775959028885,
-          "stop" : 1775959029144,
-          "duration" : 259
+          "start" : 1776564074774,
+          "stop" : 1776564075029,
+          "duration" : 255
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "74950921cbdcbb9cef627f60dada734b"
+      "uid" : "5745de04d8eca0e1bb77aa37c27643ba"
     }, {
-      "name" : "session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'runnervm35a4x', ip: '10.1.0.228', os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1010-azure', java.version: '11.0.30'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://shopery.com\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x5614886cda6a <unknown>\n#1 0x5614880dcab5 <unknown>\n#2 0x56148811966b <unknown>\n#3 0x561488114339 <unknown>\n#4 0x56148816453e <unknown>\n#5 0x561488163c2c <unknown>\n#6 0x561488122cbf <unknown>\n#7 0x561488123a81 <unknown>\n#8 0x561488693a64 <unknown>\n#9 0x561488696951 <unknown>\n#10 0x56148868021e <unknown>\n#11 0x56148869751e <unknown>\n#12 0x561488666be0 <unknown>\n#13 0x5614886ba9b8 <unknown>\n#14 0x5614886bab88 <unknown>\n#15 0x5614886cc4de <unknown>\n#16 0x7fcb0c89caa4 <unknown>\n#17 0x7fcb0c929c6c <unknown>\n",
+      "name" : "session not created: Chrome instance exited. Examine ChromeDriver verbose log to determine the cause.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'runnervmeorf1', ip: '10.1.0.208', os.name: 'Linux', os.arch: 'amd64', os.version: '6.17.0-1010-azure', java.version: '11.0.30'\nDriver info: driver.version: SelenideDriver\nselenide.url: https://shopery.com\nselenide.baseUrl: http://localhost:8080\nremote stacktrace: #0 0x563fa2948afa <unknown>\n#1 0x563fa234a265 <unknown>\n#2 0x563fa2386f3b <unknown>\n#3 0x563fa2381c09 <unknown>\n#4 0x563fa23d1f9e <unknown>\n#5 0x563fa23d168c <unknown>\n#6 0x563fa23905cf <unknown>\n#7 0x563fa2391391 <unknown>\n#8 0x563fa290dfdb <unknown>\n#9 0x563fa2910f9d <unknown>\n#10 0x563fa28fa798 <unknown>\n#11 0x563fa2911b30 <unknown>\n#12 0x563fa28e1210 <unknown>\n#13 0x563fa2935d48 <unknown>\n#14 0x563fa2935f18 <unknown>\n#15 0x563fa294756e <unknown>\n#16 0x7fa9d649caa4 <unknown>\n#17 0x7fa9d6529c6c <unknown>\n",
       "children" : [ {
         "name" : "user can search Shopery",
-        "uid" : "da0bdf992cc6cb4a",
-        "parentUid" : "1dc5c24d25dca268ed11095bd6ef4b12",
+        "uid" : "22830aa538e19190",
+        "parentUid" : "a1365557e4bfb12244146ab1fa8302bf",
         "status" : "broken",
         "time" : {
-          "start" : 1775959029152,
-          "stop" : 1775959029341,
-          "duration" : 189
+          "start" : 1776564075044,
+          "stop" : 1776564075225,
+          "duration" : 181
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1dc5c24d25dca268ed11095bd6ef4b12"
+      "uid" : "a1365557e4bfb12244146ab1fa8302bf"
     }, {
       "name" : "Posición fuera de rango",
       "children" : [ {
         "name" : "Search on Google",
-        "uid" : "eb9a3038da9ad328",
+        "uid" : "7a4f7fc38bc5fb25",
         "parentUid" : "2b06b224a045b85c438154a7ccfb4af4",
         "status" : "broken",
         "time" : {
-          "start" : 1775959048546,
-          "stop" : 1775959050145,
-          "duration" : 1599
+          "start" : 1776564091678,
+          "stop" : 1776564093160,
+          "duration" : 1482
         },
         "flaky" : false,
         "parameters" : [ ]
