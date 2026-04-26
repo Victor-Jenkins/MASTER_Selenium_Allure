@@ -1,12 +1,12 @@
 {
-  "uid" : "30b975aa2aeae8e0",
+  "uid" : "72d50f96f8b88229",
   "name" : "Rest Call POST",
   "fullName" : "RestCall basics: Rest Call POST",
   "historyId" : "6a9b125503af5ea445f7c75facd9435",
   "time" : {
-    "start" : 1776564093223,
-    "stop" : 1776564093225,
-    "duration" : 2
+    "start" : 1777169084533,
+    "stop" : 1777169084533,
+    "duration" : 0
   },
   "status" : "unknown",
   "flaky" : false,
@@ -17,7 +17,7 @@
     "value" : "runnervmeorf1"
   }, {
     "name" : "thread",
-    "value" : "2412@runnervmeorf1.main(1)"
+    "value" : "2497@runnervmeorf1.main(1)"
   }, {
     "name" : "feature",
     "value" : "RestCall basics"
@@ -56,6 +56,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "30b975aa2aeae8e0.json",
+  "source" : "72d50f96f8b88229.json",
   "parameterValues" : [ ]
 }
