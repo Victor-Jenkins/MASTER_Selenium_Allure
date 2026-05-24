@@ -45,6 +45,17 @@
       "total" : 1
     }
   }, {
+    "uid" : "9d6a37e36eb81993def58e6a5385a67f",
+    "name" : "RestCall basics",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 2
+    }
+  }, {
     "uid" : "41b0f779ce3accdf0d48135d846d05de",
     "name" : "Google Search",
     "statistic" : {
@@ -54,17 +65,6 @@
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
-    }
-  }, {
-    "uid" : "9d6a37e36eb81993def58e6a5385a67f",
-    "name" : "RestCall basics",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 1,
-      "total" : 2
     }
   }, {
     "uid" : "221d3ca07cd3dc92b8bbba5505b2bb3d",
