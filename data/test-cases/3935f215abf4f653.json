@@ -1,11 +1,11 @@
 {
-  "uid" : "a96a9d2bb3ff66a6",
+  "uid" : "3935f215abf4f653",
   "name" : "Sum of two",
   "fullName" : "Just a simple demo: Sum of two",
   "historyId" : "7b561028d4c8062544e6a0b46c0a3ee4",
   "time" : {
-    "start" : 1779590287639,
-    "stop" : 1779590287640,
+    "start" : 1780195674174,
+    "stop" : 1780195674175,
     "duration" : 1
   },
   "status" : "passed",
@@ -13,8 +13,8 @@
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1779590287639,
-      "stop" : 1779590287639,
+      "start" : 1780195674175,
+      "stop" : 1780195674175,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,8 +31,8 @@
     "steps" : [ {
       "name" : "Given  number 1 and number 2",
       "time" : {
-        "start" : 1779590287639,
-        "stop" : 1779590287639,
+        "start" : 1780195674175,
+        "stop" : 1780195674175,
         "duration" : 0
       },
       "status" : "passed",
@@ -46,9 +46,9 @@
     }, {
       "name" : "When  the numbers are added together",
       "time" : {
-        "start" : 1779590287639,
-        "stop" : 1779590287640,
-        "duration" : 1
+        "start" : 1780195674175,
+        "stop" : 1780195674175,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -61,8 +61,8 @@
     }, {
       "name" : "Then  the sum must be equal to 3",
       "time" : {
-        "start" : 1779590287640,
-        "stop" : 1779590287640,
+        "start" : 1780195674175,
+        "stop" : 1780195674175,
         "duration" : 0
       },
       "status" : "passed",
@@ -84,10 +84,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "runnervmg397c"
+    "value" : "runnervm3jyl0"
   }, {
     "name" : "thread",
-    "value" : "2442@runnervmg397c.main(1)"
+    "value" : "2398@runnervm3jyl0.main(1)"
   }, {
     "name" : "feature",
     "value" : "Just a simple demo"
@@ -135,6 +135,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a96a9d2bb3ff66a6.json",
+  "source" : "3935f215abf4f653.json",
   "parameterValues" : [ "1", "2", "3" ]
 }
