@@ -1,20 +1,20 @@
 {
-  "uid" : "6a66295a8d225ff5",
+  "uid" : "a4d2945aa793efe9",
   "name" : "Sum of two",
   "fullName" : "Just a simple demo: Sum of two",
-  "historyId" : "bbd0e19c4c0e2704b4c4525cedb92a47",
+  "historyId" : "95129e058acb24a3e0368a578925d9cb",
   "time" : {
-    "start" : 1780195674169,
-    "stop" : 1780195674170,
-    "duration" : 1
+    "start" : 1780800695223,
+    "stop" : 1780800695225,
+    "duration" : 2
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1780195674169,
-      "stop" : 1780195674169,
+      "start" : 1780800695224,
+      "stop" : 1780800695224,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,11 +29,11 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Given  number 10 and number 20",
+      "name" : "Given  number 2 and number 4",
       "time" : {
-        "start" : 1780195674169,
-        "stop" : 1780195674170,
-        "duration" : 1
+        "start" : 1780800695224,
+        "stop" : 1780800695224,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,8 +46,8 @@
     }, {
       "name" : "When  the numbers are added together",
       "time" : {
-        "start" : 1780195674170,
-        "stop" : 1780195674170,
+        "start" : 1780800695224,
+        "stop" : 1780800695224,
         "duration" : 0
       },
       "status" : "passed",
@@ -59,10 +59,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "Then  the sum must be equal to 30",
+      "name" : "Then  the sum must be equal to 6",
       "time" : {
-        "start" : 1780195674170,
-        "stop" : 1780195674170,
+        "start" : 1780800695224,
+        "stop" : 1780800695224,
         "duration" : 0
       },
       "status" : "passed",
@@ -87,7 +87,7 @@
     "value" : "runnervm3jyl0"
   }, {
     "name" : "thread",
-    "value" : "2398@runnervm3jyl0.main(1)"
+    "value" : "2425@runnervm3jyl0.main(1)"
   }, {
     "name" : "feature",
     "value" : "Just a simple demo"
@@ -116,7 +116,16 @@
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "2"
+  }, {
+    "name" : "b",
+    "value" : "4"
+  }, {
+    "name" : "c",
+    "value" : "6"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -126,6 +135,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6a66295a8d225ff5.json",
-  "parameterValues" : [ ]
+  "source" : "a4d2945aa793efe9.json",
+  "parameterValues" : [ "2", "4", "6" ]
 }

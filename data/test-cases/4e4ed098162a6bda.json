@@ -1,12 +1,12 @@
 {
-  "uid" : "52eb98edca80213b",
+  "uid" : "4e4ed098162a6bda",
   "name" : "Search on Google",
   "fullName" : "Google Search: Search on Google",
   "historyId" : "96aa3031f538c488489e3492917bee72",
   "time" : {
-    "start" : 1780195676023,
-    "stop" : 1780195677700,
-    "duration" : 1677
+    "start" : 1780800696768,
+    "stop" : 1780800698325,
+    "duration" : 1557
   },
   "status" : "broken",
   "statusMessage" : "Posición fuera de rango",
@@ -15,8 +15,8 @@
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1780195676023,
-      "stop" : 1780195676023,
+      "start" : 1780800696768,
+      "stop" : 1780800696768,
       "duration" : 0
     },
     "status" : "passed",
@@ -35,17 +35,17 @@
     "steps" : [ {
       "name" : "Given  the Google search page",
       "time" : {
-        "start" : 1780195676023,
-        "stop" : 1780195676499,
-        "duration" : 476
+        "start" : 1780800696768,
+        "stop" : 1780800697153,
+        "duration" : 385
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "$(open) https://google.com",
         "time" : {
-          "start" : 1780195676024,
-          "stop" : 1780195676499,
-          "duration" : 475
+          "start" : 1780800696769,
+          "stop" : 1780800697153,
+          "duration" : 384
         },
         "status" : "passed",
         "steps" : [ ],
@@ -65,17 +65,17 @@
     }, {
       "name" : "When  we search for \"hello world\"",
       "time" : {
-        "start" : 1780195676500,
-        "stop" : 1780195676856,
-        "duration" : 356
+        "start" : 1780800697153,
+        "stop" : 1780800697483,
+        "duration" : 330
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "$(By.name: q) val(hello world)",
         "time" : {
-          "start" : 1780195676500,
-          "stop" : 1780195676689,
-          "duration" : 189
+          "start" : 1780800697154,
+          "stop" : 1780800697347,
+          "duration" : 193
         },
         "status" : "passed",
         "steps" : [ ],
@@ -88,9 +88,9 @@
       }, {
         "name" : "$(By.name: q) press enter()",
         "time" : {
-          "start" : 1780195676689,
-          "stop" : 1780195676856,
-          "duration" : 167
+          "start" : 1780800697347,
+          "stop" : 1780800697482,
+          "duration" : 135
         },
         "status" : "passed",
         "steps" : [ ],
@@ -110,9 +110,9 @@
     }, {
       "name" : "Then  the first result must be \"hell world\"",
       "time" : {
-        "start" : 1780195676856,
-        "stop" : 1780195677699,
-        "duration" : 843
+        "start" : 1780800697483,
+        "stop" : 1780800698324,
+        "duration" : 841
       },
       "status" : "broken",
       "statusMessage" : "Posición fuera de rango",
@@ -138,7 +138,7 @@
     "value" : "runnervm3jyl0"
   }, {
     "name" : "thread",
-    "value" : "2398@runnervm3jyl0.main(1)"
+    "value" : "2425@runnervm3jyl0.main(1)"
   }, {
     "name" : "feature",
     "value" : "Google Search"
@@ -181,6 +181,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "52eb98edca80213b.json",
+  "source" : "4e4ed098162a6bda.json",
   "parameterValues" : [ ]
 }
