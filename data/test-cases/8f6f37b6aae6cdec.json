@@ -1,11 +1,11 @@
 {
-  "uid" : "d714b42768c4154c",
+  "uid" : "8f6f37b6aae6cdec",
   "name" : "Sum of two",
   "fullName" : "Just a simple demo: Sum of two",
   "historyId" : "95129e058acb24a3e0368a578925d9cb",
   "time" : {
-    "start" : 1788058425793,
-    "stop" : 1788058425794,
+    "start" : 1788661043240,
+    "stop" : 1788661043241,
     "duration" : 1
   },
   "status" : "passed",
@@ -13,8 +13,8 @@
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1788058425794,
-      "stop" : 1788058425794,
+      "start" : 1788661043240,
+      "stop" : 1788661043240,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,9 +31,9 @@
     "steps" : [ {
       "name" : "Given  number 2 and number 4",
       "time" : {
-        "start" : 1788058425794,
-        "stop" : 1788058425794,
-        "duration" : 0
+        "start" : 1788661043240,
+        "stop" : 1788661043241,
+        "duration" : 1
       },
       "status" : "passed",
       "steps" : [ ],
@@ -46,8 +46,8 @@
     }, {
       "name" : "When  the numbers are added together",
       "time" : {
-        "start" : 1788058425794,
-        "stop" : 1788058425794,
+        "start" : 1788661043241,
+        "stop" : 1788661043241,
         "duration" : 0
       },
       "status" : "passed",
@@ -61,8 +61,8 @@
     }, {
       "name" : "Then  the sum must be equal to 6",
       "time" : {
-        "start" : 1788058425794,
-        "stop" : 1788058425794,
+        "start" : 1788661043241,
+        "stop" : 1788661043241,
         "duration" : 0
       },
       "status" : "passed",
@@ -84,10 +84,10 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "runnervmgx7h7"
+    "value" : "runnervmejwal"
   }, {
     "name" : "thread",
-    "value" : "2362@runnervmgx7h7.main(1)"
+    "value" : "2385@runnervmejwal.main(1)"
   }, {
     "name" : "feature",
     "value" : "Just a simple demo"
@@ -135,6 +135,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d714b42768c4154c.json",
+  "source" : "8f6f37b6aae6cdec.json",
   "parameterValues" : [ "2", "4", "6" ]
 }
