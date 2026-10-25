@@ -1,161 +1,161 @@
 [ {
-  "uid" : "e12657a5cf1620a8",
-  "name" : "subtract",
-  "time" : {
-    "start" : 1792290469119,
-    "stop" : 1792290469132,
-    "duration" : 13
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "155a6c4ca1eaabcd",
-  "name" : "user can search Shopery",
-  "time" : {
-    "start" : 1792290478300,
-    "stop" : 1792290478473,
-    "duration" : 173
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "74bca7fdde696bfb",
-  "name" : "user can navigate and search results on Movistar.com",
-  "time" : {
-    "start" : 1792290478479,
-    "stop" : 1792290485888,
-    "duration" : 7409
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "409287c21f25dfa2",
-  "name" : "Sum of two",
-  "time" : {
-    "start" : 1792290498908,
-    "stop" : 1792290498910,
-    "duration" : 2
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "976eb0186938c2d9",
-  "name" : "User calls web service to get a book by it's ISBN",
-  "time" : {
-    "start" : 1792290498913,
-    "stop" : 1792290500516,
-    "duration" : 1603
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d9324c85072834e",
-  "name" : "user can search XBOX",
-  "time" : {
-    "start" : 1792290478034,
-    "stop" : 1792290478291,
-    "duration" : 257
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "694138c08666fbc6",
-  "name" : "Search on Google",
-  "time" : {
-    "start" : 1792290500519,
-    "stop" : 1792290502128,
-    "duration" : 1609
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "5a88e0b0397dff8d",
-  "name" : "user can search Shopery",
-  "time" : {
-    "start" : 1792290485890,
-    "stop" : 1792290492384,
-    "duration" : 6494
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "76ed86ca5657c374",
+  "uid" : "ea540e7caea706d4",
   "name" : "multiply",
   "time" : {
-    "start" : 1792290469236,
-    "stop" : 1792290469237,
+    "start" : 1792895898924,
+    "stop" : 1792895898925,
     "duration" : 1
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "c1dee409b86a5e3c",
-  "name" : "Sum of two",
-  "time" : {
-    "start" : 1792290498905,
-    "stop" : 1792290498907,
-    "duration" : 2
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c58153b5cac98fc9",
-  "name" : "sum",
-  "time" : {
-    "start" : 1792290469232,
-    "stop" : 1792290469232,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b1b25796725cbe9b",
+  "uid" : "a1621ecdbffd4e80",
   "name" : "Rest Call POST",
   "time" : {
-    "start" : 1792290503005,
-    "stop" : 1792290503005,
+    "start" : 1792895941477,
+    "stop" : 1792895941477,
     "duration" : 0
   },
   "status" : "unknown",
   "severity" : "normal"
 }, {
-  "uid" : "61b9688e7aab6595",
-  "name" : "Rest Call GET",
+  "uid" : "808d9803670730ba",
+  "name" : "user can search Shopery",
   "time" : {
-    "start" : 1792290502130,
-    "stop" : 1792290503004,
-    "duration" : 874
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7d38cba5a12faa36",
-  "name" : "user can search XBOX",
-  "time" : {
-    "start" : 1792290472781,
-    "stop" : 1792290477944,
-    "duration" : 5163
+    "start" : 1792895911546,
+    "stop" : 1792895911723,
+    "duration" : 177
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "82120af71eab4043",
+  "uid" : "233f3fc948ab7ed2",
+  "name" : "subtract",
+  "time" : {
+    "start" : 1792895898816,
+    "stop" : 1792895898833,
+    "duration" : 17
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f975c1780b4750c9",
+  "name" : "user can navigate and search results in responsive mobile mode on www.telefonica.com",
+  "time" : {
+    "start" : 1792895929616,
+    "stop" : 1792895937374,
+    "duration" : 7758
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a96912ad7556a89b",
   "name" : "Sum of two",
   "time" : {
-    "start" : 1792290498899,
-    "stop" : 1792290498901,
+    "start" : 1792895937378,
+    "stop" : 1792895937380,
     "duration" : 2
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "45542e76e85728b4",
-  "name" : "user can navigate and search results in responsive mobile mode on www.telefonica.com",
+  "uid" : "d0f8498d44a21f5e",
+  "name" : "user can search Shopery",
   "time" : {
-    "start" : 1792290492388,
-    "stop" : 1792290498895,
-    "duration" : 6507
+    "start" : 1792895923666,
+    "stop" : 1792895929612,
+    "duration" : 5946
   },
   "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "75141d6a34dff1c8",
+  "name" : "user can navigate and search results on Movistar.com",
+  "time" : {
+    "start" : 1792895911728,
+    "stop" : 1792895923663,
+    "duration" : 11935
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5db168eb3c8e1e28",
+  "name" : "Sum of two",
+  "time" : {
+    "start" : 1792895937387,
+    "stop" : 1792895937389,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64e2b7177ca4b184",
+  "name" : "User calls web service to get a book by it's ISBN",
+  "time" : {
+    "start" : 1792895937392,
+    "stop" : 1792895938979,
+    "duration" : 1587
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c877a22878dca7d2",
+  "name" : "Sum of two",
+  "time" : {
+    "start" : 1792895937384,
+    "stop" : 1792895937385,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f83701ff164cc4eb",
+  "name" : "Search on Google",
+  "time" : {
+    "start" : 1792895938982,
+    "stop" : 1792895940544,
+    "duration" : 1562
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5454fa0bf0169963",
+  "name" : "sum",
+  "time" : {
+    "start" : 1792895898920,
+    "stop" : 1792895898921,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0449a38e792bf36",
+  "name" : "user can search XBOX",
+  "time" : {
+    "start" : 1792895911274,
+    "stop" : 1792895911539,
+    "duration" : 265
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "898671953e863dc5",
+  "name" : "user can search XBOX",
+  "time" : {
+    "start" : 1792895902541,
+    "stop" : 1792895911168,
+    "duration" : 8627
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "97cb437cb1336618",
+  "name" : "Rest Call GET",
+  "time" : {
+    "start" : 1792895940546,
+    "stop" : 1792895941476,
+    "duration" : 930
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]
