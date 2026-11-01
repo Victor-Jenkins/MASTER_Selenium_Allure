@@ -1,63 +1,63 @@
 {
-  "uid" : "97cb437cb1336618",
+  "uid" : "63615bd973fec37a",
   "name" : "Rest Call GET",
   "fullName" : "RestCall basics: Rest Call GET",
   "historyId" : "617eb2642f4554cb773251ee52a4e00d",
   "time" : {
-    "start" : 1792895940546,
-    "stop" : 1792895941476,
-    "duration" : 930
+    "start" : 1793504482379,
+    "stop" : 1793504483316,
+    "duration" : 937
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1792895940546,
-      "stop" : 1792895940546,
+      "start" : 1793504482379,
+      "stop" : 1793504482379,
       "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "attachmentsCount" : 0,
+    "hasContent" : false,
     "shouldDisplayMessage" : false,
-    "hasContent" : false
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
       "name" : "Given  Ik succesvol een REST call verstuur met de methode GET",
       "time" : {
-        "start" : 1792895940546,
-        "stop" : 1792895941476,
-        "duration" : 930
+        "start" : 1793504482379,
+        "stop" : 1793504483316,
+        "duration" : 937
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "attachmentsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
     "attachmentsCount" : 0,
+    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "hasContent" : true
+    "stepsCount" : 1
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "runnervmtai0g"
+    "value" : "runnervm48cm3"
   }, {
     "name" : "thread",
-    "value" : "2482@runnervmtai0g.main(1)"
+    "value" : "2685@runnervm48cm3.main(1)"
   }, {
     "name" : "feature",
     "value" : "RestCall basics"
@@ -96,6 +96,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "97cb437cb1336618.json",
+  "source" : "63615bd973fec37a.json",
   "parameterValues" : [ ]
 }

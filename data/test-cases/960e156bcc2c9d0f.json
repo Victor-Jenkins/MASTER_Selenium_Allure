@@ -1,12 +1,12 @@
 {
-  "uid" : "f83701ff164cc4eb",
+  "uid" : "960e156bcc2c9d0f",
   "name" : "Search on Google",
   "fullName" : "Google Search: Search on Google",
   "historyId" : "96aa3031f538c488489e3492917bee72",
   "time" : {
-    "start" : 1792895938982,
-    "stop" : 1792895940544,
-    "duration" : 1562
+    "start" : 1793504480986,
+    "stop" : 1793504482372,
+    "duration" : 1386
   },
   "status" : "broken",
   "statusMessage" : "Posición fuera de rango",
@@ -15,18 +15,18 @@
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1792895938982,
-      "stop" : 1792895938982,
-      "duration" : 0
+      "start" : 1793504480986,
+      "stop" : 1793504480987,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "attachmentsCount" : 0,
+    "hasContent" : false,
     "shouldDisplayMessage" : false,
-    "hasContent" : false
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "status" : "broken",
@@ -35,84 +35,84 @@
     "steps" : [ {
       "name" : "Given  the Google search page",
       "time" : {
-        "start" : 1792895938982,
-        "stop" : 1792895939471,
-        "duration" : 489
+        "start" : 1793504480987,
+        "stop" : 1793504481396,
+        "duration" : 409
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "$(open) https://google.com",
         "time" : {
-          "start" : 1792895938982,
-          "stop" : 1792895939471,
-          "duration" : 489
+          "start" : 1793504480987,
+          "stop" : 1793504481396,
+          "duration" : 409
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
         "attachmentsCount" : 0,
+        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "hasContent" : false
+        "stepsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 1,
       "attachmentsCount" : 0,
+      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "hasContent" : true
+      "stepsCount" : 1
     }, {
       "name" : "When  we search for \"hello world\"",
       "time" : {
-        "start" : 1792895939471,
-        "stop" : 1792895939747,
+        "start" : 1793504481397,
+        "stop" : 1793504481673,
         "duration" : 276
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "$(By.name: q) val(hello world)",
         "time" : {
-          "start" : 1792895939471,
-          "stop" : 1792895939655,
-          "duration" : 184
+          "start" : 1793504481397,
+          "stop" : 1793504481594,
+          "duration" : 197
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
         "attachmentsCount" : 0,
+        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "hasContent" : false
+        "stepsCount" : 0
       }, {
         "name" : "$(By.name: q) press enter()",
         "time" : {
-          "start" : 1792895939656,
-          "stop" : 1792895939747,
-          "duration" : 91
+          "start" : 1793504481594,
+          "stop" : 1793504481673,
+          "duration" : 79
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
         "attachmentsCount" : 0,
+        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "hasContent" : false
+        "stepsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 2,
       "attachmentsCount" : 0,
+      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "hasContent" : true
+      "stepsCount" : 2
     }, {
       "name" : "Then  the first result must be \"hell world\"",
       "time" : {
-        "start" : 1792895939747,
-        "stop" : 1792895940543,
-        "duration" : 796
+        "start" : 1793504481673,
+        "stop" : 1793504482371,
+        "duration" : 698
       },
       "status" : "broken",
       "statusMessage" : "Posición fuera de rango",
@@ -120,25 +120,25 @@
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "attachmentsCount" : 0,
+      "hasContent" : true,
       "shouldDisplayMessage" : true,
-      "hasContent" : true
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 6,
     "attachmentsCount" : 0,
+    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "hasContent" : true
+    "stepsCount" : 6
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "host",
-    "value" : "runnervmtai0g"
+    "value" : "runnervm48cm3"
   }, {
     "name" : "thread",
-    "value" : "2482@runnervmtai0g.main(1)"
+    "value" : "2685@runnervm48cm3.main(1)"
   }, {
     "name" : "feature",
     "value" : "Google Search"
@@ -181,6 +181,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "f83701ff164cc4eb.json",
+  "source" : "960e156bcc2c9d0f.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "75141d6a34dff1c8",
+  "uid" : "efbde361a0704c89",
   "name" : "user can navigate and search results on Movistar.com",
   "fullName" : "Check the Movistar.com: user can navigate and search results on Movistar.com",
   "historyId" : "dff912af21051c66ef4ae5f209a86ca1",
   "time" : {
-    "start" : 1792895911728,
-    "stop" : 1792895923663,
-    "duration" : 11935
+    "start" : 1793504456655,
+    "stop" : 1793504465059,
+    "duration" : 8404
   },
   "status" : "failed",
   "statusMessage" : "Más servicios",
@@ -15,18 +15,18 @@
   "beforeStages" : [ {
     "name" : "Hooks.setup()",
     "time" : {
-      "start" : 1792895911728,
-      "stop" : 1792895911728,
-      "duration" : 0
+      "start" : 1793504456655,
+      "stop" : 1793504456656,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 0,
     "attachmentsCount" : 0,
+    "hasContent" : false,
     "shouldDisplayMessage" : false,
-    "hasContent" : false
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "status" : "failed",
@@ -35,39 +35,39 @@
     "steps" : [ {
       "name" : "Given  an open browser with Movistar.com",
       "time" : {
-        "start" : 1792895911728,
-        "stop" : 1792895923482,
-        "duration" : 11754
+        "start" : 1793504456656,
+        "stop" : 1793504464881,
+        "duration" : 8225
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "$(open) https://www.movistar.es/particulares/movistarplus/",
         "time" : {
-          "start" : 1792895911728,
-          "stop" : 1792895922981,
-          "duration" : 11253
+          "start" : 1793504456656,
+          "stop" : 1793504464380,
+          "duration" : 7724
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
         "attachmentsCount" : 0,
+        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "hasContent" : false
+        "stepsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 1,
       "attachmentsCount" : 0,
+      "hasContent" : true,
       "shouldDisplayMessage" : false,
-      "hasContent" : true
+      "stepsCount" : 1
     }, {
       "name" : "When  Complete input with \"Hola Carlos :).\" and check cookies",
       "time" : {
-        "start" : 1792895923482,
-        "stop" : 1792895923661,
-        "duration" : 179
+        "start" : 1793504464881,
+        "stop" : 1793504465057,
+        "duration" : 176
       },
       "status" : "failed",
       "statusMessage" : "Más servicios",
@@ -75,137 +75,137 @@
       "steps" : [ {
         "name" : "$(By.xpath: //*[@id='onetrust-pc-btn-handler']) is displayed()",
         "time" : {
-          "start" : 1792895923579,
-          "stop" : 1792895923645,
-          "duration" : 66
+          "start" : 1793504464986,
+          "stop" : 1793504465043,
+          "duration" : 57
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
         "attachmentsCount" : 0,
+        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "hasContent" : false
+        "stepsCount" : 0
       }, {
         "name" : "$(By.xpath: //*[@id=\"__next\"]/header/div[2]/div[1]/div[1]/a[7]/div/span) exists()",
         "time" : {
-          "start" : 1792895923645,
-          "stop" : 1792895923659,
-          "duration" : 14
+          "start" : 1793504465043,
+          "stop" : 1793504465054,
+          "duration" : 11
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ ],
-        "stepsCount" : 0,
         "attachmentsCount" : 0,
+        "hasContent" : false,
         "shouldDisplayMessage" : false,
-        "hasContent" : false
+        "stepsCount" : 0
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 2,
       "attachmentsCount" : 0,
+      "hasContent" : true,
       "shouldDisplayMessage" : true,
-      "hasContent" : true
+      "stepsCount" : 2
     }, {
       "name" : "Then  Complete input with \" Como estas?\"",
       "time" : {
-        "start" : 1792895923661,
-        "stop" : 1792895923661,
+        "start" : 1793504465057,
+        "stop" : 1793504465057,
         "duration" : 0
       },
       "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "attachmentsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "stepsCount" : 0
     }, {
       "name" : "Then  Check Title and click play video",
       "time" : {
-        "start" : 1792895923662,
-        "stop" : 1792895923662,
-        "duration" : 0
+        "start" : 1793504465057,
+        "stop" : 1793504465058,
+        "duration" : 1
       },
       "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "attachmentsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "stepsCount" : 0
     }, {
       "name" : "Then  Check the navigation and add Zipcode \"08223\"",
       "time" : {
-        "start" : 1792895923662,
-        "stop" : 1792895923662,
+        "start" : 1793504465058,
+        "stop" : 1793504465058,
         "duration" : 0
       },
       "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "attachmentsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "stepsCount" : 0
     }, {
       "name" : "Then  Check previous Steps for contracting",
       "time" : {
-        "start" : 1792895923662,
-        "stop" : 1792895923662,
+        "start" : 1793504465058,
+        "stop" : 1793504465058,
         "duration" : 0
       },
       "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "attachmentsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "stepsCount" : 0
     }, {
       "name" : "Then  Check previous Steps for contracting1",
       "time" : {
-        "start" : 1792895923663,
-        "stop" : 1792895923663,
-        "duration" : 0
+        "start" : 1793504465058,
+        "stop" : 1793504465059,
+        "duration" : 1
       },
       "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "attachmentsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "stepsCount" : 0
     }, {
       "name" : "Then  Finish Shopping \"Sudo\"",
       "time" : {
-        "start" : 1792895923663,
-        "stop" : 1792895923663,
+        "start" : 1793504465059,
+        "stop" : 1793504465059,
         "duration" : 0
       },
       "status" : "skipped",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
-      "stepsCount" : 0,
       "attachmentsCount" : 0,
+      "hasContent" : false,
       "shouldDisplayMessage" : false,
-      "hasContent" : false
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 11,
     "attachmentsCount" : 0,
+    "hasContent" : true,
     "shouldDisplayMessage" : false,
-    "hasContent" : true
+    "stepsCount" : 11
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -213,10 +213,10 @@
     "value" : "Telefonica2"
   }, {
     "name" : "host",
-    "value" : "runnervmtai0g"
+    "value" : "runnervm48cm3"
   }, {
     "name" : "thread",
-    "value" : "2482@runnervmtai0g.main(1)"
+    "value" : "2685@runnervm48cm3.main(1)"
   }, {
     "name" : "feature",
     "value" : "Check the Movistar.com"
@@ -259,6 +259,6 @@
     } ],
     "tags" : [ "Telefonica2" ]
   },
-  "source" : "75141d6a34dff1c8.json",
+  "source" : "efbde361a0704c89.json",
   "parameterValues" : [ ]
 }
